@@ -4,13 +4,15 @@
         "login" : "victor",
         "password" : "123",
         "firstName": "Victor",
-        "lastName": "Montes"
+        "lastName": "Montes",
+        "role": "user"
     },
     {
         "id": 2,
         "login" : "ingrid",
         "password" : "123",
         "firstName": "Ingrid",
-        "lastName": "Vitória"
+        "lastName": "Vitória",
+        "role": "admin"
     }
 ]
