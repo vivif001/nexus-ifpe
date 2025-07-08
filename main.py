@@ -5,6 +5,8 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox 
 from gui.login_window import Ui_LoginWindow
 from gui.main_menu_window import Ui_MainMenuWindow
+from gui.questions_window import Ui_MainWindow as Ui_QuestionsWindow
+
 
 Users = []
 
@@ -19,6 +21,16 @@ except FileNotFoundError:
 except json.JSONDecodeError as e:
     print(f"Erro ao analisar dados (possivel estrutura do JSON) '{json_file_path}': {e}")
 
+
+class QuestionsWindow(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.ui = Ui_QuestionsWindow()
+        self.ui.setupUi(self)
+        self.setWindowTitle("Questões")
+        current_width = self.width()
+        current_height = self.height()
+        self.setFixedSize(current_width, current_height)
 class LoginWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -66,9 +78,18 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainMenuWindow()
         self.ui.setupUi(self)
         self.setWindowTitle("Menu Principal")
+        self.questions_window = None
         current_width = self.width()
         current_height = self.height()
         self.setFixedSize(current_width, current_height)
+        self.ui.button_Questions.clicked.connect(self.open_questions_window)
+
+
+    def open_questions_window(self):
+        if self.questions_window is None:
+            self.questions_window = QuestionsWindow()
+        self.hide()
+        self.questions_window.show()
 
 
 if __name__ == "__main__":
