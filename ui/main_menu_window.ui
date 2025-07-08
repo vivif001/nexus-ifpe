@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>327</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(205, 255, 181);</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>240</width>
+    <height>240</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_Questions">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/quests_icon.png</normaloff>../assets/quests_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_statistic">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>410</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/stats_icon.png</normaloff>../assets/stats_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Ranking">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>141</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icon_ranking.png</normaloff>../assets/icon_ranking.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Exit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>21</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icon_exit.png</normaloff>../assets/icon_exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Simulated">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>150</y>
+      <width>61</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/simulated_icon.png</normaloff>../assets/simulated_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Admin">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>290</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/adm_icon.png</normaloff>../assets/adm_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Simulated">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>SIMULADOS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Admin">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>      ADM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_exit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>     SAIR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Question">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>QUESTÕES</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_statistic">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>480</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ESTATÍSTICAS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Ranking">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>RANKING</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_battle">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icon_battle.png</normaloff>../assets/icon_battle.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>240</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Battle">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>BATALHAS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title_MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 113, 0)</string>
+    </property>
+    <property name="text">
+     <string>Menu Principal</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
