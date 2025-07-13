@@ -83,13 +83,18 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         current_height = self.height()
         self.setFixedSize(current_width, current_height)
         self.ui.button_Questions.clicked.connect(self.open_questions_window)
-
+        self.ui.button_Exit.clicked.connect(self.quit_main_menu)
 
     def open_questions_window(self):
         if self.questions_window is None:
             self.questions_window = QuestionsWindow()
         self.hide()
         self.questions_window.show()
+
+    def quit_main_menu(self):
+        self.hide()
+        self.login_window = LoginWindow()
+        self.login_window.show()
 
 
 if __name__ == "__main__":
