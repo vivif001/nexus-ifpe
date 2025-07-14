@@ -53,27 +53,29 @@ class LoginWindow(QtWidgets.QMainWindow):
             self.ui.password_Field.clear()
             return
         
-        authenticated = False
+        authenticated_user_role = None 
         for user in USERS:
             if username == user["login"] and password == user["password"]:
                 QMessageBox.information(self, "Login Bem-Sucedido", f"Bem-vindo(a), {user['firstName']} {user['lastName']}!")
-                self.open_main_menu()
-                authenticated = True
+                authenticated_user_role = user.get("role", "user")
+                self.open_main_menu(authenticated_user_role)
                 break
-            
-        if not authenticated:
+        
+        if authenticated_user_role is None:
             QMessageBox.warning(self, "Erro de autenticação", "Usuário ou senha incorretos.")
             self.ui.password_Field.clear()
             return
 
-    def open_main_menu(self):
+    def open_main_menu(self, user_role):
         if self.main_menu_window is None:
-            self.main_menu_window = MainMenuWindow()
-        self.hide() 
+            self.main_menu_window = MainMenuWindow(user_role)
+        else:
+            self.main_menu_window = MainMenuWindow(user_role)
+        self.hide()
         self.main_menu_window.show() 
 
 class MainMenuWindow(QtWidgets.QMainWindow):
-    def __init__(self):
+    def __init__(self, user_role="user"):
         super().__init__()
         self.ui = Ui_MainMenuWindow()
         self.ui.setupUi(self)
@@ -84,6 +86,10 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.setFixedSize(current_width, current_height)
         self.ui.button_Questions.clicked.connect(self.open_questions_window)
         self.ui.button_Exit.clicked.connect(self.quit_main_menu)
+        
+        if user_role != "admin":
+            self.ui.button_Admin.hide()
+            self.ui.label_Admin.hide()
 
     def open_questions_window(self):
         if self.questions_window is None:
