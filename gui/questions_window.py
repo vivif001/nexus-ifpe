@@ -14,12 +14,209 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(680, 495)
+        MainWindow.resize(777, 520)
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setBold(True)
+        font.setWeight(75)
+        MainWindow.setFont(font)
+        MainWindow.setWhatsThis("")
+        MainWindow.setStyleSheet("background-color: rgb(206, 221, 255);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(40, 50, 701, 141))
+        font = QtGui.QFont()
+        font.setFamily("Eras Demi ITC")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setWeight(50)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("border: 2px solid #c0ffa4; /* Mesma borda dos LineEdits */\n"
+"background-color: rgb(192, 255, 164);\n"
+"                border-radius: 20px; /* Mesmo arredondamento */\n"
+"                padding: 5px; /* Mesmo padding */\n"
+"                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *\n"
+"")
+        self.label_2.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_2.setWordWrap(True)
+        self.label_2.setObjectName("label_2")
+        self.Alternative_A = QtWidgets.QRadioButton(self.centralwidget)
+        self.Alternative_A.setGeometry(QtCore.QRect(40, 310, 16, 20))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.Alternative_A.setFont(font)
+        self.Alternative_A.setText("")
+        self.Alternative_A.setObjectName("Alternative_A")
+        self.Alternative_B = QtWidgets.QRadioButton(self.centralwidget)
+        self.Alternative_B.setGeometry(QtCore.QRect(40, 350, 16, 20))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.Alternative_B.setFont(font)
+        self.Alternative_B.setText("")
+        self.Alternative_B.setObjectName("Alternative_B")
+        self.Alternative_C = QtWidgets.QRadioButton(self.centralwidget)
+        self.Alternative_C.setGeometry(QtCore.QRect(40, 390, 16, 20))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.Alternative_C.setFont(font)
+        self.Alternative_C.setWhatsThis("")
+        self.Alternative_C.setText("")
+        self.Alternative_C.setObjectName("Alternative_C")
+        self.Alternative_D = QtWidgets.QRadioButton(self.centralwidget)
+        self.Alternative_D.setGeometry(QtCore.QRect(40, 430, 16, 20))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.Alternative_D.setFont(font)
+        self.Alternative_D.setText("")
+        self.Alternative_D.setObjectName("Alternative_D")
+        self.Alternative_E = QtWidgets.QRadioButton(self.centralwidget)
+        self.Alternative_E.setGeometry(QtCore.QRect(40, 470, 16, 17))
+        font = QtGui.QFont()
+        font.setFamily("Calibri")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.Alternative_E.setFont(font)
+        self.Alternative_E.setText("")
+        self.Alternative_E.setObjectName("Alternative_E")
+        self.button_Exit = QtWidgets.QPushButton(self.centralwidget)
+        self.button_Exit.setGeometry(QtCore.QRect(740, 0, 21, 41))
+        self.button_Exit.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.button_Exit.setStyleSheet("QPushButton {\n"
+"    background-color: transparent; /* Remove o fundo */\n"
+"    border: none; /* Remove a borda */\n"
+"    padding: 0px; /* Ajuste o espaçamento interno se necessário */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    /* Opcional: Adicione um efeito de hover se desejar */\n"
+"    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    /* Opcional: Adicione um efeito de pressionado se desejar */\n"
+"    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */\n"
+"}\n"
+"")
+        self.button_Exit.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("ui\\../assets/icon_exit.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.button_Exit.setIcon(icon)
+        self.button_Exit.setIconSize(QtCore.QSize(70, 30))
+        self.button_Exit.setObjectName("button_Exit")
+        self.label_exit = QtWidgets.QLabel(self.centralwidget)
+        self.label_exit.setGeometry(QtCore.QRect(730, 40, 61, 16))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(6)
+        self.label_exit.setFont(font)
+        self.label_exit.setObjectName("label_exit")
+        self.commandLinkButton = QtWidgets.QCommandLinkButton(self.centralwidget)
+        self.commandLinkButton.setGeometry(QtCore.QRect(600, 260, 131, 41))
+        self.commandLinkButton.setStyleSheet("border: 2px solid #c0ffa4; /* Mesma borda dos LineEdits */\n"
+"background-color: rgb(192, 255, 164);\n"
+"                border-radius: 20px; /* Mesmo arredondamento */\n"
+"                padding: 5px; /* Mesmo padding */\n"
+"                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *\n"
+"background-color: rgb(192, 255, 164);")
+        self.commandLinkButton.setObjectName("commandLinkButton")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(50, 150, 151, 101))
+        self.label.setGeometry(QtCore.QRect(60, 300, 691, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setWeight(50)
+        self.label.setFont(font)
+        self.label.setWordWrap(True)
         self.label.setObjectName("label")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(60, 380, 691, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(10)
+        self.label_4.setFont(font)
+        self.label_4.setWordWrap(True)
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setGeometry(QtCore.QRect(60, 340, 691, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(10)
+        self.label_5.setFont(font)
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(60, 420, 691, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(10)
+        self.label_6.setFont(font)
+        self.label_6.setWordWrap(True)
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(60, 460, 691, 31))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        font.setPointSize(10)
+        self.label_7.setFont(font)
+        self.label_7.setWordWrap(True)
+        self.label_7.setObjectName("label_7")
+        self.commandLinkButton_2 = QtWidgets.QCommandLinkButton(self.centralwidget)
+        self.commandLinkButton_2.setGeometry(QtCore.QRect(60, 260, 131, 41))
+        self.commandLinkButton_2.setStyleSheet("border: 2px solid #c0ffa4; /* Mesma borda dos LineEdits */\n"
+"background-color: rgb(192, 255, 164);\n"
+"                border-radius: 20px; /* Mesmo arredondamento */\n"
+"                padding: 5px; /* Mesmo padding */\n"
+"                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *\n"
+"background-color: rgb(192, 255, 164);\n"
+"")
+        self.commandLinkButton_2.setObjectName("commandLinkButton_2")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(40, 200, 701, 61))
+        font = QtGui.QFont()
+        font.setFamily("Eras Demi ITC")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setWeight(50)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet("border: 2px solid #c0ffa4; /* Mesma borda dos LineEdits */\n"
+"background-color: rgb(192, 255, 164);\n"
+"                border-radius: 20px; /* Mesmo arredondamento */\n"
+"                padding: 5px; /* Mesmo padding */\n"
+"                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *\n"
+"")
+        self.label_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_3.setWordWrap(True)
+        self.label_3.setObjectName("label_3")
+        self.Alternative_A.raise_()
+        self.Alternative_B.raise_()
+        self.Alternative_C.raise_()
+        self.Alternative_D.raise_()
+        self.Alternative_E.raise_()
+        self.label_exit.raise_()
+        self.label_2.raise_()
+        self.button_Exit.raise_()
+        self.commandLinkButton.raise_()
+        self.label.raise_()
+        self.label_4.raise_()
+        self.label_5.raise_()
+        self.label_6.raise_()
+        self.label_7.raise_()
+        self.commandLinkButton_2.raise_()
+        self.label_3.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -28,7 +225,16 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "teste"))
+        self.label_2.setText(_translate("MainWindow", "Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura."))
+        self.label_exit.setText(_translate("MainWindow", "     SAIR"))
+        self.commandLinkButton.setText(_translate("MainWindow", "próxima questão"))
+        self.label.setText(_translate("MainWindow", " ressalta a importância de os professores incentivarem os jovens às práticas de leitura."))
+        self.label_4.setText(_translate("MainWindow", "rebate a ideia de que as políticas educacionais são eficazes no combate à crise de leitura.rebate a ideia de que políticas educacionais são eficazes no combate à crise de leitura."))
+        self.label_5.setText(_translate("MainWindow", "critica pesquisas tradicionais que atribuem a falta de leitura à precariedade de bibliotecas."))
+        self.label_6.setText(_translate("MainWindow", "questiona a existência de uma crise de leitura com base nos dados de pesquisas acadêmicas."))
+        self.label_7.setText(_translate("MainWindow", " atribui a crise da leitura à falta de incentivos e ao desinteresse dos jovens por livros de qualidade."))
+        self.commandLinkButton_2.setText(_translate("MainWindow", "questão anterior"))
+        self.label_3.setText(_translate("MainWindow", "Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura."))
 
 
 if __name__ == "__main__":
