@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>MainMenuWindow</class>
+ <widget class="QMainWindow" name="MainMenuWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -299,9 +299,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="label_Simulated">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>210</x>
       <y>250</y>
-      <width>81</width>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
@@ -357,9 +357,9 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>250</y>
-      <width>81</width>
-      <height>16</height>
+      <y>245</y>
+      <width>91</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -379,7 +379,7 @@ QPushButton:pressed {
      <rect>
       <x>200</x>
       <y>480</y>
-      <width>101</width>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
@@ -398,7 +398,7 @@ QPushButton:pressed {
      <rect>
       <x>40</x>
       <y>480</y>
-      <width>61</width>
+      <width>81</width>
       <height>20</height>
      </rect>
     </property>

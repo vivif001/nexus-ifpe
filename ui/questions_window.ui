@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Calibri</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(205, 255, 181);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>701</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Eras Demi ITC</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
+background-color: rgb(192, 255, 164);
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+</string>
+    </property>
+    <property name="wordWrap" stdset="0">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Alternative_A">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Alternative_B">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Alternative_C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Alternative_D">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>16</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Alternative_E">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>470</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Exit">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>0</y>
+      <width>21</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icon_exit.png</normaloff>../assets/icon_exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_exit">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>     SAIR</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>260</y>
+      <width>172</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
+background-color: rgb(192, 255, 164);
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+background-color: rgb(192, 255, 164);</string>
+    </property>
+    <property name="text">
+     <string>próxima questão</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>691</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> ressalta a importância de os professores incentivarem os jovens às práticas de leitura.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>380</y>
+      <width>691</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>rebate a ideia de que as políticas educacionais são eficazes no combate à crise de leitura.rebate a ideia de que políticas educacionais são eficazes no combate à crise de leitura.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>340</y>
+      <width>691</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>critica pesquisas tradicionais que atribuem a falta de leitura à precariedade de bibliotecas.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>420</y>
+      <width>691</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>questiona a existência de uma crise de leitura com base nos dados de pesquisas acadêmicas.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>460</y>
+      <width>691</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string> atribui a crise da leitura à falta de incentivos e ao desinteresse dos jovens por livros de qualidade.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>260</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
+background-color: rgb(192, 255, 164);
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+background-color: rgb(192, 255, 164);
+</string>
+    </property>
+    <property name="text">
+     <string>questão anterior</string>
+    </property>
+    <property name="icon">
+     <iconset theme="none"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_ConfirmAnswer">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>267</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
+background-color: rgb(192, 255, 164);
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+background-color: rgb(192, 255, 164);
+</string>
+    </property>
+    <property name="text">
+     <string>confirmar alternativa</string>
+    </property>
+   </widget>
+   <zorder>Alternative_A</zorder>
+   <zorder>Alternative_B</zorder>
+   <zorder>Alternative_C</zorder>
+   <zorder>Alternative_D</zorder>
+   <zorder>Alternative_E</zorder>
+   <zorder>label_exit</zorder>
+   <zorder>label_2</zorder>
+   <zorder>button_Exit</zorder>
+   <zorder>commandLinkButton</zorder>
+   <zorder>label</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>commandLinkButton_2</zorder>
+   <zorder>button_ConfirmAnswer</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
