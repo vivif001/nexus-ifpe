@@ -397,6 +397,8 @@ class AdminWindow(QtWidgets.QMainWindow):
         self.ui = Ui_AdminWindow()
         self.ui.setupUi(self)
         self.setWindowTitle("Painel de Administração")
+        
+        self.ui.button_Exit.clicked.connect(self.back_to_main_menu)
 
     def back_to_main_menu(self):
         self.hide()
@@ -474,7 +476,9 @@ class MainMenuWindow(QtWidgets.QMainWindow):
             else:
                 self.ui.button_Admin.show()
                 if hasattr(self.ui, 'label_Admin'):
-                    self.ui.label_Admin.show()                    
+                    self.ui.label_Admin.show()     
+                self.ui.button_Admin.clicked.connect(self.open_admin_window)
+                    
                     
     def quit_main_menu(self):
         self.hide()
@@ -503,14 +507,17 @@ class MainMenuWindow(QtWidgets.QMainWindow):
                 pass 
         else:
             QMessageBox.information(self, "Seleção Cancelada", "Nenhum filtro aplicado. Retornando ao menu principal.")
+            
+    def open_admin_window(self):
+        self.admin_window = AdminWindow(parent=self)
+        self.hide()
+        self.admin_window.show()
 
     def open_main_menu(self, user_role, user_id):
         self.main_menu_window = MainMenuWindow(user_role, user_id, parent_login_window=self)
         self.hide()
         self.main_menu_window.show()
     
-    def quit_main_menu(self):    
-
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     login_window = LoginWindow()
