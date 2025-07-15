@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "discipline": "portugues",
+        "theme": "interpretacao_texto",
+        "question_text": "Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura.\n\nEste texto:",
+        "alternatives": {
+            "A": "ressalta a importância de os professores incentivarem os jovens às práticas de leitura.",
+            "B": "critica pesquisas tradicionais que atribuem a falta de leitura à precariedade de bibliotecas.",
+            "C": "rebate a ideia de que as políticas educacionais são eficazes no combate à crise de leitura.",
+            "D": "questiona a existência de uma crise de leitura com base nos dados de pesquisas acadêmicas.",
+            "E": "atribui a crise da leitura à falta de incentivos e ao desinteresse dos jovens por livros de qualidade."
+        },
+        "correct_answer": "D"
+    },
+    {
+        "id": 2,
+        "discipline": "matematica",
+        "theme": "geometria_analitica",
+        "question_text": "Qual o valor de 'x' na equação 2x + 5 = 15?",
+        "alternatives": {
+            "A": "3",
+            "B": "5",
+            "C": "7",
+            "D": "10",
+            "E": "20"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "discipline": "historia",
+        "theme": "historia_do_brasil",
+        "question_text": "Quem proclamou a independência do Brasil?",
+        "alternatives": {
+            "A": "Tiradentes",
+            "B": "Dom Pedro I",
+            "C": "Princesa Isabel",
+            "D": "Marechal Deodoro da Fonseca",
+            "E": "José Bonifácio"
+        },
+        "correct_answer": "B"
+    }
+]
