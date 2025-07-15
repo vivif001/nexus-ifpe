@@ -1,28 +1,28 @@
 [
     {
         "user_id": 1,
-        "total_questions_answered": 47,
-        "total_correct_answers": 25,
-        "correct_percentage": 53.191489361702125,
+        "total_questions_answered": 50,
+        "total_correct_answers": 26,
+        "correct_percentage": 52.0,
         "disciplines": {
             "portugues": {
-                "total_answered": 26,
+                "total_answered": 28,
                 "total_correct": 8,
                 "themes": {
                     "interpretacao_texto": {
-                        "answered": 26,
+                        "answered": 28,
                         "correct": 8,
-                        "incorrect": 18
+                        "incorrect": 20
                     }
                 }
             },
             "matematica": {
-                "total_answered": 17,
-                "total_correct": 14,
+                "total_answered": 18,
+                "total_correct": 15,
                 "themes": {
                     "geometria_analitica": {
-                        "answered": 17,
-                        "correct": 14,
+                        "answered": 18,
+                        "correct": 15,
                         "incorrect": 3
                     }
                 }
