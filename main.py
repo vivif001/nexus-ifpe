@@ -7,6 +7,7 @@ from PyQt5.QtGui import QTextOption
 from gui.login_window import Ui_LoginWindow
 from gui.main_menu_window import Ui_MainMenuWindow
 from gui.questions_window import Ui_MainWindow as Ui_QuestionsWindow
+from gui.admin_window import Ui_AdminWindow
 
 USERS = []
 QUESTIONS = []
@@ -389,6 +390,22 @@ class QuestionsWindow(QtWidgets.QMainWindow):
             theme_stats["incorrect"] += 1
 
         save_json_data(USER_STATS, json_user_stats_path)
+        
+class AdminWindow(QtWidgets.QMainWindow):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.ui = Ui_AdminWindow()
+        self.ui.setupUi(self)
+        self.setWindowTitle("Painel de Administração")
+
+    def back_to_main_menu(self):
+        self.hide()
+        if self.parent():
+            self.parent().show()
+        else:
+            print("Erro: Não há janela pai para retornar. Voltando ao Login.")
+            login_window = LoginWindow()
+            login_window.show()
 class LoginWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -457,8 +474,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
             else:
                 self.ui.button_Admin.show()
                 if hasattr(self.ui, 'label_Admin'):
-                    self.ui.label_Admin.show()
-                    
+                    self.ui.label_Admin.show()                    
                     
     def quit_main_menu(self):
         self.hide()
@@ -492,6 +508,8 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.main_menu_window = MainMenuWindow(user_role, user_id, parent_login_window=self)
         self.hide()
         self.main_menu_window.show()
+    
+    def quit_main_menu(self):    
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
