@@ -442,12 +442,12 @@ class LoginWindow(QtWidgets.QMainWindow):
         self.ui.password_Field.clear()
 
     def open_main_menu(self, user_role, user_id):
-        self.main_menu_window = MainMenuWindow(user_role, user_id)
+        self.main_menu_window = MainMenuWindow(user_role, user_id, parent_login_window=self)
         self.hide()
         self.main_menu_window.show()
 
 class MainMenuWindow(QtWidgets.QMainWindow):
-    def __init__(self, user_role="user", user_id=None):
+    def __init__(self, user_role="user", user_id=None, parent_login_window=None):
         super().__init__()
         self.ui = Ui_MainMenuWindow()
         self.ui.setupUi(self)
@@ -456,6 +456,8 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.questions_window = None
         self.admin_window = None
         self.current_user_id = user_id
+        self.parent_login_window = parent_login_window
+
 
         current_width = self.width()
         current_height = self.height()
@@ -472,8 +474,15 @@ class MainMenuWindow(QtWidgets.QMainWindow):
             else:
                 self.ui.button_Admin.show()
                 if hasattr(self.ui, 'label_Admin'):
-                    self.ui.label_Admin.show()
-                self.ui.button_Admin.clicked.connect(self.open_admin_window) 
+                    self.ui.label_Admin.show()                    
+                    
+    def quit_main_menu(self):
+        self.hide()
+        if self.parent_login_window:
+            self.parent_login_window.show()
+        else:
+            print("Erro: Não há janela de login pai para retornar. Saindo da aplicação.")
+            QtWidgets.QApplication.quit()
 
     def open_questions_window(self):
         filter_dialog = FilterQuestionsDialog(self) 
@@ -495,15 +504,12 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         else:
             QMessageBox.information(self, "Seleção Cancelada", "Nenhum filtro aplicado. Retornando ao menu principal.")
 
-    def open_admin_window(self):
-        self.admin_window = AdminWindow(parent=self)
+    def open_main_menu(self, user_role, user_id):
+        self.main_menu_window = MainMenuWindow(user_role, user_id, parent_login_window=self)
         self.hide()
-        self.admin_window.show()
+        self.main_menu_window.show()
     
-    def quit_main_menu(self):
-        self.hide()
-        login_window = LoginWindow() 
-        login_window.show()
+    def quit_main_menu(self):    
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
