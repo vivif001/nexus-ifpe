@@ -1,0 +1,84 @@
+[
+    {
+        "user_id": 1,
+        "total_questions_answered": 47,
+        "total_correct_answers": 25,
+        "correct_percentage": 53.191489361702125,
+        "disciplines": {
+            "portugues": {
+                "total_answered": 26,
+                "total_correct": 8,
+                "themes": {
+                    "interpretacao_texto": {
+                        "answered": 26,
+                        "correct": 8,
+                        "incorrect": 18
+                    }
+                }
+            },
+            "matematica": {
+                "total_answered": 17,
+                "total_correct": 14,
+                "themes": {
+                    "geometria_analitica": {
+                        "answered": 17,
+                        "correct": 14,
+                        "incorrect": 3
+                    }
+                }
+            },
+            "historia": {
+                "total_answered": 4,
+                "total_correct": 3,
+                "themes": {
+                    "historia_do_brasil": {
+                        "answered": 4,
+                        "correct": 3,
+                        "incorrect": 1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "user_id": 2,
+        "total_questions_answered": 10,
+        "total_correct_answers": 4,
+        "correct_percentage": 40.0,
+        "disciplines": {
+            "portugues": {
+                "total_answered": 4,
+                "total_correct": 2,
+                "themes": {
+                    "interpretacao_texto": {
+                        "answered": 4,
+                        "correct": 2,
+                        "incorrect": 2
+                    }
+                }
+            },
+            "matematica": {
+                "total_answered": 4,
+                "total_correct": 2,
+                "themes": {
+                    "geometria_analitica": {
+                        "answered": 4,
+                        "correct": 2,
+                        "incorrect": 2
+                    }
+                }
+            },
+            "historia": {
+                "total_answered": 2,
+                "total_correct": 0,
+                "themes": {
+                    "historia_do_brasil": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    }
+                }
+            }
+        }
+    }
+]

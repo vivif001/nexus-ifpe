@@ -27,13 +27,13 @@
    <string notr="true">background-color: rgb(205, 255, 181);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label_2">
+   <widget class="QTextBrowser" name="label_2">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>50</y>
+      <y>40</y>
       <width>701</width>
-      <height>141</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="font">
@@ -52,14 +52,8 @@ background-color: rgb(192, 255, 164);
                 background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
 </string>
     </property>
-    <property name="text">
-     <string>Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura.</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
+    <property name="wordWrap" stdset="0">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QRadioButton" name="Alternative_A">
@@ -236,9 +230,9 @@ QPushButton:pressed {
    <widget class="QCommandLinkButton" name="commandLinkButton">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>580</x>
       <y>260</y>
-      <width>131</width>
+      <width>172</width>
       <height>41</height>
      </rect>
     </property>
@@ -366,9 +360,9 @@ background-color: rgb(192, 255, 164);</string>
    <widget class="QCommandLinkButton" name="commandLinkButton_2">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>61</x>
       <y>260</y>
-      <width>131</width>
+      <width>141</width>
       <height>41</height>
      </rect>
     </property>
@@ -384,23 +378,18 @@ background-color: rgb(192, 255, 164);
     <property name="text">
      <string>questão anterior</string>
     </property>
+    <property name="icon">
+     <iconset theme="none"/>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QPushButton" name="button_ConfirmAnswer">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
-      <width>701</width>
-      <height>61</height>
+      <x>320</x>
+      <y>267</y>
+      <width>171</width>
+      <height>31</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Eras Demi ITC</family>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
@@ -408,16 +397,11 @@ background-color: rgb(192, 255, 164);
                 border-radius: 20px; /* Mesmo arredondamento */
                 padding: 5px; /* Mesmo padding */
                 background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+background-color: rgb(192, 255, 164);
 </string>
     </property>
     <property name="text">
-     <string>Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura.</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
+     <string>confirmar alternativa</string>
     </property>
    </widget>
    <zorder>Alternative_A</zorder>
@@ -435,7 +419,7 @@ background-color: rgb(192, 255, 164);
    <zorder>label_6</zorder>
    <zorder>label_7</zorder>
    <zorder>commandLinkButton_2</zorder>
-   <zorder>label_3</zorder>
+   <zorder>button_ConfirmAnswer</zorder>
   </widget>
  </widget>
  <resources/>
