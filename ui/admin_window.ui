@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminWindow</class>
+ <widget class="QMainWindow" name="AdminWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 170, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>281</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #FFFFFF; /* Mesma borda dos LineEdits */
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: white; /* Opcional: Para diferenciar um pouco, pode remover *</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_exit">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>30</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>     SAIR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Exit">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    padding: 0px; /* Ajuste o espaçamento interno se necessário */
+}
+
+QPushButton:hover {
+    /* Opcional: Adicione um efeito de hover se desejar */
+    /* background-color: rgba(255, 255, 255, 50); */ /* Exemplo: um leve fundo branco transparente ao passar o mouse */
+}
+
+QPushButton:pressed {
+    /* Opcional: Adicione um efeito de pressionado se desejar */
+    /* background-color: rgba(255, 255, 255, 100); */ /* Exemplo: um fundo branco um pouco mais opaco ao clicar */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icon_exit.png</normaloff>../assets/icon_exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       Nome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="login_Title_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(110, 182, 63);
+background-color: rgb(255, 255, 255);
+                background-color: white; /* Opcional: Para diferenciar um pouco, pode remover *</string>
+    </property>
+    <property name="text">
+     <string>Cadastre um aluno</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_4">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>   Sobrenome</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       E-mail</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>300</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       Senha</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_password">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icon_password.svg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>   Sobrenome</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       Nome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_password_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icon_password.svg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="login_Title_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Rounded MT Bold</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(110, 182, 63);
+background-color: rgb(255, 255, 255);
+                background-color: white; /* Opcional: Para diferenciar um pouco, pode remover *</string>
+    </property>
+    <property name="text">
+     <string>Cadastre um aluno</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_7">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>300</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       Senha</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login_Field_8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid  rgb(110, 182, 63);;
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>       E-mail</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_password_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/email_icon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_password_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/surname_icon (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_password_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/name_icon.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="register_button">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(110, 182, 63);
+color: rgb(0, 0, 0);
+border: 2px solid  rgb(110, 182, 63);
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string>CONCLUIR</string>
+    </property>
+   </widget>
+   <zorder>label_exit</zorder>
+   <zorder>label</zorder>
+   <zorder>button_Exit</zorder>
+   <zorder>login_Field</zorder>
+   <zorder>login_Title_3</zorder>
+   <zorder>login_Field_4</zorder>
+   <zorder>login_Field_2</zorder>
+   <zorder>login_Field_3</zorder>
+   <zorder>icon_password</zorder>
+   <zorder>login_Field_5</zorder>
+   <zorder>login_Field_6</zorder>
+   <zorder>icon_password_2</zorder>
+   <zorder>login_Title_4</zorder>
+   <zorder>login_Field_7</zorder>
+   <zorder>login_Field_8</zorder>
+   <zorder>icon_password_3</zorder>
+   <zorder>icon_password_4</zorder>
+   <zorder>icon_password_5</zorder>
+   <zorder>register_button</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
