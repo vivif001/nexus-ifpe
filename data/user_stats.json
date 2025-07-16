@@ -80,5 +80,46 @@
                 }
             }
         }
+    },
+    {
+        "user_id": "3",
+        "total_questions_answered": 3,
+        "total_correct_answers": 2,
+        "correct_percentage": 66.66666666666666,
+        "disciplines": {
+            "portugues": {
+                "total_answered": 1,
+                "total_correct": 1,
+                "themes": {
+                    "interpretacao_texto": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "matematica": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "geometria_analitica": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "historia": {
+                "total_answered": 1,
+                "total_correct": 1,
+                "themes": {
+                    "historia_do_brasil": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            }
+        }
     }
 ]

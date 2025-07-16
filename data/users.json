@@ -1,20 +1,18 @@
 [
     {
         "id": 1,
-        "login": "victor",
+        "login": "victorpst04@gmail.com",
         "password": "123",
         "firstName": "Victor",
         "lastName": "Montes",
-        "email": "victorpst04@gmail.com",
         "role": "user"
     },
     {
         "id": 2,
-        "login": "ingrid",
+        "login": "viiviih191808@gmail.com",
         "password": "123",
         "firstName": "Ingrid",
         "lastName": "Vitória",
-        "email": "viiviih191808@gmail.com",
         "role": "admin"
     },
     {
@@ -23,6 +21,14 @@
         "lastName": "spbreteste",
         "login": "nctifpe@gmail.com",
         "password": "1234",
+        "role": "user"
+    },
+    {
+        "id": "4",
+        "firstName": "Victor",
+        "lastName": "Montes",
+        "login": "vms6@discente.ifpe.edu.br",
+        "password": "123456",
         "role": "user"
     }
 ]
