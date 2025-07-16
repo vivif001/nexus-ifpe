@@ -301,7 +301,7 @@ QPushButton:pressed {
      <rect>
       <x>200</x>
       <y>245</y>
-      <width>81</width>
+      <width>101</width>
       <height>21</height>
      </rect>
     </property>
@@ -318,9 +318,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="label_Admin">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>260</x>
       <y>40</y>
-      <width>41</width>
+      <width>51</width>
       <height>20</height>
      </rect>
     </property>
@@ -358,7 +358,7 @@ QPushButton:pressed {
      <rect>
       <x>40</x>
       <y>245</y>
-      <width>81</width>
+      <width>101</width>
       <height>21</height>
      </rect>
     </property>

@@ -127,34 +127,6 @@ padding: 5px;</string>
      <string>       Nome</string>
     </property>
    </widget>
-   <widget class="QLabel" name="login_Title_2">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>350</y>
-      <width>101</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT Bold</family>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(110, 182, 63);
-color: rgb(0, 0, 0);
-border: 2px solid  rgb(110, 182, 63);
-border-radius: 10px;
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string> CONCLUIR</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="login_Title_3">
     <property name="geometry">
      <rect>
@@ -441,34 +413,6 @@ padding: 5px;</string>
      <string>       E-mail</string>
     </property>
    </widget>
-   <widget class="QLabel" name="login_Title_5">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>350</y>
-      <width>101</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT Bold</family>
-      <pointsize>10</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(110, 182, 63);
-color: rgb(0, 0, 0);
-border: 2px solid  rgb(110, 182, 63);
-border-radius: 10px;
-padding: 5px;</string>
-    </property>
-    <property name="text">
-     <string> CONCLUIR</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="icon_password_3">
     <property name="geometry">
      <rect>
@@ -526,11 +470,33 @@ padding: 5px;</string>
      <pixmap>../assets/name_icon.png</pixmap>
     </property>
    </widget>
+   <widget class="QPushButton" name="register_button">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(110, 182, 63);
+color: rgb(0, 0, 0);
+border: 2px solid  rgb(110, 182, 63);
+border-radius: 10px;
+padding: 5px;</string>
+    </property>
+    <property name="text">
+     <string>CONCLUIR</string>
+    </property>
+   </widget>
    <zorder>label_exit</zorder>
    <zorder>label</zorder>
    <zorder>button_Exit</zorder>
    <zorder>login_Field</zorder>
-   <zorder>login_Title_2</zorder>
    <zorder>login_Title_3</zorder>
    <zorder>login_Field_4</zorder>
    <zorder>login_Field_2</zorder>
@@ -542,10 +508,10 @@ padding: 5px;</string>
    <zorder>login_Title_4</zorder>
    <zorder>login_Field_7</zorder>
    <zorder>login_Field_8</zorder>
-   <zorder>login_Title_5</zorder>
    <zorder>icon_password_3</zorder>
    <zorder>icon_password_4</zorder>
    <zorder>icon_password_5</zorder>
+   <zorder>register_button</zorder>
   </widget>
  </widget>
  <resources/>

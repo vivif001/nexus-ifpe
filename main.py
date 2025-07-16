@@ -1,6 +1,7 @@
 import sys
 import json
 import os
+from utils.mail_sender import send_new_user_email
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtGui import QTextOption
@@ -303,7 +304,7 @@ class QuestionsWindow(QtWidgets.QMainWindow):
                 correct_label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green; font-weight: bold;") 
 
             QMessageBox.warning(self, "Resposta Incorreta!", 
-                                f"Ops! A resposta correta era: {correct_answer_letter}. Agora você pode avançar para a próxima questão." if not is_last_question else f"Ops! A resposta correta era: {correct_answer_letter}. Você concluiu todas as questões!")
+                                f"A resposta correta era: {correct_answer_letter}. Agora você pode avançar para a próxima questão." if not is_last_question else f"Ops! A resposta correta era: {correct_answer_letter}. Você concluiu todas as questões!")
 
         for radio_button in self.alternatives_group.buttons():
             radio_button.setEnabled(False)
@@ -399,6 +400,50 @@ class AdminWindow(QtWidgets.QMainWindow):
         self.setWindowTitle("Painel de Administração")
         
         self.ui.button_Exit.clicked.connect(self.back_to_main_menu)
+        self.ui.register_button.clicked.connect(self.create_new_user_and_send_email)
+        
+    def create_new_user_and_send_email(self):
+        first_name = self.ui.login_Field_6.text().strip() 
+        last_name = self.ui.login_Field_5.text().strip() 
+        email = self.ui.login_Field_8.text().strip()
+        password = self.ui.login_Field_7.text().strip() 
+
+        print(f"DEBUG - Nome: '{first_name}'")
+        print(f"DEBUG - Sobrenome: '{last_name}'")
+        print(f"DEBUG - E-mail: '{email}'")
+        print(f"DEBUG - Senha: '{password}'")
+
+        if not all([first_name, last_name, email, password]):
+            QMessageBox.warning(self, "Campos Vazios", "Por favor, preencha todos os campos: Nome, Sobrenome, E-mail e Senha.")
+            return
+
+        new_user_id = str(len(USERS) + 1)
+        
+        for user in USERS:
+            if user["login"] == email:
+                QMessageBox.warning(self, "Usuário Existente", "Já existe um usuário cadastrado com este e-mail/login.")
+                return
+
+        new_user_data = {
+            "id": new_user_id,
+            "firstName": first_name,
+            "lastName": last_name,
+            "login": email,
+            "password": password,
+            "role": "user" 
+        }
+
+        USERS.append(new_user_data)
+
+        save_json_data(USERS, json_users_path)
+        QMessageBox.information(self, "Cadastro Concluído", f"Usuário '{first_name} {last_name}' cadastrado e salvo com sucesso!")
+
+        send_new_user_email(email, first_name, last_name, new_user_data["login"], password)
+        
+        self.ui.login_Field_6.clear()
+        self.ui.login_Field_5.clear()
+        self.ui.login_Field_8.clear() 
+        self.ui.login_Field_7.clear() 
 
     def back_to_main_menu(self):
         self.hide()
