@@ -1,9 +1,9 @@
 [
     {
         "user_id": 1,
-        "total_questions_answered": 50,
-        "total_correct_answers": 26,
-        "correct_percentage": 52.0,
+        "total_questions_answered": 59,
+        "total_correct_answers": 29,
+        "correct_percentage": 49.152542372881356,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -35,6 +35,17 @@
                         "answered": 4,
                         "correct": 3,
                         "incorrect": 1
+                    }
+                }
+            },
+            "GRAMÁTICA": {
+                "total_answered": 9,
+                "total_correct": 3,
+                "themes": {
+                    "ORTOGRAFIA": {
+                        "answered": 9,
+                        "correct": 3,
+                        "incorrect": 6
                     }
                 }
             }

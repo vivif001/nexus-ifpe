@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>777</width>
-    <height>520</height>
+    <width>900</width>
+    <height>565</height>
    </rect>
   </property>
   <property name="font">
@@ -32,7 +32,7 @@
      <rect>
       <x>40</x>
       <y>40</y>
-      <width>701</width>
+      <width>811</width>
       <height>211</height>
      </rect>
     </property>
@@ -60,7 +60,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>310</y>
+      <y>340</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -81,7 +81,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>350</y>
+      <y>370</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -102,7 +102,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>390</y>
+      <y>410</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -126,7 +126,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>430</y>
+      <y>460</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -147,7 +147,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>470</y>
+      <y>510</y>
       <width>16</width>
       <height>17</height>
      </rect>
@@ -167,7 +167,7 @@ background-color: rgb(192, 255, 164);
    <widget class="QPushButton" name="button_Exit">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>860</x>
       <y>0</y>
       <width>21</width>
       <height>41</height>
@@ -211,7 +211,7 @@ QPushButton:pressed {
    <widget class="QLabel" name="label_exit">
     <property name="geometry">
      <rect>
-      <x>730</x>
+      <x>850</x>
       <y>40</y>
       <width>61</width>
       <height>16</height>
@@ -230,7 +230,7 @@ QPushButton:pressed {
    <widget class="QCommandLinkButton" name="commandLinkButton">
     <property name="geometry">
      <rect>
-      <x>580</x>
+      <x>700</x>
       <y>260</y>
       <width>172</width>
       <height>41</height>
@@ -252,8 +252,8 @@ background-color: rgb(192, 255, 164);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>300</y>
-      <width>691</width>
+      <y>330</y>
+      <width>841</width>
       <height>41</height>
      </rect>
     </property>
@@ -276,8 +276,8 @@ background-color: rgb(192, 255, 164);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>380</y>
-      <width>691</width>
+      <y>400</y>
+      <width>831</width>
       <height>41</height>
      </rect>
     </property>
@@ -298,8 +298,8 @@ background-color: rgb(192, 255, 164);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>340</y>
-      <width>691</width>
+      <y>360</y>
+      <width>831</width>
       <height>41</height>
      </rect>
     </property>
@@ -317,8 +317,8 @@ background-color: rgb(192, 255, 164);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>420</y>
-      <width>691</width>
+      <y>450</y>
+      <width>831</width>
       <height>41</height>
      </rect>
     </property>
@@ -339,9 +339,9 @@ background-color: rgb(192, 255, 164);</string>
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>460</y>
-      <width>691</width>
-      <height>31</height>
+      <y>500</y>
+      <width>841</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -379,13 +379,14 @@ background-color: rgb(192, 255, 164);
      <string>questão anterior</string>
     </property>
     <property name="icon">
-     <iconset theme="none"/>
+     <iconset theme="none">
+      <normaloff>.</normaloff>.</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="button_ConfirmAnswer">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>390</x>
       <y>267</y>
       <width>171</width>
       <height>31</height>
