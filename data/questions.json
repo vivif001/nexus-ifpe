@@ -1,44 +1,92 @@
 [
-    {
-        "id": 1,
-        "discipline": "portugues",
-        "theme": "interpretacao_texto",
-        "question_text": "Há tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura.\n\nEste textoHá tempos que a leitura está em pauta. E, diz-se, em crise. Comenta-se esta crise, por exemplo, apontando a precariedade das práticas de leitura, lamentando a falta de familiaridade dos jovens com livros, reclamando da falta de bibliotecas em tantos municípios, do preço dos livros em livrarias, num nunca acabar de problemas e de carências. Mas, de um tempo para cá, pesquisas acadêmicas vêm dizendo que talvez não seja exatamente assim, que brasileiros leem, sim, só que leem livros que as pesquisas tradicionais não levam em conta. E, também de um tempo para cá, políticas educacionais têm tomado a peito investir em livros e em leitura.\n\nEste texto:",
-        "alternatives": {
-            "A": "ressalta a importância de os professores incentivarem os jovens às práticas de leitura.",
-            "B": "critica pesquisas tradicionais que atribuem a falta de leitura à precariedade de bibliotecas.",
-            "C": "rebate a ideia de que as políticas educacionais são eficazes no combate à crise de leitura.",
-            "D": "questiona a existência de uma crise de leitura com base nos dados de pesquisas acadêmicas.",
-            "E": "atribui a crise da leitura à falta de incentivos e ao desinteresse dos jovens por livros de qualidade."
-        },
-        "correct_answer": "D"
+  {
+    "id": 1,
+    "discipline": "GRAMÁTICA",
+    "theme": "ORTOGRAFIA",
+    "level": "FÁCIL",
+    "question_text": "A palavra \"sessão\" é comumente utilizada em diversos contextos, como em \"sessão de cinema\" ou \"sessão de terapia\". No entanto, a língua portuguesa apresenta outros vocábulos com sonoridade semelhante, mas com significados e grafias distintas, como \"seção\" e \"cessão\".\n\nConsiderando o contexto e o significado, assinale a alternativa em que a palavra destacada foi empregada corretamente.",
+    "alternatives": {
+      "A": "A seção de direitos autorais da empresa lida com todos os registros de obras.",
+      "B": "Houve uma longa cessão de perguntas e respostas após a palestra.",
+      "C": "O presidente da assembleia pediu a secção do prédio para a reunião de emergência.",
+      "D": "Para a reforma, foi necessária a sessão de um terreno da prefeitura.",
+      "E": "O professor organizou a secção de estudos para o próximo mês."
     },
-    {
-        "id": 2,
-        "discipline": "matematica",
-        "theme": "geometria_analitica",
-        "question_text": "Qual o valor de 'x' na equação 2x + 5 = 15?",
-        "alternatives": {
-            "A": "3",
-            "B": "5",
-            "C": "7",
-            "D": "10",
-            "E": "20"
-        },
-        "correct_answer": "B"
+    "correct_answer": "A"
+  },
+  {
+    "id": 2,
+    "discipline": "GRAMÁTICA",
+    "theme": "ORTOGRAFIA",
+    "level": "MÉDIO",
+    "question_text": "A ortografia da língua portuguesa muitas vezes gera dúvidas devido à existência de palavras homófonas (que possuem o mesmo som, mas grafias diferentes) e parônimas (que possuem som e escrita parecidos, mas significados distintos). A escolha da grafia correta é essencial para a clareza da comunicação escrita.\n\nAnalise as frases a seguir e identifique a alternativa que apresenta erro no uso da ortografia, desrespeitando as normas da língua padrão.",
+    "alternatives": {
+      "A": "Os funcionários da empresa estavam prestes a iniciar o novo projeto.",
+      "B": "É fundamental que a população preserve o meio ambiente.",
+      "C": "A sua atitude discricionária causou um grande problema.",
+      "D": "Foi preciso retificar os dados do documento antes da assinatura.",
+      "E": "O jovem precisava ratificar seu compromisso com a equipe."
     },
-    {
-        "id": 3,
-        "discipline": "historia",
-        "theme": "historia_do_brasil",
-        "question_text": "Quem proclamou a independência do Brasil?",
-        "alternatives": {
-            "A": "Tiradentes",
-            "B": "Dom Pedro I",
-            "C": "Princesa Isabel",
-            "D": "Marechal Deodoro da Fonseca",
-            "E": "José Bonifácio"
-        },
-        "correct_answer": "B"
-    }
+    "correct_answer": "C"
+  },
+  {
+    "id": 3,
+    "discipline": "GRAMÁTICA",
+    "theme": "MORFOLOGIA",
+    "level": "DIFÍCIL",
+    "question_text": "A riqueza lexical da língua portuguesa, embora complexa, permite nuances de sentido que são cruciais para a precisão textual. O uso adequado de termos como \"por que\", \"por quê\", \"porque\" e \"porquê\", assim como a diferenciação entre \"mau\" e \"mal\", ou \"mas\" e \"mais\", demonstra domínio das regras ortográficas e gramaticais.\n\nNo fragmento abaixo, o uso de \"mal\" está incorreto. Assinale a alternativa que indica a correção adequada para a frase, mantendo o sentido original.\n\n\"Ela se sentiu mal humorada durante todo o dia, e isso afetou sua produtividade.\"",
+    "alternatives": {
+      "A": "Ela se sentiu mau humorada durante todo o dia, e isso afetou sua produtividade.",
+      "B": "Ela se sentiu de má humorada durante todo o dia, e isso afetou sua produtividade.",
+      "C": "Ela se sentiu com mau humor durante todo o dia, e isso afetou sua produtividade.",
+      "D": "Ela se sentiu mals humorada durante todo o dia, e isso afetou sua produtividade.",
+      "E": "Ela se sentiu má humorada durante todo o dia, e isso afetou sua produtividade."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 4,
+    "discipline": "GRAMÁTICA",
+    "theme": "ORTOGRAFIA",
+    "level": "FÁCIL",
+    "question_text": "A língua portuguesa possui particularidades que, por vezes, geram dúvidas na escrita, mesmo em palavras de uso frequente. A atenção aos detalhes ortográficos é crucial para a clareza e correção textual em qualquer situação comunicativa.\n\nAssinale a alternativa em que a palavra destacada está corretamente grafada:",
+    "alternatives": {
+      "A": "A pesquisa revelou que o problema é iminente.",
+      "B": "O governo não possui excessão para cometer erros.",
+      "C": "Foi necessário fazer uma revisão da documentação.",
+      "D": "Ele não aceita privilégio de ninguém.",
+      "E": "O aluno obteve sucesso em sua prova."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 5,
+    "discipline": "GRAMÁTICA",
+    "theme": "ORTOGRAFIA",
+    "level": "MÉDIO",
+    "question_text": "A distinção entre certas palavras na língua portuguesa, embora sutil, pode alterar completamente o sentido de uma frase. O domínio da ortografia e da semântica é fundamental para a produção de textos coerentes e informativos.\n\nObserve as frases a seguir:\n\nI. O tráfico de informações é um crime grave.\nII. O tráfego de veículos na cidade aumentou consideravelmente.\nIII. É importante deferir um pedido de licença.\nIV. O juiz precisou diferir a audiência para a próxima semana.\n\nConsiderando o uso correto das palavras, assinale a alternativa que apresenta todas as afirmações corretas.",
+    "alternatives": {
+      "A": "I e II, apenas.",
+      "B": "III e IV, apenas.",
+      "C": "I, II e III, apenas.",
+      "D": "I, II e IV, apenas.",
+      "E": "I, II, III e IV."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 6,
+    "discipline": "GRAMÁTICA",
+    "theme": "ORTOGRAFIA",
+    "level": "DIFÍCIL",
+    "question_text": "A norma culta da língua portuguesa exige que o falante ou escritor tenha pleno conhecimento das regras de acentuação, crase, pontuação e, especialmente, da ortografia de palavras que possuem grafias semelhantes, mas que se distinguem pelo significado ou pela função gramatical. O emprego inadequado dessas palavras pode comprometer a coesão e a coerência textual.\n\nAnalise o fragmento a seguir, retirado de uma reportagem jornalística:\n\n\"Apesar das exceções à regra geral, é imperativo que os estudantes revisem constantemente o conteúdo, pois o mau uso da linguagem pode gerar prejuízos à sua comunicação escrita.\"\n\nConsiderando as regras ortográficas da língua portuguesa, identifique a alternativa que apresenta uma reescrita do fragmento sem nenhum erro de ortografia ou de uso de palavras.",
+    "alternatives": {
+      "A": "Apesar das exceções à regra geral, é iminentemente que os estudantes revejam constantemente o conteúdo, pois o mau uso da linguagem pode gerar prejuizos à sua comunicação escrita.",
+      "B": "Apesar das exceções à regra geral, é imperativo que os estudantes revejam constantemente o conteúdo, pois o mal uso da linguagem pode gerar prejuízos à sua comunicação escrita.",
+      "C": "Apesar das excessões à regra geral, é imperativo que os estudantes revisem constantemente o conteúdo, pois o mau uso da linguagem pode gerar prejuízos à sua comunicação escrita.",
+      "D": "Apesar das exceções à regra geral, é imperativo que os estudantes revejam constantemente o conteúdo, pois o mau uso da linguagem pode gerar prejuízos à sua comunicação escrita.",
+      "E": "Apesar das excessões à regra geral, é iminentemente que os estudantes revisem constantemente o conteúdo, pois o mal uso da linguagem pode gerar prejuizos à sua comunicação escrita."
+    },
+    "correct_answer": "D"
+  }
 ]
