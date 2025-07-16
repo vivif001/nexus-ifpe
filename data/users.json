@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "login" : "victor",
-        "password" : "123",
+        "login": "victor",
+        "password": "123",
         "firstName": "Victor",
         "lastName": "Montes",
         "email": "victorpst04@gmail.com",
@@ -10,11 +10,19 @@
     },
     {
         "id": 2,
-        "login" : "ingrid",
-        "password" : "123",
+        "login": "ingrid",
+        "password": "123",
         "firstName": "Ingrid",
         "lastName": "Vitória",
         "email": "viiviih191808@gmail.com",
         "role": "admin"
+    },
+    {
+        "id": "3",
+        "firstName": "teste",
+        "lastName": "spbreteste",
+        "login": "nctifpe@gmail.com",
+        "password": "1234",
+        "role": "user"
     }
 ]
