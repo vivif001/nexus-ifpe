@@ -88,5 +88,3050 @@
       "E": "Apesar das excessões à regra geral, é iminentemente que os estudantes revisem constantemente o conteúdo, pois o mal uso da linguagem pode gerar prejuizos à sua comunicação escrita."
     },
     "correct_answer": "D"
+  },
+  {
+    "id": 7,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "FÁCIL",
+    "question_text": "A formação de palavras na língua portuguesa pode ocorrer por diferentes processos, como a derivação e a composição. Considere a palavra \"infeliz\". Qual o processo de formação dessa palavra?",
+    "alternatives": {
+      "A": "Composição por justaposição",
+      "B": "Composição por aglutinação",
+      "C": "Derivação prefixal",
+      "D": "Derivação sufixal",
+      "E": "Hibridismo"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 8,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "FÁCIL",
+    "question_text": "A palavra \"guarda-chuva\" é formada por dois radicais com significados próprios que se unem para formar um novo sentido. Esse processo é chamado de:",
+    "alternatives": {
+      "A": "Derivação imprópria",
+      "B": "Derivação prefixal",
+      "C": "Composição por justaposição",
+      "D": "Composição por aglutinação",
+      "E": "Onomatopeia"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 9,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "MÉDIO",
+    "question_text": "Na formação de palavras por derivação parassintética, ocorre a adição simultânea de prefixo e sufixo. Qual das alternativas apresenta uma palavra formada por esse processo?",
+    "alternatives": {
+      "A": "felicidade",
+      "B": "relembrar",
+      "C": "envelhecer",
+      "D": "injusto",
+      "E": "piedoso"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 10,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que a palavra foi formada por derivação imprópria:",
+    "alternatives": {
+      "A": "Vermelho (substantivo, cor)",
+      "B": "Desleal",
+      "C": "Passatempo",
+      "D": "Automóvel",
+      "E": "Infeliz"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 11,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "DIFÍCIL",
+    "question_text": "A palavra \"planalto\" é um exemplo de composição por aglutinação. Nesse tipo de formação, ocorre a perda de elementos fonéticos em um ou nos dois radicais. Qual das palavras abaixo também é formada por esse mesmo processo?",
+    "alternatives": {
+      "A": "fidalgo",
+      "B": "amor-perfeito",
+      "C": "beija-flor",
+      "D": "passatempo",
+      "E": "subterrâneo"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 12,
+    "discipline": "GRAMÁTICA",
+    "theme": "FORMAÇÃO DAS PALAVRAS",
+    "level": "DIFÍCIL",
+    "question_text": "Considere a seguinte afirmação:\n\n\"A palavra 'automóvel' é um exemplo de hibridismo, pois resulta da junção de elementos oriundos de diferentes línguas.\"\n\nCom base na formação de palavras, assinale a alternativa que apresenta outra palavra formada pelo mesmo processo.",
+    "alternatives": {
+      "A": "açucareiro",
+      "B": "sábado",
+      "C": "sociologia",
+      "D": "passatempo",
+      "E": "injustiça"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 13,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "FÁCIL",
+    "question_text": "Os substantivos são palavras que nomeiam seres, objetos, sentimentos ou ideias. Qual das palavras abaixo é um substantivo comum?",
+    "alternatives": {
+      "A": "Maria",
+      "B": "Cachorro",
+      "C": "Brasil",
+      "D": "Ele",
+      "E": "Meu"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 14,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa em que a palavra destacada é um adjetivo:",
+    "alternatives": {
+      "A": "Aquela menina **inteligente** passou no vestibular.",
+      "B": "O **caderno** estava em cima da mesa.",
+      "C": "Ela entregou o **livro** à professora.",
+      "D": "O **garoto** saiu mais cedo da aula.",
+      "E": "Eles foram ao **cinema** à noite."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 15,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "MÉDIO",
+    "question_text": "Os numerais são palavras que indicam quantidade, ordem ou multiplicação. Qual das alternativas apresenta um numeral ordinal?",
+    "alternatives": {
+      "A": "Dois",
+      "B": "Trinta",
+      "C": "Dobro",
+      "D": "Segundo",
+      "E": "Quádruplo"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 16,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "MÉDIO",
+    "question_text": "Na frase \"Ele comprou **duas** camisetas novas\", a palavra destacada pertence a que classe de palavras e qual é sua classificação específica?",
+    "alternatives": {
+      "A": "Substantivo comum",
+      "B": "Adjetivo pátrio",
+      "C": "Numeral cardinal",
+      "D": "Numeral ordinal",
+      "E": "Pronome indefinido"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 17,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que todos os termos destacados pertencem à classe dos **adjetivos**:",
+    "alternatives": {
+      "A": "O aluno **estudioso** recebeu um prêmio **internacional**.",
+      "B": "O **jornal** local publicou uma matéria **especial**.",
+      "C": "A **cidade** pequena era bastante **turística**.",
+      "D": "O **cientista** premiado fez uma descoberta **relevante**.",
+      "E": "A **pesquisa** revelou um número **significativo** de casos."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 18,
+    "discipline": "GRAMÁTICA",
+    "theme": "CLASSES DO NOME",
+    "level": "DIFÍCIL",
+    "question_text": "Na frase: \"Os **primeiros** colocados na maratona receberam medalhas\", o termo destacado pertence à classe dos numerais. Qual a classificação correta desse numeral?",
+    "alternatives": {
+      "A": "Cardinal",
+      "B": "Fracionário",
+      "C": "Multiplicativo",
+      "D": "Ordinal",
+      "E": "Indefinido"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 19,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "FÁCIL",
+    "question_text": "A próclise é o uso do pronome antes do verbo. Em qual das alternativas a próclise está corretamente empregada?",
+    "alternatives": {
+      "A": "Entregou-me o relatório ontem.",
+      "B": "Avisou-me logo pela manhã.",
+      "C": "Me avisaram do ocorrido.",
+      "D": "Nunca me disseram a verdade.",
+      "E": "Chamou-me para a reunião."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 20,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa em que há uso correto da ênclise (colocação do pronome **após** o verbo):",
+    "alternatives": {
+      "A": "Me contaram tudo ontem.",
+      "B": "Contaram-me tudo ontem.",
+      "C": "Tudo me contaram ontem.",
+      "D": "Contou-se tudo corretamente.",
+      "E": "Não me contaram tudo."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 21,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "MÉDIO",
+    "question_text": "Em qual das frases o uso da **próclise** está incorreto segundo a norma culta?",
+    "alternatives": {
+      "A": "Não me avisaram do cancelamento.",
+      "B": "Sempre se dedicou muito aos estudos.",
+      "C": "Jamais se esqueceu da promessa.",
+      "D": "Talvez se lembre do compromisso.",
+      "E": "Me disseram que ele não virá."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 22,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "MÉDIO",
+    "question_text": "Em qual alternativa o uso da **ênclise** é obrigatório?",
+    "alternatives": {
+      "A": "Me entregaram o prêmio sem avisar.",
+      "B": "Não se esqueça de avisá-lo.",
+      "C": "Nada me disseram sobre o evento.",
+      "D": "Entregar-se-á o prêmio amanhã.",
+      "E": "Talvez me veja na reunião."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 23,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "DIFÍCIL",
+    "question_text": "Na frase: \"**Jamais se perdoaria por aquilo**\", a colocação pronominal está correta. Caso se desejasse iniciar a frase com o verbo, respeitando a norma padrão, como ela deveria ser reescrita?",
+    "alternatives": {
+      "A": "Perdoar-se-ia jamais por aquilo.",
+      "B": "Se perdoaria jamais por aquilo.",
+      "C": "Jamais perdoar-se-ia por aquilo.",
+      "D": "Perdoar-se-ia por aquilo jamais.",
+      "E": "Perdoaria-se jamais por aquilo."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 24,
+    "discipline": "GRAMÁTICA",
+    "theme": "COLOCAÇÃO PRONOMINAL",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que o uso do pronome oblíquo está incorreto, desrespeitando as regras de colocação pronominal:",
+    "alternatives": {
+      "A": "Não se arrependeu do que fez.",
+      "B": "Disse-me que viria mais tarde.",
+      "C": "Me avisaram do ocorrido.",
+      "D": "Entregar-lhe-ei os documentos pessoalmente.",
+      "E": "Jamais me esquecerei daquele dia."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 25,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "FÁCIL",
+    "question_text": "A crase é obrigatória antes de palavras femininas quando houver a fusão da preposição 'a' com o artigo definido 'a'. Assinale a alternativa em que a crase foi usada corretamente:",
+    "alternatives": {
+      "A": "Entregou os documentos à secretária.",
+      "B": "Chegou à noite com pressa.",
+      "C": "Foi à pé para o trabalho.",
+      "D": "Levou flores à Maria.",
+      "E": "Fez referência à aquele assunto."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 26,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "FÁCIL",
+    "question_text": "Em qual das alternativas a **crase** está incorretamente empregada?",
+    "alternatives": {
+      "A": "Ela foi à escola com os colegas.",
+      "B": "Dirigiu-se à diretoria da empresa.",
+      "C": "Entregou o prêmio à vencedora.",
+      "D": "Chegou à uma conclusão precipitada.",
+      "E": "O convite foi enviado à professora."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 27,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "MÉDIO",
+    "question_text": "A regência verbal diz respeito à relação entre o verbo e seus complementos. Qual das frases abaixo apresenta um caso **correto** de regência verbal?",
+    "alternatives": {
+      "A": "Assisti o filme ontem com meus amigos.",
+      "B": "Prefiro mais suco do que refrigerante.",
+      "C": "Cheguei no local combinado.",
+      "D": "O aluno aspirava a uma vaga na universidade.",
+      "E": "Esqueci de ligar à minha mãe."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 28,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que o uso da **crase** é facultativo, conforme as normas da língua portuguesa:",
+    "alternatives": {
+      "A": "Obedeceu à ordem superior.",
+      "B": "Cheguei à escola muito cedo.",
+      "C": "Assistimos à peça no teatro.",
+      "D": "Entregou o presente à mãe.",
+      "E": "Foi à moda antiga."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 29,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "DIFÍCIL",
+    "question_text": "Analise a frase: \"A empresa visa **ao** crescimento sustentável\". A preposição 'a' é exigida pelo verbo 'visar' nesse contexto. Qual das frases abaixo **apresenta erro de regência verbal**?",
+    "alternatives": {
+      "A": "O jovem assistiu ao espetáculo com atenção.",
+      "B": "O funcionário visava a uma promoção rápida.",
+      "C": "O diretor informou os alunos sobre as mudanças.",
+      "D": "O atleta aspirava uma vaga na seleção.",
+      "E": "Eles obedeceram às regras da competição."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 30,
+    "discipline": "GRAMÁTICA",
+    "theme": "REGÊNCIA E CRASE",
+    "level": "DIFÍCIL",
+    "question_text": "Sobre o uso da crase, assinale a alternativa em que o **acento indicativo de crase está incorretamente empregado**:",
+    "alternatives": {
+      "A": "Referiu-se àquela situação com clareza.",
+      "B": "Levou a carta à esposa com urgência.",
+      "C": "O aluno respondeu à todas as perguntas.",
+      "D": "Ela retornou à França depois de dois anos.",
+      "E": "Expôs suas ideias à medida que o tempo passava."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 31,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "FÁCIL",
+    "question_text": "Na oração \"A menina sorriu\", qual é o sujeito?",
+    "alternatives": {
+      "A": "A",
+      "B": "Menina",
+      "C": "Sorriu",
+      "D": "A menina",
+      "E": "Não há sujeito"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 32,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa que apresenta corretamente os **termos essenciais da oração**:",
+    "alternatives": {
+      "A": "Sujeito, adjunto adverbial e predicado.",
+      "B": "Sujeito, verbo e objeto direto.",
+      "C": "Sujeito, predicado e verbo.",
+      "D": "Predicado, aposto e sujeito.",
+      "E": "Verbo, complemento nominal e sujeito."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 33,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "MÉDIO",
+    "question_text": "Em qual das alternativas a oração apresenta **sujeito indeterminado**?",
+    "alternatives": {
+      "A": "Choveu muito durante a noite.",
+      "B": "Vive-se bem nesta cidade.",
+      "C": "O menino caiu na calçada.",
+      "D": "As crianças dormiram cedo.",
+      "E": "O diretor explicou a situação."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 34,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "MÉDIO",
+    "question_text": "Na oração: \"Faltam professores na escola\", o sujeito é:",
+    "alternatives": {
+      "A": "Oculto",
+      "B": "Indeterminado",
+      "C": "Simples",
+      "D": "Inexistente",
+      "E": "Composto"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 35,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "DIFÍCIL",
+    "question_text": "Na frase \"Havia muitas pessoas no evento\", a classificação correta do sujeito é:",
+    "alternatives": {
+      "A": "Sujeito simples",
+      "B": "Sujeito composto",
+      "C": "Sujeito inexistente",
+      "D": "Sujeito indeterminado",
+      "E": "Sujeito elíptico"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 36,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ESSENCIAIS",
+    "level": "DIFÍCIL",
+    "question_text": "Analise a oração: \"Encontraram o documento perdido no arquivo.\" Assinale a alternativa que indica corretamente os termos essenciais da oração.",
+    "alternatives": {
+      "A": "Sujeito indeterminado, predicado verbal.",
+      "B": "Sujeito simples, predicado nominal.",
+      "C": "Sujeito inexistente, predicado verbal.",
+      "D": "Sujeito oculto, predicado nominal.",
+      "E": "Sujeito indeterminado, predicado nominal."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 37,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "FÁCIL",
+    "question_text": "Na oração \"Ela comprou um presente\", qual é o objeto direto?",
+    "alternatives": {
+      "A": "Ela",
+      "B": "Comprou",
+      "C": "Um",
+      "D": "Um presente",
+      "E": "Presente"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 38,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa que apresenta um **objeto indireto** corretamente identificado:",
+    "alternatives": {
+      "A": "Pedro ama chocolate.",
+      "B": "Joana visitou a avó.",
+      "C": "Carlos obedeceu **à professora**.",
+      "D": "Eles fizeram a tarefa.",
+      "E": "Cláudia encontrou os amigos."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 39,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "MÉDIO",
+    "question_text": "Na oração: \"A decisão foi favorável **ao réu**\", o termo destacado exerce a função de:",
+    "alternatives": {
+      "A": "Adjunto adnominal",
+      "B": "Objeto indireto",
+      "C": "Complemento nominal",
+      "D": "Agente da passiva",
+      "E": "Predicativo do sujeito"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 40,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que o termo destacado é um **complemento nominal**:",
+    "alternatives": {
+      "A": "O amor **de mãe** é incondicional.",
+      "B": "O aluno respondeu **à professora**.",
+      "C": "Tenho orgulho **do meu trabalho**.",
+      "D": "Eles chegaram **de manhã**.",
+      "E": "A menina entregou flores **à avó**."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 41,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "DIFÍCIL",
+    "question_text": "Na oração: \"O livro foi escrito **pelo autor famoso**\", a expressão destacada exerce a função de:",
+    "alternatives": {
+      "A": "Adjunto adverbial",
+      "B": "Complemento nominal",
+      "C": "Objeto indireto",
+      "D": "Agente da passiva",
+      "E": "Predicativo do objeto"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 42,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS INTEGRANTES",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que o termo destacado é **objeto direto** e não pode ser substituído por preposição:",
+    "alternatives": {
+      "A": "Ela se referiu **ao problema** com clareza.",
+      "B": "Comprei **um carro** novo.",
+      "C": "Ele obedeceu **ao chefe**.",
+      "D": "O juiz decidiu **a favor do réu**.",
+      "E": "Gostamos **de você**."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 43,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "FÁCIL",
+    "question_text": "Na frase \"A bela menina correu pelo parque\", o termo \"bela\" exerce qual função sintática?",
+    "alternatives": {
+      "A": "Adjunto adverbial",
+      "B": "Predicativo do sujeito",
+      "C": "Aposto",
+      "D": "Adjunto adnominal",
+      "E": "Objeto direto"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 44,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa que contém um **adjunto adverbial** de tempo:",
+    "alternatives": {
+      "A": "O aluno estudou **ontem** para a prova.",
+      "B": "A menina inteligente respondeu com clareza.",
+      "C": "Entregou o relatório ao chefe.",
+      "D": "Chegou o novo professor.",
+      "E": "O cachorro bravo latiu alto."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 45,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "MÉDIO",
+    "question_text": "Na frase \"João, o melhor aluno da turma, passou no vestibular\", o trecho destacado é um exemplo de:",
+    "alternatives": {
+      "A": "Adjunto adnominal",
+      "B": "Complemento nominal",
+      "C": "Aposto explicativo",
+      "D": "Sujeito simples",
+      "E": "Predicativo do objeto"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 46,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que o termo destacado é um **adjunto adverbial de causa**:",
+    "alternatives": {
+      "A": "Ela saiu **cedo**.",
+      "B": "Ele chorou **de emoção**.",
+      "C": "A criança caiu **no chão**.",
+      "D": "Falaram sobre política **na reunião**.",
+      "E": "Correu **rapidamente** pela rua."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 47,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "DIFÍCIL",
+    "question_text": "Na oração: \"O velho professor de matemática explicou pacientemente a matéria\", quantos e quais **termos acessórios** existem?",
+    "alternatives": {
+      "A": "Dois: 'velho' (adjunto adnominal) e 'pacientemente' (adjunto adverbial).",
+      "B": "Três: 'velho', 'de matemática' e 'pacientemente'.",
+      "C": "Um: 'pacientemente', adjunto adverbial.",
+      "D": "Três: 'professor', 'matéria' e 'explicou'.",
+      "E": "Dois: 'de matemática' (complemento nominal) e 'pacientemente' (adjunto adverbial)."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 48,
+    "discipline": "GRAMÁTICA",
+    "theme": "TERMOS ACESSÓRIOS",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que o termo destacado é **aposto enumerativo**:",
+    "alternatives": {
+      "A": "O poeta, **gênio da palavra**, encantava a todos.",
+      "B": "Viajei para três lugares: **Recife, Maceió e Natal**.",
+      "C": "A menina chegou **feliz** da escola.",
+      "D": "Estudou **com afinco** para a prova.",
+      "E": "O aluno estudioso passou no exame."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 49,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa em que a concordância verbal está correta:",
+    "alternatives": {
+      "A": "Os alunos chegou cedo à escola.",
+      "B": "As mulheres foi ao mercado juntas.",
+      "C": "Ele trouxeram os documentos ontem.",
+      "D": "As crianças brincaram no parque.",
+      "E": "Nós foi visitar nossa avó."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 50,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "FÁCIL",
+    "question_text": "Em qual alternativa a **concordância nominal** está correta?",
+    "alternatives": {
+      "A": "Ela estava meio cansada e meio irritado.",
+      "B": "Os papéis estavam rasgado e molhados.",
+      "C": "As tarefas estavam fáceis e organizadas.",
+      "D": "O bolo e a torta estava delicioso.",
+      "E": "Eles estavam feliz com o resultado."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 51,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "MÉDIO",
+    "question_text": "Assinale a frase em que a concordância verbal está **incorreta**:",
+    "alternatives": {
+      "A": "Faltam dois documentos na pasta.",
+      "B": "Chegou os alunos atrasados.",
+      "C": "Houve muitos problemas na reunião.",
+      "D": "Existem diversas possibilidades.",
+      "E": "Compareceram todos os convidados."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 52,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "MÉDIO",
+    "question_text": "Na oração \"É proibido entrada de pessoas estranhas\", há um erro de concordância. Assinale a forma correta:",
+    "alternatives": {
+      "A": "É proibida entrada de pessoas estranhas.",
+      "B": "São proibido entrada de pessoas estranhas.",
+      "C": "É proibido a entrada de pessoas estranhas.",
+      "D": "É proibidas entrada de pessoas estranhas.",
+      "E": "Está proibido entrada de pessoas estranhas."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 53,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que a concordância verbal está de acordo com a norma culta da língua:",
+    "alternatives": {
+      "A": "Fazem dois anos que não nos vemos.",
+      "B": "Devem existir uma solução para o problema.",
+      "C": "Havia muitas pessoas na sala.",
+      "D": "Restou dúvidas na explicação do professor.",
+      "E": "Falta acontecer mudanças importantes."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 54,
+    "discipline": "GRAMÁTICA",
+    "theme": "CONCORDÂNCIA",
+    "level": "DIFÍCIL",
+    "question_text": "Na frase: \"Mais de um aluno faltaram à aula\", assinale a alternativa que apresenta a forma correta de concordância verbal:",
+    "alternatives": {
+      "A": "Mais de um aluno faltaram à aula.",
+      "B": "Mais de um aluno faltarão à aula.",
+      "C": "Mais de um aluno faltou à aula.",
+      "D": "Mais de um aluno tinham faltado à aula.",
+      "E": "Mais de um alunos faltaram à aula."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 55,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa que apresenta um período composto por **coordenação**:",
+    "alternatives": {
+      "A": "Quando cheguei, ele já havia saído.",
+      "B": "Ele estuda bastante, mas ainda tem dificuldades.",
+      "C": "Se chover, não sairemos de casa.",
+      "D": "Embora estivesse cansado, foi trabalhar.",
+      "E": "Assim que terminar, avisarei você."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 56,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "FÁCIL",
+    "question_text": "O período \"Ela acordou cedo porque tinha muito o que fazer\" é classificado como:",
+    "alternatives": {
+      "A": "Período simples",
+      "B": "Período composto por coordenação",
+      "C": "Período composto por subordinação",
+      "D": "Frase sem sujeito",
+      "E": "Orações justapostas"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 57,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "MÉDIO",
+    "question_text": "Em \"Estudei muito e fui aprovado\", a conjunção \"e\" indica que as orações são:",
+    "alternatives": {
+      "A": "Subordinadas adverbiais",
+      "B": "Coordenadas sindéticas aditivas",
+      "C": "Coordenadas assindéticas",
+      "D": "Subordinadas substantivas",
+      "E": "Oração reduzida de infinitivo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 58,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que a oração subordinada exerce a função de **subjetiva**:",
+    "alternatives": {
+      "A": "Espero que você compreenda.",
+      "B": "É importante que todos participem.",
+      "C": "Fiz o que pude para ajudar.",
+      "D": "Disse que chegaria cedo.",
+      "E": "A verdade é que ele mentiu."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 59,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que há uma oração subordinada **adjetiva restritiva**:",
+    "alternatives": {
+      "A": "Os alunos, que estavam cansados, saíram mais cedo.",
+      "B": "A moça, que é médica, viajou para o exterior.",
+      "C": "O livro que comprei ontem é interessante.",
+      "D": "Pedro, cujo pai é advogado, passou no concurso.",
+      "E": "O carro, que estava na garagem, foi roubado."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 60,
+    "discipline": "GRAMÁTICA",
+    "theme": "PERÍODO COMPOSTO",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa correta sobre o período: \"Não apenas choveu, como também fez frio.\"",
+    "alternatives": {
+      "A": "É um período composto por subordinação causal.",
+      "B": "É um período composto por coordenação conclusiva.",
+      "C": "É formado por orações subordinadas adversativas.",
+      "D": "É um período composto por coordenação aditiva.",
+      "E": "É um período simples com duas ações verbais."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 61,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa em que o uso da vírgula está **correto**:",
+    "alternatives": {
+      "A": "Maria, foi ao mercado comprar frutas.",
+      "B": "Na segunda-feira João, viajou.",
+      "C": "Durante a aula, o professor explicou tudo com calma.",
+      "D": "Os meninos correram e, brincaram no quintal.",
+      "E": "Ela saiu mas, esqueceu a bolsa."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 62,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "FÁCIL",
+    "question_text": "Em qual alternativa o uso dos **dois-pontos** está adequado?",
+    "alternatives": {
+      "A": "Ela queria ir: mas estava cansada.",
+      "B": "Havia três opções: correr, nadar ou caminhar.",
+      "C": "Ele saiu cedo: porque tinha compromisso.",
+      "D": "Faltou energia: mas voltará logo.",
+      "E": "Os meninos: jogaram bola à tarde."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 63,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa em que o uso da vírgula **viola as normas da gramática**:",
+    "alternatives": {
+      "A": "João, meu amigo de infância, passou no concurso.",
+      "B": "Após o almoço, todos descansaram.",
+      "C": "Estudou muito, passou na prova.",
+      "D": "Com medo do escuro, a criança chorou.",
+      "E": "Maria chegou, e sentou-se no sofá."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 64,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "MÉDIO",
+    "question_text": "Qual alternativa apresenta **corretamente** o uso do **travessão** para marcar a inserção de um comentário?",
+    "alternatives": {
+      "A": "Pedro disse que — ia sair mais cedo.",
+      "B": "Ela — que nunca se atrasa — perdeu o ônibus.",
+      "C": "João foi ao médico — ele está doente.",
+      "D": "— Como vai? — Perguntou ele.",
+      "E": "Nada — absolutamente nada foi dito."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 65,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "DIFÍCIL",
+    "question_text": "Sobre o uso do **ponto e vírgula**, assinale a alternativa correta:",
+    "alternatives": {
+      "A": "Fui ao mercado, comprei frutas; verduras e legumes.",
+      "B": "Ele estudou muito; mas não conseguiu passar.",
+      "C": "A reunião foi longa; cansativa e improdutiva.",
+      "D": "Os alunos se esforçaram; portanto, merecem nota máxima.",
+      "E": "Viajei; e descansei bastante."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 66,
+    "discipline": "GRAMÁTICA",
+    "theme": "PONTUAÇÃO",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa em que o uso dos parênteses está adequado:",
+    "alternatives": {
+      "A": "O presidente (chefe do executivo), anunciou reformas.",
+      "B": "A prova (de matemática) estava difícil.",
+      "C": "Ela disse que (não viria mais), mas apareceu.",
+      "D": "O aluno — muito nervoso (quebrou o silêncio).",
+      "E": "O autor disse: (a história é baseada em fatos reais)."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 67,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "FÁCIL",
+    "question_text": "Assinale a alternativa em que a coesão está adequada:",
+    "alternatives": {
+      "A": "Maria chegou cedo e ela foi para casa.",
+      "B": "João gosta de ler livros, mas ela prefere filmes.",
+      "C": "O cachorro latiu muito, e o gato fugiu.",
+      "D": "Ele gosta de futebol e também de jogar basquete.",
+      "E": "As crianças brincaram no parque e depois elas foram para casa."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 68,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "FÁCIL",
+    "question_text": "Na frase \"Ela é inteligente, dedicada e esforçada\", qual recurso de paralelismo está presente?",
+    "alternatives": {
+      "A": "Uso de verbos no infinitivo",
+      "B": "Uso de substantivos compostos",
+      "C": "Uso de adjetivos no mesmo grau",
+      "D": "Uso de pronomes pessoais",
+      "E": "Uso de orações coordenadas"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 69,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa que apresenta erro de paralelismo:",
+    "alternatives": {
+      "A": "Ele gosta de correr, nadar e pedalar.",
+      "B": "Ela é boa em matemática, ciências e na história.",
+      "C": "Gostamos de viajar, conhecer culturas e experimentar comidas.",
+      "D": "O time venceu o campeonato, conquistou o título e celebrou a vitória.",
+      "E": "Eles estudam, trabalham e descansam nos finais de semana."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 70,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "MÉDIO",
+    "question_text": "Sobre coesão textual, qual dos recursos abaixo é considerado um elemento coesivo por substituição?",
+    "alternatives": {
+      "A": "Conjunção",
+      "B": "Pronome",
+      "C": "Repetição exata",
+      "D": "Advérbio",
+      "E": "Interjeição"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 71,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Leia o trecho: \"João gosta de futebol, Maria, de vôlei, e Pedro, de basquete.\" Essa estrutura apresenta paralelismo entre:",
+    "alternatives": {
+      "A": "Orações subordinadas e coordenadas",
+      "B": "Sujeito e predicado",
+      "C": "Termos de mesma função sintática",
+      "D": "Adjuntos adverbiais",
+      "E": "Pronomes e verbos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 72,
+    "discipline": "GRAMÁTICA",
+    "theme": "COESÃO E PARALELISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Em relação à coesão referencial, qual é a função do uso do pronome \"ele\" na frase: \"Carlos chegou atrasado, mas ele explicou o motivo.\"?",
+    "alternatives": {
+      "A": "Repetir o sujeito para dar ênfase",
+      "B": "Substituir o sujeito para evitar repetição",
+      "C": "Alterar o sentido da oração",
+      "D": "Criar ambiguidade no texto",
+      "E": "Introduzir um novo elemento"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 73,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "FÁCIL",
+    "question_text": "Qual das alternativas apresenta um exemplo de **repetição para ênfase** (anáfora)?",
+    "alternatives": {
+      "A": "Eu não sei o que fazer, não sei para onde ir.",
+      "B": "Ele chegou tarde, mas pediu desculpas.",
+      "C": "O sol brilhava intensamente no céu.",
+      "D": "Maria estudou para a prova e foi bem.",
+      "E": "O cachorro latiu durante a noite."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 74,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "FÁCIL",
+    "question_text": "O que é **hipérbole** em um texto?",
+    "alternatives": {
+      "A": "Uso de linguagem formal.",
+      "B": "Exagero intencional para causar efeito.",
+      "C": "Uso de palavras de sentido literal.",
+      "D": "Redução do tamanho da frase.",
+      "E": "Repetição de sons no início das palavras."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 75,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa que exemplifica a **antítese**:",
+    "alternatives": {
+      "A": "Ele é forte, mas tímido.",
+      "B": "Ela correu rápido e chegou primeiro.",
+      "C": "O dia estava claro e alegre.",
+      "D": "O menino brinca no parque.",
+      "E": "O mar estava calmo e sereno."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 76,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "MÉDIO",
+    "question_text": "Na frase \"O silêncio gritava na sala vazia\", identifica-se qual figura de linguagem?",
+    "alternatives": {
+      "A": "Metáfora",
+      "B": "Metonímia",
+      "C": "Hipérbole",
+      "D": "Antítese",
+      "E": "Eufemismo"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 77,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa que apresenta um exemplo de **ironía**:",
+    "alternatives": {
+      "A": "Que ótimo! Você chegou atrasado de novo!",
+      "B": "O céu estava limpo e azul.",
+      "C": "Ela é muito inteligente e estudiosa.",
+      "D": "O vento soprava forte naquela noite.",
+      "E": "A festa foi muito divertida."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 78,
+    "discipline": "GRAMÁTICA",
+    "theme": "ESTILÍSTICA",
+    "level": "DIFÍCIL",
+    "question_text": "No trecho \"Suas palavras são facas que cortam fundo\", qual figura de linguagem está presente?",
+    "alternatives": {
+      "A": "Metáfora",
+      "B": "Personificação",
+      "C": "Hipérbole",
+      "D": "Metonímia",
+      "E": "Sinecdoque"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 79,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "FÁCIL",
+    "question_text": "Na Teoria da Comunicação, qual é o elemento responsável por enviar a mensagem?",
+    "alternatives": {
+      "A": "Receptor",
+      "B": "Emissor",
+      "C": "Canal",
+      "D": "Ruído",
+      "E": "Código"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 80,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "FÁCIL",
+    "question_text": "O que é considerado o \"canal\" na comunicação?",
+    "alternatives": {
+      "A": "O meio pelo qual a mensagem é transmitida.",
+      "B": "A pessoa que recebe a mensagem.",
+      "C": "O código utilizado para codificar a mensagem.",
+      "D": "A interferência que dificulta a comunicação.",
+      "E": "O contexto da mensagem."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 81,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "MÉDIO",
+    "question_text": "Na comunicação, o que é o \"ruído\" e qual sua função?",
+    "alternatives": {
+      "A": "É o meio da comunicação, que facilita a transmissão da mensagem.",
+      "B": "É a interferência que atrapalha a recepção da mensagem.",
+      "C": "É o emissor da mensagem que decide o código a ser usado.",
+      "D": "É o receptor que interpreta a mensagem recebida.",
+      "E": "É a linguagem utilizada na comunicação."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 82,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "MÉDIO",
+    "question_text": "Qual das alternativas apresenta corretamente o conceito de \"feedback\" na comunicação?",
+    "alternatives": {
+      "A": "O processo de codificação da mensagem pelo emissor.",
+      "B": "A mensagem transmitida pelo canal.",
+      "C": "A resposta ou reação do receptor ao receber a mensagem.",
+      "D": "A interferência que impede a comunicação.",
+      "E": "O código utilizado para a transmissão da mensagem."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 83,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "DIFÍCIL",
+    "question_text": "Segundo o modelo de Shannon e Weaver, qual o papel do \"código\" na comunicação?",
+    "alternatives": {
+      "A": "Meio pelo qual a mensagem é transmitida.",
+      "B": "Interferência que prejudica a mensagem.",
+      "C": "Conjunto de sinais usados para construir a mensagem.",
+      "D": "Resposta do receptor à mensagem recebida.",
+      "E": "Elemento que envia a mensagem."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 84,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TEORIA DA COMUNICAÇÃO",
+    "level": "DIFÍCIL",
+    "question_text": "Em uma situação comunicativa, se o receptor não consegue entender a mensagem devido a uma barreira cultural, qual elemento da comunicação está afetado?",
+    "alternatives": {
+      "A": "Emissor",
+      "B": "Canal",
+      "C": "Ruído semântico",
+      "D": "Código",
+      "E": "Feedback"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 85,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "FÁCIL",
+    "question_text": "Qual das alternativas abaixo corresponde a um gênero textual narrativo?",
+    "alternatives": {
+      "A": "Carta pessoal",
+      "B": "Receita de bolo",
+      "C": "Conto",
+      "D": "Relatório técnico",
+      "E": "Artigo de opinião"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 86,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "FÁCIL",
+    "question_text": "O gênero textual que apresenta instruções para a execução de uma tarefa é chamado de:",
+    "alternatives": {
+      "A": "Narrativo",
+      "B": "Descritivo",
+      "C": "Injuntivo",
+      "D": "Expositivo",
+      "E": "Argumentativo"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 87,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "MÉDIO",
+    "question_text": "Assinale a alternativa que apresenta um texto do gênero dissertativo-argumentativo:",
+    "alternatives": {
+      "A": "Uma notícia de jornal que informa sobre um acidente.",
+      "B": "Um poema que expressa sentimentos do autor.",
+      "C": "Um editorial que defende uma posição sobre uma questão social.",
+      "D": "Um romance que narra a vida de personagens fictícios.",
+      "E": "Um manual de instruções para montar um móvel."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 88,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "MÉDIO",
+    "question_text": "Sobre os gêneros textuais, é correto afirmar que:",
+    "alternatives": {
+      "A": "Todos os gêneros textuais são escritos.",
+      "B": "Os gêneros textuais não possuem relação com o contexto social.",
+      "C": "Os gêneros textuais se adaptam ao contexto e à finalidade comunicativa.",
+      "D": "Um gênero textual corresponde a um tipo fixo e imutável de texto.",
+      "E": "Gêneros textuais não apresentam variações linguísticas."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 89,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "DIFÍCIL",
+    "question_text": "Qual característica diferencia um texto expositivo de um texto argumentativo?",
+    "alternatives": {
+      "A": "O texto expositivo tem como objetivo informar, enquanto o argumentativo visa convencer.",
+      "B": "O texto expositivo apresenta opiniões, o argumentativo apresenta dados científicos.",
+      "C": "O texto argumentativo é sempre narrativo, o expositivo é descritivo.",
+      "D": "O texto expositivo usa linguagem coloquial, o argumentativo formal.",
+      "E": "O texto argumentativo não apresenta fatos, apenas emoções."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 90,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "TIPOS E GÊNEROS TEXTUAIS",
+    "level": "DIFÍCIL",
+    "question_text": "Assinale a alternativa que apresenta uma característica do gênero textual jornalístico:",
+    "alternatives": {
+      "A": "Uso predominante da linguagem poética e subjetiva.",
+      "B": "Predomínio de fatos atuais e objetividade na linguagem.",
+      "C": "Foco exclusivo em narrativas fictícias e imaginárias.",
+      "D": "Utilização exclusiva da linguagem técnica e científica.",
+      "E": "Estrutura fixa que não permite variações de estilo."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 91,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "FÁCIL",
+    "question_text": "O que significa dizer que a língua é um patrimônio cultural de um povo?",
+    "alternatives": {
+      "A": "Que a língua é apenas uma forma de comunicação pessoal.",
+      "B": "Que a língua representa a identidade e a história de uma comunidade.",
+      "C": "Que a língua é algo que pode ser facilmente substituído.",
+      "D": "Que a língua serve apenas para transmitir informações técnicas.",
+      "E": "Que a língua é um recurso econômico exclusivo."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 92,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "FÁCIL",
+    "question_text": "Qual a importância da preservação das línguas indígenas para a cultura brasileira?",
+    "alternatives": {
+      "A": "Garantir que apenas o português seja falado no Brasil.",
+      "B": "Manter viva a diversidade cultural e os saberes ancestrais.",
+      "C": "Substituir as línguas indígenas por línguas estrangeiras.",
+      "D": "Eliminar as diferenças culturais entre os povos.",
+      "E": "Incentivar o uso exclusivo da língua portuguesa."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 93,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "MÉDIO",
+    "question_text": "Quando falamos que a língua é dinâmica, estamos afirmando que:",
+    "alternatives": {
+      "A": "A língua nunca muda ao longo do tempo.",
+      "B": "A língua evolui e se transforma com a sociedade.",
+      "C": "A língua é fixa e imutável desde sua origem.",
+      "D": "A língua deve ser preservada sem alterações.",
+      "E": "A língua é igual para todos os falantes."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 94,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "MÉDIO",
+    "question_text": "O que caracteriza a variação linguística como parte do patrimônio cultural de uma língua?",
+    "alternatives": {
+      "A": "A existência de um único jeito correto de falar.",
+      "B": "As diferenças de uso da língua conforme região, grupo social e contexto.",
+      "C": "A proibição de dialetos e sotaques.",
+      "D": "A imposição de uma norma padrão para todos os falantes.",
+      "E": "A eliminação das formas populares da língua."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 95,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "DIFÍCIL",
+    "question_text": "Analise a frase: \"A língua é um patrimônio imaterial que conecta passado, presente e futuro.\" O que significa essa afirmação?",
+    "alternatives": {
+      "A": "A língua é um bem físico que pode ser tocado e guardado.",
+      "B": "A língua é uma herança cultural que carrega a memória e a identidade de um povo.",
+      "C": "A língua é um código estático, sem relação com o tempo.",
+      "D": "A língua deve ser usada apenas para fins comerciais.",
+      "E": "A língua é algo que não deve ser compartilhado entre comunidades."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 96,
+    "discipline": "INTERPRETAÇÃO DE TEXTO",
+    "theme": "LÍNGUA E PATRIMÔNIO",
+    "level": "DIFÍCIL",
+    "question_text": "Qual é o principal desafio para a manutenção do patrimônio linguístico em um país com grande diversidade cultural?",
+    "alternatives": {
+      "A": "Uniformizar a língua para facilitar o ensino.",
+      "B": "Promover políticas que valorizem e preservem as línguas minoritárias.",
+      "C": "Incentivar o uso exclusivo da língua oficial em todos os contextos.",
+      "D": "Eliminar as línguas indígenas para evitar confusões.",
+      "E": "Impor uma única norma culta para todos os falantes."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 97,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "FÁCIL",
+    "question_text": "O que é literatura?",
+    "alternatives": {
+      "A": "Um conjunto de regras gramaticais para escrever corretamente.",
+      "B": "Uma forma de arte que utiliza a linguagem para expressar ideias, emoções e histórias.",
+      "C": "Um método científico para estudar a língua portuguesa.",
+      "D": "Um tipo de comunicação exclusivamente oral.",
+      "E": "Um gênero textual específico da redação jornalística."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 98,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "FÁCIL",
+    "question_text": "Qual das opções abaixo representa um gênero literário?",
+    "alternatives": {
+      "A": "Gramática",
+      "B": "Narrativa",
+      "C": "Ortografia",
+      "D": "Sintaxe",
+      "E": "Fonética"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 99,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "MÉDIO",
+    "question_text": "Qual a principal característica do gênero lírico na literatura?",
+    "alternatives": {
+      "A": "Narra fatos reais de maneira objetiva.",
+      "B": "Expressa emoções, sentimentos e reflexões do eu lírico.",
+      "C": "Apresenta uma sequência de eventos com personagens.",
+      "D": "Foca na argumentação para convencer o leitor.",
+      "E": "Utiliza linguagem técnica para informar."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 100,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "MÉDIO",
+    "question_text": "Na literatura, o que é um narrador em primeira pessoa?",
+    "alternatives": {
+      "A": "Um narrador que conta a história com uma voz externa, sem participar dos fatos.",
+      "B": "Um narrador que relata os fatos do ponto de vista de um personagem que participa da história.",
+      "C": "Um narrador que utiliza linguagem poética para expressar sentimentos.",
+      "D": "Um narrador que usa apenas diálogos para contar a história.",
+      "E": "Um narrador que não tem conhecimento dos fatos narrados."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 101,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "DIFÍCIL",
+    "question_text": "A diferença entre gênero e estilo literário pode ser explicada como:",
+    "alternatives": {
+      "A": "Gênero se refere ao conteúdo, estilo ao modo de expressão do autor.",
+      "B": "Gênero é sinônimo de autor, estilo é sinônimo de obra.",
+      "C": "Estilo é o tema do texto, gênero é a forma de organização das ideias.",
+      "D": "Estilo é o conjunto de regras gramaticais, gênero é o tipo de vocabulário usado.",
+      "E": "Gênero e estilo são termos intercambiáveis na literatura."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 102,
+    "discipline": "LITERATURA",
+    "theme": "INTRODUÇÃO À LITERATURA",
+    "level": "DIFÍCIL",
+    "question_text": "Qual é a função da figura do narrador onisciente em uma obra literária?",
+    "alternatives": {
+      "A": "Narrar os fatos apenas a partir do ponto de vista de um personagem específico.",
+      "B": "Conhecer e narrar todos os pensamentos, sentimentos e fatos da história, mesmo os que os personagens desconhecem.",
+      "C": "Apresentar apenas os diálogos entre os personagens, sem narrar ações.",
+      "D": "Narrar de forma subjetiva e emocional, limitando-se à visão do autor.",
+      "E": "Ser um personagem silencioso que não influencia a narrativa."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 103,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "FÁCIL",
+    "question_text": "Qual dos seguintes textos é um exemplo típico de gênero narrativo?",
+    "alternatives": {
+      "A": "Uma poesia lírica",
+      "B": "Um conto",
+      "C": "Um artigo de opinião",
+      "D": "Uma receita culinária",
+      "E": "Um relatório científico"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 104,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "FÁCIL",
+    "question_text": "No gênero narrativo, o que é o enredo?",
+    "alternatives": {
+      "A": "O lugar onde a história acontece.",
+      "B": "A sequência dos acontecimentos da narrativa.",
+      "C": "O sentimento transmitido pelo texto.",
+      "D": "O narrador que conta a história.",
+      "E": "Os personagens principais."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 105,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "MÉDIO",
+    "question_text": "Qual característica diferencia o romance do conto?",
+    "alternatives": {
+      "A": "O conto é mais extenso que o romance.",
+      "B": "O romance apresenta enredos mais complexos e detalhados do que o conto.",
+      "C": "O romance é exclusivamente oral, enquanto o conto é escrito.",
+      "D": "O conto possui mais personagens que o romance.",
+      "E": "Não há diferença entre romance e conto."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 106,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "MÉDIO",
+    "question_text": "Na narrativa, qual é a função do narrador personagem?",
+    "alternatives": {
+      "A": "Narrar os fatos de fora da história, com conhecimento total.",
+      "B": "Contar a história como um personagem participante dos eventos.",
+      "C": "Expressar apenas opiniões pessoais sem narrar fatos.",
+      "D": "Ser um narrador sem voz definida.",
+      "E": "Narrar utilizando exclusivamente diálogos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 107,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "DIFÍCIL",
+    "question_text": "Qual das opções abaixo é uma característica marcante da narrativa em terceira pessoa onisciente?",
+    "alternatives": {
+      "A": "O narrador conhece os pensamentos e sentimentos de todos os personagens.",
+      "B": "O narrador limita-se a narrar fatos observados sem interpretar.",
+      "C": "O narrador participa da história como personagem principal.",
+      "D": "O narrador narra apenas através de diálogos entre personagens.",
+      "E": "O narrador narra somente o que um personagem sabe."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 108,
+    "discipline": "LITERATURA",
+    "theme": "GÊNEROS NARRATIVOS",
+    "level": "DIFÍCIL",
+    "question_text": "Em uma narrativa, o que é a caracterização dos personagens?",
+    "alternatives": {
+      "A": "A descrição do cenário onde a história acontece.",
+      "B": "A construção dos traços físicos, psicológicos e sociais dos personagens.",
+      "C": "A sequência de acontecimentos que formam o enredo.",
+      "D": "O diálogo entre personagens principais.",
+      "E": "A estrutura da narrativa em capítulos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 109,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "FÁCIL",
+    "question_text": "Qual dos elementos abaixo é responsável por contar a história em uma narrativa?",
+    "alternatives": {
+      "A": "Narrador",
+      "B": "Enredo",
+      "C": "Personagem",
+      "D": "Tempo",
+      "E": "Espaço"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 110,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "FÁCIL",
+    "question_text": "O que significa \"enredo\" em uma narrativa?",
+    "alternatives": {
+      "A": "O conjunto de personagens da história.",
+      "B": "O local onde a história se passa.",
+      "C": "A sequência dos acontecimentos que compõem a história.",
+      "D": "O momento histórico da narrativa.",
+      "E": "O narrador que conta a história."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 111,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "MÉDIO",
+    "question_text": "Qual elemento da narrativa está relacionado ao lugar onde os fatos acontecem?",
+    "alternatives": {
+      "A": "Tempo",
+      "B": "Espaço",
+      "C": "Enredo",
+      "D": "Narrador",
+      "E": "Conflito"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 112,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "MÉDIO",
+    "question_text": "Em uma narrativa, o que caracteriza o personagem protagonista?",
+    "alternatives": {
+      "A": "É o personagem principal, em torno de quem gira a história.",
+      "B": "É o personagem que causa os conflitos da história.",
+      "C": "É o narrador da história.",
+      "D": "É o local onde a história acontece.",
+      "E": "É o momento histórico da narrativa."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 113,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "DIFÍCIL",
+    "question_text": "Qual o papel do conflito na estrutura de uma narrativa?",
+    "alternatives": {
+      "A": "Apresentar o cenário e o contexto da história.",
+      "B": "Criar o problema ou desafio que impulsiona a ação da narrativa.",
+      "C": "Descrever os personagens secundários.",
+      "D": "Determinar o tempo cronológico da história.",
+      "E": "Ser a voz que narra os acontecimentos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 114,
+    "discipline": "LITERATURA",
+    "theme": "ELEMENTOS DA NARRATIVA",
+    "level": "DIFÍCIL",
+    "question_text": "Na análise narrativa, qual é a importância do tempo narrativo em relação ao tempo cronológico?",
+    "alternatives": {
+      "A": "O tempo narrativo sempre segue a ordem cronológica dos fatos.",
+      "B": "O tempo narrativo pode alterar a ordem dos acontecimentos para criar efeitos literários.",
+      "C": "O tempo cronológico é irrelevante para a narrativa.",
+      "D": "O tempo narrativo é medido em minutos e segundos apenas.",
+      "E": "O tempo narrativo é determinado exclusivamente pelo narrador personagem."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 115,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "FÁCIL",
+    "question_text": "O que foi o Quinhentismo na literatura brasileira?",
+    "alternatives": {
+      "A": "Um movimento literário do século XX.",
+      "B": "A produção literária no Brasil durante o século XVI, marcada pelos relatos de descobrimento e colonização.",
+      "C": "Um estilo literário que surgiu na Europa durante o Renascimento.",
+      "D": "Um gênero literário baseado em poesias modernistas.",
+      "E": "Um tipo de literatura exclusivamente indígena."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 116,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual o principal tema abordado nas obras do Quinhentismo brasileiro?",
+    "alternatives": {
+      "A": "A vida urbana nas grandes cidades brasileiras.",
+      "B": "Relatos da terra, dos indígenas e da natureza brasileira.",
+      "C": "Histórias de ficção científica.",
+      "D": "Romances sobre a nobreza portuguesa.",
+      "E": "Poesias sobre o amor romântico."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 117,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "MÉDIO",
+    "question_text": "Quem foi um dos principais autores do Quinhentismo brasileiro e escreveu \"Carta de Pero Vaz de Caminha\"?",
+    "alternatives": {
+      "A": "Gregório de Matos",
+      "B": "Pero Vaz de Caminha",
+      "C": "José de Alencar",
+      "D": "Machado de Assis",
+      "E": "Manuel Bandeira"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 118,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "MÉDIO",
+    "question_text": "Além dos relatos de descobrimento, o Quinhentismo também produziu obras do tipo:",
+    "alternatives": {
+      "A": "Poemas líricos sobre o amor.",
+      "B": "Relatos jesuíticos e catequéticos sobre a conversão dos indígenas.",
+      "C": "Romances históricos sobre a monarquia portuguesa.",
+      "D": "Dramas modernos e contemporâneos.",
+      "E": "Textos de ficção científica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 119,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Qual a principal característica do estilo literário do Quinhentismo brasileiro?",
+    "alternatives": {
+      "A": "Uso de linguagem simples, objetiva e informativa, com foco na descrição da realidade.",
+      "B": "Uso intenso de linguagem figurada e subjetiva.",
+      "C": "Narrativas complexas e cheias de simbolismos.",
+      "D": "Abordagem poética e sentimental.",
+      "E": "Exploração da fantasia e do imaginário."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 120,
+    "discipline": "LITERATURA",
+    "theme": "QUINHENTISMO",
+    "level": "DIFÍCIL",
+    "question_text": "A \"Carta de Pero Vaz de Caminha\" é considerada importante porque:",
+    "alternatives": {
+      "A": "É um documento que detalha os mitos indígenas.",
+      "B": "É o primeiro registro escrito sobre a descoberta do Brasil pelos portugueses.",
+      "C": "É uma obra literária fictícia.",
+      "D": "Contém poesias sobre o Brasil colonial.",
+      "E": "Descreve a independência do Brasil."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 121,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "FÁCIL",
+    "question_text": "O Barroco foi um movimento artístico e literário que se desenvolveu principalmente em qual período?",
+    "alternatives": {
+      "A": "Século XV",
+      "B": "Século XVI e XVII",
+      "C": "Século XIX",
+      "D": "Século XX",
+      "E": "Século XVIII"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 122,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "FÁCIL",
+    "question_text": "Qual das características é típica da literatura barroca?",
+    "alternatives": {
+      "A": "Simplicidade e clareza na linguagem.",
+      "B": "Uso de contrastes, antíteses e linguagem rebuscada.",
+      "C": "Foco em temas modernos e tecnológicos.",
+      "D": "Narrativas lineares e objetivas.",
+      "E": "Ausência de elementos religiosos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 123,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "MÉDIO",
+    "question_text": "Qual autor é considerado um dos principais representantes do Barroco brasileiro?",
+    "alternatives": {
+      "A": "Gregório de Matos",
+      "B": "Carlos Drummond de Andrade",
+      "C": "Machado de Assis",
+      "D": "Manuel Bandeira",
+      "E": "José de Alencar"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 124,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "MÉDIO",
+    "question_text": "Na literatura barroca, a ideia de conflito e dualidade está relacionada a:",
+    "alternatives": {
+      "A": "A oposição entre a vida terrena e a vida espiritual.",
+      "B": "A celebração da simplicidade e da pureza.",
+      "C": "O foco na narrativa linear e objetiva.",
+      "D": "A rejeição dos valores religiosos.",
+      "E": "O uso de linguagem coloquial e simples."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 125,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "DIFÍCIL",
+    "question_text": "No Barroco, o conceito de \"cultismo\" refere-se a:",
+    "alternatives": {
+      "A": "Uma forma de expressão literária simples e direta.",
+      "B": "O uso elaborado de linguagem e jogos de palavras para embelezar o texto.",
+      "C": "A preferência por temas rústicos e populares.",
+      "D": "A rejeição da tradição clássica.",
+      "E": "A criação de textos científicos e técnicos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 126,
+    "discipline": "LITERATURA",
+    "theme": "BARROCO",
+    "level": "DIFÍCIL",
+    "question_text": "Qual é a diferença principal entre \"cultismo\" e \"conceptismo\" no Barroco?",
+    "alternatives": {
+      "A": "Cultismo enfatiza a forma e o estilo, enquanto conceptismo foca no conteúdo e nas ideias.",
+      "B": "Cultismo é exclusivo da poesia, conceptismo da prosa.",
+      "C": "Conceptismo é mais simples que cultismo.",
+      "D": "Cultismo rejeita jogos de linguagem, conceptismo os utiliza.",
+      "E": "Não há diferença entre cultismo e conceptismo."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 127,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "FÁCIL",
+    "question_text": "O Arcadismo é um movimento literário que buscava valorizar:",
+    "alternatives": {
+      "A": "A fantasia e o sobrenatural.",
+      "B": "A simplicidade, a natureza e a razão.",
+      "C": "A tecnologia e o progresso industrial.",
+      "D": "O exagero e o drama emocional.",
+      "E": "A linguagem rebuscada e o culto à forma."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 128,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual o nome popular dado ao Arcadismo no Brasil?",
+    "alternatives": {
+      "A": "Quinhentismo",
+      "B": "Neoclassicismo",
+      "C": "Romantismo",
+      "D": "Modernismo",
+      "E": "Simbolismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 129,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "MÉDIO",
+    "question_text": "Qual das características abaixo é típica da poesia árcade?",
+    "alternatives": {
+      "A": "Uso intenso de linguagem religiosa e barroca.",
+      "B": "Idealização da vida simples no campo e exaltação da natureza.",
+      "C": "Exploração de temas urbanos e industriais.",
+      "D": "Linguagem coloquial e linguagem popular.",
+      "E": "Foco em conflitos psicológicos complexos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 130,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "MÉDIO",
+    "question_text": "Quem foi um dos principais poetas do Arcadismo brasileiro?",
+    "alternatives": {
+      "A": "Gregório de Matos",
+      "B": "Cláudio Manuel da Costa",
+      "C": "Carlos Drummond de Andrade",
+      "D": "Manuel Bandeira",
+      "E": "José de Alencar"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 131,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "DIFÍCIL",
+    "question_text": "No Arcadismo, a utilização do pseudônimo e do nome pastoral tem como objetivo:",
+    "alternatives": {
+      "A": "Esconder a identidade do autor por medo da censura.",
+      "B": "Criar uma ligação com a tradição clássica e simbolizar a harmonia com a natureza.",
+      "C": "Destacar a importância da vida urbana.",
+      "D": "Expressar a complexidade psicológica dos personagens.",
+      "E": "Criticar abertamente o sistema político vigente."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 132,
+    "discipline": "LITERATURA",
+    "theme": "ARCADISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Qual foi uma das influências filosóficas mais importantes para o Arcadismo?",
+    "alternatives": {
+      "A": "Romantismo",
+      "B": "Iluminismo",
+      "C": "Existencialismo",
+      "D": "Realismo",
+      "E": "Modernismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 133,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "FÁCIL",
+    "question_text": "O Romantismo valorizava principalmente:",
+    "alternatives": {
+      "A": "A razão e a objetividade.",
+      "B": "Os sentimentos, a imaginação e a subjetividade.",
+      "C": "A simplicidade e a natureza pastoral.",
+      "D": "A crítica social e política direta.",
+      "E": "A linguagem técnica e científica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 134,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual é uma característica marcante da poesia romântica?",
+    "alternatives": {
+      "A": "Uso de linguagem objetiva e impessoal.",
+      "B": "Exaltação do amor idealizado e da natureza.",
+      "C": "Narrativas históricas detalhadas.",
+      "D": "Desprezo pela emoção e pelos sentimentos.",
+      "E": "Foco em temas científicos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 135,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "MÉDIO",
+    "question_text": "No Romantismo brasileiro, qual foi uma das principais preocupações temáticas?",
+    "alternatives": {
+      "A": "A valorização da cultura indígena e da natureza brasileira.",
+      "B": "O uso exclusivo de temas europeus.",
+      "C": "A crítica aberta ao governo português.",
+      "D": "A literatura científica e técnica.",
+      "E": "O abandono das tradições locais."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 136,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "MÉDIO",
+    "question_text": "Quem é considerado o primeiro grande poeta romântico brasileiro?",
+    "alternatives": {
+      "A": "Manuel Bandeira",
+      "B": "Gonçalves Dias",
+      "C": "Carlos Drummond de Andrade",
+      "D": "Gregório de Matos",
+      "E": "Machado de Assis"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 137,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Quais são as três fases principais do Romantismo brasileiro?",
+    "alternatives": {
+      "A": "Indianista, Urbano e Modernista.",
+      "B": "Indianista, Ultra-romântica (ou mal do século) e Condoreira.",
+      "C": "Realista, Naturalista e Simbolista.",
+      "D": "Barroca, Neoclássica e Modernista.",
+      "E": "Pós-modernista, Simbolista e Romântica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 138,
+    "discipline": "LITERATURA",
+    "theme": "ROMANTISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Na fase ultra-romântica do Romantismo brasileiro, quais temas predominam?",
+    "alternatives": {
+      "A": "Exaltação da natureza e do Brasil.",
+      "B": "Idealização do amor, sentimento de melancolia, morte e pessimismo.",
+      "C": "Crítica social e política contundente.",
+      "D": "Foco em temas históricos e nacionalistas.",
+      "E": "Narrativas de aventura e fantasia."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 139,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "FÁCIL",
+    "question_text": "O Realismo na literatura caracteriza-se principalmente por:",
+    "alternatives": {
+      "A": "Exaltar os sentimentos e a subjetividade.",
+      "B": "Retratar a realidade de forma objetiva e crítica.",
+      "C": "Explorar o mundo fantástico e sobrenatural.",
+      "D": "Valorizar a simplicidade e o campo.",
+      "E": "Utilizar linguagem simbólica e abstrata."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 140,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual autor é considerado um dos maiores representantes do Realismo brasileiro?",
+    "alternatives": {
+      "A": "José de Alencar",
+      "B": "Machado de Assis",
+      "C": "Gonçalves Dias",
+      "D": "Carlos Drummond de Andrade",
+      "E": "Manuel Bandeira"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 141,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "MÉDIO",
+    "question_text": "Qual a principal característica do romance realista em relação aos personagens?",
+    "alternatives": {
+      "A": "Personagens idealizados e heróicos.",
+      "B": "Personagens com comportamentos complexos, muitas vezes contraditórios e realistas.",
+      "C": "Personagens baseados em mitos e lendas.",
+      "D": "Personagens sempre alegres e otimistas.",
+      "E": "Personagens sem profundidade psicológica."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 142,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "MÉDIO",
+    "question_text": "O que diferencia o Realismo do Romantismo na literatura brasileira?",
+    "alternatives": {
+      "A": "O Realismo valoriza a objetividade e o crítico social, enquanto o Romantismo foca na emoção e no idealismo.",
+      "B": "O Realismo tem como tema principal a fantasia e o sobrenatural.",
+      "C": "O Romantismo rejeita qualquer tipo de emoção no texto.",
+      "D": "O Realismo utiliza somente poesia, enquanto o Romantismo usa prosa.",
+      "E": "Não há diferenças significativas entre os dois movimentos."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 143,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Em 'Dom Casmurro', Machado de Assis utiliza o narrador Bentinho para:",
+    "alternatives": {
+      "A": "Narrar a história de forma objetiva e impessoal.",
+      "B": "Apresentar uma narrativa subjetiva e ambígua, levantando dúvidas sobre os fatos.",
+      "C": "Focar apenas em diálogos entre personagens secundários.",
+      "D": "Expor claramente todos os fatos com provas e evidências.",
+      "E": "Criar uma narrativa de aventura e ação."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 144,
+    "discipline": "LITERATURA",
+    "theme": "REALISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Qual técnica literária é frequentemente associada ao Realismo e que busca representar o fluxo dos pensamentos e sentimentos dos personagens?",
+    "alternatives": {
+      "A": "Fluxo de consciência",
+      "B": "Metáfora",
+      "C": "Aliteração",
+      "D": "Hipérbole",
+      "E": "Onomatopeia"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 145,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "FÁCIL",
+    "question_text": "O Simbolismo, movimento literário do final do século XIX, é caracterizado por:",
+    "alternatives": {
+      "A": "Uso direto e objetivo da linguagem.",
+      "B": "Valorização dos símbolos, subjetividade e musicalidade dos versos.",
+      "C": "Narrativas realistas e detalhadas.",
+      "D": "Temas históricos e sociais explícitos.",
+      "E": "Linguagem simples e coloquial."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 146,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual poeta é considerado um dos principais representantes do Simbolismo no Brasil?",
+    "alternatives": {
+      "A": "Cruz e Sousa",
+      "B": "Castro Alves",
+      "C": "Carlos Drummond de Andrade",
+      "D": "Manuel Bandeira",
+      "E": "Gregório de Matos"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 147,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "MÉDIO",
+    "question_text": "Qual é uma das principais características do estilo simbolista?",
+    "alternatives": {
+      "A": "Uso frequente de metáforas e imagens para sugerir significados ocultos.",
+      "B": "Narrativa linear e clara.",
+      "C": "Descreve fatos históricos com precisão.",
+      "D": "Linguagem objetiva e descritiva.",
+      "E": "Foco em temas políticos e sociais."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 148,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "MÉDIO",
+    "question_text": "O Simbolismo surgiu como uma reação a qual movimento literário?",
+    "alternatives": {
+      "A": "Romantismo",
+      "B": "Realismo e Naturalismo",
+      "C": "Modernismo",
+      "D": "Barroco",
+      "E": "Arcadismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 149,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "DIFÍCIL",
+    "question_text": "No Simbolismo, a musicalidade dos versos é muito valorizada. Isso significa que:",
+    "alternatives": {
+      "A": "O ritmo e o som das palavras são usados para criar sensações e emoções no leitor.",
+      "B": "As rimas são evitadas a todo custo.",
+      "C": "A métrica é sempre fixa e rígida.",
+      "D": "Os poemas são escritos em prosa.",
+      "E": "Não há preocupação com o som, apenas com o sentido literal."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 150,
+    "discipline": "LITERATURA",
+    "theme": "SIMBOLISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Cite uma das obras mais conhecidas de Cruz e Sousa, símbolo do Simbolismo brasileiro.",
+    "alternatives": {
+      "A": "\"Missal\"",
+      "B": "\"Os Lusíadas\"",
+      "C": "\"Macunaíma\"",
+      "D": "\"Memórias Póstumas de Brás Cubas\"",
+      "E": "\"O Primo Basílio\""
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 151,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "FÁCIL",
+    "question_text": "O Pré-Modernismo brasileiro é um período literário que antecede qual movimento?",
+    "alternatives": {
+      "A": "Romantismo",
+      "B": "Realismo",
+      "C": "Modernismo",
+      "D": "Barroco",
+      "E": "Simbolismo"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 152,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "FÁCIL",
+    "question_text": "Qual tema era comum nas obras do Pré-Modernismo brasileiro?",
+    "alternatives": {
+      "A": "A idealização do amor e da natureza.",
+      "B": "A crítica social, o regionalismo e a realidade brasileira.",
+      "C": "A fantasia e o sobrenatural.",
+      "D": "O uso de linguagem rebuscada e erudita.",
+      "E": "A poesia concreta e experimental."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 153,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "MÉDIO",
+    "question_text": "Qual autor é considerado um dos principais representantes do Pré-Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Euclides da Cunha",
+      "B": "Carlos Drummond de Andrade",
+      "C": "Manuel Bandeira",
+      "D": "Machado de Assis",
+      "E": "Gonçalves Dias"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 154,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "MÉDIO",
+    "question_text": "Qual obra é considerada um marco do Pré-Modernismo brasileiro?",
+    "alternatives": {
+      "A": "\"Os Sertões\", de Euclides da Cunha",
+      "B": "\"Memórias Póstumas de Brás Cubas\", de Machado de Assis",
+      "C": "\"Iracema\", de José de Alencar",
+      "D": "\"Macunaíma\", de Mário de Andrade",
+      "E": "\"Canção do Exílio\", de Gonçalves Dias"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 155,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "DIFÍCIL",
+    "question_text": "O Pré-Modernismo brasileiro é marcado por um olhar crítico sobre:",
+    "alternatives": {
+      "A": "A vida urbana idealizada.",
+      "B": "As condições sociais, políticas e econômicas do Brasil, especialmente do sertão e das classes populares.",
+      "C": "Os mitos indígenas e suas lendas.",
+      "D": "A fantasia e o escapismo.",
+      "E": "A celebração da monarquia."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 156,
+    "discipline": "LITERATURA",
+    "theme": "PRÉ-MODERNISMO",
+    "level": "DIFÍCIL",
+    "question_text": "Além de Euclides da Cunha, quais outros autores são representantes do Pré-Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Gonçalves Dias e José de Alencar",
+      "B": "Graça Aranha e Lima Barreto",
+      "C": "Carlos Drummond de Andrade e Manuel Bandeira",
+      "D": "Machado de Assis e Álvares de Azevedo",
+      "E": "Cruz e Sousa e Gregório de Matos"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 157,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "FÁCIL",
+    "question_text": "As Vanguardas Europeias surgiram principalmente em qual período?",
+    "alternatives": {
+      "A": "Século XVIII",
+      "B": "Final do século XIX e início do século XX",
+      "C": "Século XVI",
+      "D": "Século XXI",
+      "E": "Século XVII"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 158,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "FÁCIL",
+    "question_text": "Qual é uma característica marcante das Vanguardas Europeias?",
+    "alternatives": {
+      "A": "Valorização das tradições literárias clássicas.",
+      "B": "Experimentação e ruptura com as formas tradicionais.",
+      "C": "Foco em temas religiosos e medievais.",
+      "D": "Uso exclusivo da linguagem formal e acadêmica.",
+      "E": "Rejeição de qualquer inovação artística."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 159,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "MÉDIO",
+    "question_text": "Qual das opções abaixo é uma das principais vanguardas europeias do início do século XX?",
+    "alternatives": {
+      "A": "Realismo",
+      "B": "Cubismo",
+      "C": "Romantismo",
+      "D": "Barroco",
+      "E": "Arcadismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 160,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "MÉDIO",
+    "question_text": "O Futurismo, uma das Vanguardas Europeias, tinha como foco principal:",
+    "alternatives": {
+      "A": "A nostalgia pelo passado medieval.",
+      "B": "A exaltação da velocidade, tecnologia e o dinamismo da era moderna.",
+      "C": "A valorização da natureza e do campo.",
+      "D": "A imitação das formas clássicas da antiguidade.",
+      "E": "A crítica ao progresso tecnológico."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 161,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "DIFÍCIL",
+    "question_text": "Qual movimento vanguardista é conhecido por sua ênfase no inconsciente, nos sonhos e no irracional?",
+    "alternatives": {
+      "A": "Expressionismo",
+      "B": "Surrealismo",
+      "C": "Dadaísmo",
+      "D": "Cubismo",
+      "E": "Futurismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 162,
+    "discipline": "LITERATURA",
+    "theme": "VANGUARDAS EUROPEIAS",
+    "level": "DIFÍCIL",
+    "question_text": "O Dadaísmo, uma das Vanguardas Europeias, é marcado por:",
+    "alternatives": {
+      "A": "Apoio às tradições literárias e artísticas.",
+      "B": "Rebelião contra a lógica, a razão e as convenções artísticas, usando o absurdo e o nonsense.",
+      "C": "Ênfase na representação realista da sociedade.",
+      "D": "Retorno à arte clássica e renascentista.",
+      "E": "Temas predominantemente religiosos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 163,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "FÁCIL",
+    "question_text": "A Primeira Fase do Modernismo brasileiro é também conhecida como:",
+    "alternatives": {
+      "A": "Fase Social",
+      "B": "Fase Regionalista",
+      "C": "Fase Pau-Brasil",
+      "D": "Fase Parnasiana",
+      "E": "Fase Simbolista"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 164,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "FÁCIL",
+    "question_text": "Qual evento marcou o início oficial do Modernismo no Brasil?",
+    "alternatives": {
+      "A": "Semana de Arte Moderna de 1922",
+      "B": "Publicação de \"Os Sertões\"",
+      "C": "Independência do Brasil",
+      "D": "Proclamação da República",
+      "E": "Fim da escravidão"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 165,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "MÉDIO",
+    "question_text": "Qual dessas características é marcante na Primeira Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Valorização do regionalismo e crítica social direta.",
+      "B": "Experimentação formal, ruptura com o passado e nacionalismo estético.",
+      "C": "Foco exclusivo em temas urbanos e industriais.",
+      "D": "Uso da linguagem acadêmica e rebuscada.",
+      "E": "Narrativas realistas e detalhadas."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 166,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "MÉDIO",
+    "question_text": "Qual poeta é um dos principais nomes da Fase Pau-Brasil do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Mário de Andrade",
+      "B": "Manuel Bandeira",
+      "C": "Oswald de Andrade",
+      "D": "Carlos Drummond de Andrade",
+      "E": "Gregório de Matos"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 167,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "A obra \"Manifesto Pau-Brasil\", de Oswald de Andrade, defende principalmente:",
+    "alternatives": {
+      "A": "A imitação rigorosa da literatura europeia clássica.",
+      "B": "A valorização da cultura nacional brasileira e a liberdade estética.",
+      "C": "O abandono total das tradições nacionais em favor do estrangeiro.",
+      "D": "O retorno ao Arcadismo e ao Classicismo.",
+      "E": "A defesa do romantismo tradicional."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 168,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – PRIMEIRA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "Um dos principais objetivos dos escritores da Primeira Fase do Modernismo era:",
+    "alternatives": {
+      "A": "Criar uma arte que rompesse com o passado e expressasse a identidade brasileira de forma inovadora.",
+      "B": "Reforçar os valores da literatura parnasiana e simbolista.",
+      "C": "Focar apenas em temas estrangeiros e universais.",
+      "D": "Manter a linguagem formal e tradicional.",
+      "E": "Evitar qualquer tipo de experimentação literária."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 169,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "FÁCIL",
+    "question_text": "A Segunda Fase do Modernismo brasileiro também é conhecida como:",
+    "alternatives": {
+      "A": "Fase Pau-Brasil",
+      "B": "Fase Regionalista",
+      "C": "Fase Concretista",
+      "D": "Fase Simbolista",
+      "E": "Fase Romântica"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 170,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "FÁCIL",
+    "question_text": "Em que período ocorreu a Segunda Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "1922-1930",
+      "B": "1930-1945",
+      "C": "1950-1960",
+      "D": "1910-1920",
+      "E": "1945-1960"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 171,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "FÁCIL",
+    "question_text": "Qual tema é predominante na Segunda Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "A exaltação da cultura europeia clássica.",
+      "B": "A valorização do regionalismo e das questões sociais brasileiras.",
+      "C": "O surrealismo e o abstracionismo.",
+      "D": "O escapismo e o romantismo idealizado.",
+      "E": "A experimentação formal sem preocupações sociais."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 172,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "MÉDIO",
+    "question_text": "Qual desses escritores foi um dos principais nomes da Segunda Fase do Modernismo?",
+    "alternatives": {
+      "A": "Oswald de Andrade",
+      "B": "Graciliano Ramos",
+      "C": "Manuel Bandeira",
+      "D": "Mário de Andrade",
+      "E": "Carlos Drummond de Andrade"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 173,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "MÉDIO",
+    "question_text": "Qual obra representa a literatura regionalista da Segunda Fase do Modernismo?",
+    "alternatives": {
+      "A": "\"Macunaíma\", de Mário de Andrade",
+      "B": "\"Vidas Secas\", de Graciliano Ramos",
+      "C": "\"Manifesto Antropófago\", de Oswald de Andrade",
+      "D": "\"Sentimento do Mundo\", de Carlos Drummond de Andrade",
+      "E": "\"A Rosa do Povo\", de Carlos Drummond de Andrade"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 174,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "MÉDIO",
+    "question_text": "Quais são características principais da literatura da Segunda Fase do Modernismo?",
+    "alternatives": {
+      "A": "Foco na fantasia e nas emoções subjetivas.",
+      "B": "Rigor formal e afastamento do contexto social.",
+      "C": "Análise crítica da realidade social e econômica do Brasil, especialmente do Nordeste.",
+      "D": "Narrativas focadas exclusivamente na elite urbana.",
+      "E": "Rejeição do regionalismo e do nacionalismo."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 175,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "O que diferencia a Segunda Fase do Modernismo da Primeira Fase em termos de foco temático?",
+    "alternatives": {
+      "A": "A Primeira Fase focava em temas regionais; a Segunda, em temas urbanos.",
+      "B": "A Primeira Fase enfatizava a ruptura formal; a Segunda, a crítica social e regional.",
+      "C": "A Segunda Fase rejeita qualquer experimentação estética.",
+      "D": "Ambas focam exclusivamente na linguagem experimental.",
+      "E": "A Primeira Fase era exclusivamente política; a Segunda, exclusivamente literária."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 176,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "Além de Graciliano Ramos, cite outro autor importante da Segunda Fase do Modernismo brasileiro.",
+    "alternatives": {
+      "A": "Euclides da Cunha",
+      "B": "Jorge Amado",
+      "C": "Machado de Assis",
+      "D": "Olavo Bilac",
+      "E": "Carlos Drummond de Andrade"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 177,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "A obra \"São Bernardo\", de Graciliano Ramos, trata principalmente de:",
+    "alternatives": {
+      "A": "A vida bucólica do campo sem conflitos.",
+      "B": "Os conflitos psicológicos e sociais de um fazendeiro no interior do Brasil.",
+      "C": "Uma narrativa fantástica cheia de mitos indígenas.",
+      "D": "O romantismo idealizado e os amores impossíveis.",
+      "E": "A história da independência do Brasil."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 178,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "A literatura regionalista da Segunda Fase do Modernismo tem como característica principal:",
+    "alternatives": {
+      "A": "A idealização da vida urbana moderna.",
+      "B": "A crítica social e denúncia das condições de vida do sertão e das classes marginalizadas.",
+      "C": "A exaltação da monarquia brasileira.",
+      "D": "O abandono das tradições culturais brasileiras.",
+      "E": "A defesa da literatura estrangeira."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 179,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "Qual desses poemas foi escrito por Carlos Drummond de Andrade durante a Segunda Fase do Modernismo?",
+    "alternatives": {
+      "A": "\"Os Lusíadas\"",
+      "B": "\"No Meio do Caminho\"",
+      "C": "\"Macunaíma\"",
+      "D": "\"Iracema\"",
+      "E": "\"O Primo Basílio\""
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 180,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – SEGUNDA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "Qual foi uma das principais influências para o desenvolvimento da literatura regionalista na Segunda Fase do Modernismo?",
+    "alternatives": {
+      "A": "A cultura indígena tradicional sem influências externas.",
+      "B": "As condições sociais, econômicas e políticas do Brasil, especialmente a seca no Nordeste.",
+      "C": "O movimento barroco europeu.",
+      "D": "O futurismo italiano.",
+      "E": "O movimento simbolista francês."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 181,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "FÁCIL",
+    "question_text": "A Terceira Fase do Modernismo brasileiro é conhecida também como:",
+    "alternatives": {
+      "A": "Fase Pau-Brasil",
+      "B": "Fase Regionalista",
+      "C": "Fase Pós-Modernista ou Fase da Consolidação",
+      "D": "Fase Simbolista",
+      "E": "Fase Pré-Modernista"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 182,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "FÁCIL",
+    "question_text": "Em que período aproximadamente se situa a Terceira Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "1910-1920",
+      "B": "1922-1930",
+      "C": "1945-1960",
+      "D": "1970-1980",
+      "E": "1980-1990"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 183,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "MÉDIO",
+    "question_text": "Quais são as principais características da Terceira Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Experimentação formal e ruptura com o passado.",
+      "B": "Consolidação do Modernismo, diversidade temática e maior valorização da linguagem poética.",
+      "C": "Foco exclusivo no regionalismo nordestino.",
+      "D": "Retorno ao Romantismo clássico.",
+      "E": "Narrativas unicamente objetivas e realistas."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 184,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "MÉDIO",
+    "question_text": "Qual desses escritores é considerado um representante da Terceira Fase do Modernismo brasileiro?",
+    "alternatives": {
+      "A": "Mário de Andrade",
+      "B": "Graciliano Ramos",
+      "C": "João Cabral de Melo Neto",
+      "D": "Oswald de Andrade",
+      "E": "Euclides da Cunha"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 185,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "Quais são as principais inovações linguísticas da poesia da Terceira Fase do Modernismo?",
+    "alternatives": {
+      "A": "Linguagem simples, objetiva, muitas vezes fragmentada, com atenção à sonoridade e ritmo.",
+      "B": "Uso exclusivo de linguagem formal e rebuscada.",
+      "C": "Linguagem exclusivamente regionalista e coloquial.",
+      "D": "Ausência total de figuras de linguagem.",
+      "E": "Poesia tradicional com métrica rígida."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 186,
+    "discipline": "LITERATURA",
+    "theme": "MODERNISMO – TERCEIRA FASE",
+    "level": "DIFÍCIL",
+    "question_text": "O livro \"Morte e Vida Severina\", de João Cabral de Melo Neto, é um exemplo de obra da Terceira Fase do Modernismo que aborda:",
+    "alternatives": {
+      "A": "O cotidiano urbano sem preocupações sociais.",
+      "B": "A vida difícil do sertanejo nordestino e as questões sociais do Brasil.",
+      "C": "O romantismo e a idealização da natureza.",
+      "D": "Temas fantásticos e mitológicos.",
+      "E": "A história da monarquia brasileira."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 193,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "FÁCIL",
+    "question_text": "Qual é uma característica marcante da literatura contemporânea?",
+    "alternatives": {
+      "A": "Uso exclusivo de formas literárias clássicas.",
+      "B": "Diversidade temática e experimentação estética.",
+      "C": "Foco apenas em narrativas históricas.",
+      "D": "Rejeição da linguagem coloquial.",
+      "E": "Imitação do Romantismo."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 194,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "FÁCIL",
+    "question_text": "A literatura contemporânea aborda frequentemente temas relacionados a:",
+    "alternatives": {
+      "A": "Pluralidade cultural e identidade.",
+      "B": "Exclusivamente a natureza.",
+      "C": "Romantismo tradicional.",
+      "D": "Somente mitos e lendas.",
+      "E": "Arcadismo."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 195,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "FÁCIL",
+    "question_text": "Qual destas características formais é típica da literatura contemporânea?",
+    "alternatives": {
+      "A": "Narrativa linear e cronológica rígida.",
+      "B": "Fragmentação e intertextualidade.",
+      "C": "Linguagem exclusivamente formal.",
+      "D": "Ausência de metáforas.",
+      "E": "Estrutura tradicional em versos."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 196,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "MÉDIO",
+    "question_text": "Quais temas sociais são comuns na literatura contemporânea?",
+    "alternatives": {
+      "A": "Gênero, diversidade e globalização.",
+      "B": "Somente temas do século XIX.",
+      "C": "Temas exclusivamente históricos.",
+      "D": "Monarquia europeia.",
+      "E": "Mitologia clássica."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 197,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "MÉDIO",
+    "question_text": "Qual autor brasileiro é conhecido por abordar questões urbanas e existenciais na literatura contemporânea?",
+    "alternatives": {
+      "A": "Clarice Lispector",
+      "B": "Machado de Assis",
+      "C": "Euclides da Cunha",
+      "D": "José de Alencar",
+      "E": "Gregório de Matos"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 198,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "MÉDIO",
+    "question_text": "Além de Clarice Lispector, qual outro autor brasileiro é importante na literatura contemporânea?",
+    "alternatives": {
+      "A": "João Guimarães Rosa",
+      "B": "Cruz e Sousa",
+      "C": "Álvares de Azevedo",
+      "D": "Gonçalves Dias",
+      "E": "Olavo Bilac"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 199,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "DIFÍCIL",
+    "question_text": "Um desafio comum na interpretação da literatura contemporânea é:",
+    "alternatives": {
+      "A": "A linearidade das narrativas.",
+      "B": "A complexidade estrutural e a multiplicidade de vozes.",
+      "C": "A ausência total de figuras de linguagem.",
+      "D": "A simplicidade dos temas tratados.",
+      "E": "O uso exclusivo de linguagem popular."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 200,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "DIFÍCIL",
+    "question_text": "Quais são características linguísticas frequentes na literatura contemporânea?",
+    "alternatives": {
+      "A": "Linguagem fragmentada, uso de colagens e pluralidade de estilos.",
+      "B": "Linguagem formal e rígida.",
+      "C": "Ausência de experimentação estética.",
+      "D": "Uso exclusivo de dialetos regionais.",
+      "E": "Narrativas lineares sem variações."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 201,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "DIFÍCIL",
+    "question_text": "A literatura contemporânea frequentemente dialoga com outras artes, fenômeno conhecido como:",
+    "alternatives": {
+      "A": "Intertextualidade",
+      "B": "Multimodalidade",
+      "C": "Monologia",
+      "D": "Classicismo",
+      "E": "Parnasianismo"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 202,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "DIFÍCIL",
+    "question_text": "A literatura contemporânea se caracteriza pela presença do que é chamado de:",
+    "alternatives": {
+      "A": "Narrativas fechadas e conclusivas.",
+      "B": "Ambiguidade, fragmentação e multiplicidade de sentidos.",
+      "C": "Exclusivo uso do verso clássico.",
+      "D": "Rejeição de temas sociais.",
+      "E": "Predominância da linguagem erudita."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 203,
+    "discipline": "LITERATURA",
+    "theme": "CONTEMPORANEIDADE",
+    "level": "DIFÍCIL",
+    "question_text": "Qual destas obras é representativa da literatura contemporânea brasileira?",
+    "alternatives": {
+      "A": "\"A Hora da Estrela\", de Clarice Lispector",
+      "B": "\"Iracema\", de José de Alencar",
+      "C": "\"Memórias Póstumas de Brás Cubas\", de Machado de Assis",
+      "D": "\"O Primo Basílio\", de José Maria de Eça de Queirós",
+      "E": "\"Os Sertões\", de Euclides da Cunha"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 215,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "FÁCIL",
+    "question_text": "A prosa contemporânea brasileira é marcada por:",
+    "alternatives": {
+      "A": "Narrativas lineares e previsíveis.",
+      "B": "Diversidade de estilos e temas variados.",
+      "C": "Exclusivo uso do regionalismo tradicional.",
+      "D": "Foco exclusivo na literatura infantil.",
+      "E": "Imitação das formas clássicas europeias."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 216,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "FÁCIL",
+    "question_text": "Qual característica é comum na narrativa da prosa contemporânea?",
+    "alternatives": {
+      "A": "Personagens complexos e temas existenciais.",
+      "B": "Ausência de conflitos internos.",
+      "C": "Narrativas exclusivamente históricas.",
+      "D": "Foco na literatura didática.",
+      "E": "Linguagem rebuscada e arcaica."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 217,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "MÉDIO",
+    "question_text": "Qual dos autores abaixo é considerado um expoente da prosa contemporânea brasileira?",
+    "alternatives": {
+      "A": "Clarice Lispector",
+      "B": "Machado de Assis",
+      "C": "Graciliano Ramos",
+      "D": "Euclides da Cunha",
+      "E": "José de Alencar"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 218,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "MÉDIO",
+    "question_text": "A obra \"A Hora da Estrela\", de Clarice Lispector, é um exemplo de:",
+    "alternatives": {
+      "A": "Prosa contemporânea com foco em temas existenciais e sociais.",
+      "B": "Romance regionalista do século XIX.",
+      "C": "Poesia concreta da década de 1950.",
+      "D": "Narrativa fantástica medieval.",
+      "E": "Literatura didática infantil."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 219,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "DIFÍCIL",
+    "question_text": "Como a prosa contemporânea brasileira trata a linguagem e a estrutura narrativa?",
+    "alternatives": {
+      "A": "Através da experimentação, fragmentação e múltiplas vozes narrativas.",
+      "B": "Mantendo estruturas rígidas e lineares.",
+      "C": "Usando somente a linguagem formal e acadêmica.",
+      "D": "Focando apenas no regionalismo tradicional.",
+      "E": "Rejeitando a diversidade de estilos."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 220,
+    "discipline": "LITERATURA",
+    "theme": "PROSA CONTEMPORÂNEA",
+    "level": "DIFÍCIL",
+    "question_text": "Qual desses escritores contemporâneos aborda questões urbanas e existenciais em suas obras?",
+    "alternatives": {
+      "A": "Rubem Fonseca",
+      "B": "José de Alencar",
+      "C": "Aluísio Azevedo",
+      "D": "Castro Alves",
+      "E": "Gonçalves Dias"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 221,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "FÁCIL",
+    "question_text": "Qual obra é considerada marco inicial da literatura portuguesa?",
+    "alternatives": {
+      "A": "Os Lusíadas, de Luís de Camões",
+      "B": "Mensagem, de Fernando Pessoa",
+      "C": "Cantigas de Santa Maria, atribuídas a Afonso X",
+      "D": "Renascimento, de Gil Vicente",
+      "E": "A Balada de Rei Cinzento"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 222,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "FÁCIL",
+    "question_text": "Qual é a principal característica do Barroco em Portugal?",
+    "alternatives": {
+      "A": "Exaltação da simplicidade e clareza.",
+      "B": "Conflito entre fé e dúvida, e uso intenso de contrastes.",
+      "C": "Foco no amor idealizado e na natureza.",
+      "D": "Rejeição das formas clássicas.",
+      "E": "Narrativas lineares e objetivas."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 223,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "MÉDIO",
+    "question_text": "Fernando Pessoa é conhecido por criar múltiplos heterônimos. Qual destes NÃO é um dos seus heterônimos?",
+    "alternatives": {
+      "A": "Alberto Caeiro",
+      "B": "Álvaro de Campos",
+      "C": "Ricardo Reis",
+      "D": "Camilo Castelo Branco",
+      "E": "Bernardo Soares"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 224,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "MÉDIO",
+    "question_text": "Qual autor português é considerado um dos maiores nomes do Modernismo em Portugal?",
+    "alternatives": {
+      "A": "Luís de Camões",
+      "B": "Fernando Pessoa",
+      "C": "Camilo Castelo Branco",
+      "D": "Eça de Queirós",
+      "E": "José Saramago"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 225,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "DIFÍCIL",
+    "question_text": "A obra \"Os Lusíadas\", de Luís de Camões, é um exemplo clássico de qual gênero literário?",
+    "alternatives": {
+      "A": "Épico",
+      "B": "Lírico",
+      "C": "Dramático",
+      "D": "Romântico",
+      "E": "Realista"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 226,
+    "discipline": "LITERATURA",
+    "theme": "LITERATURA PORTUGUESA",
+    "level": "DIFÍCIL",
+    "question_text": "Qual o principal tema explorado na obra \"Mensagem\", de Fernando Pessoa?",
+    "alternatives": {
+      "A": "Mitologia e destino de Portugal",
+      "B": "Romance e paixão pessoal",
+      "C": "Crítica social e política contemporânea",
+      "D": "Natureza e vida rural",
+      "E": "Relatos históricos medievais"
+    },
+    "correct_answer": "A"
   }
 ]
