@@ -12,7 +12,15 @@ SENDER_PASSWORD = "kaak amll ocpj mads"
 def send_new_user_email(receiver_email, first_name, last_name, username, password):
     subject = "credenciais"
     body = f"""
-    msg boas vindas.
+    Bem-vindo ao nosso sistema questões, {first_name} {last_name}
+    
+    Segue suas credenciais de acesso ao sistema:
+    
+    Usuário: {username}
+    Senha: {password}
+    
+    Atenciosamente,
+    Nexus-IFPE
     """
 
     msg = MIMEMultipart()

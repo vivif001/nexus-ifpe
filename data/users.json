@@ -24,5 +24,29 @@
         "login": "nctifpe@gmail.com",
         "password": "1234",
         "role": "user"
+    },
+    {
+        "id": "4",
+        "firstName": "dudu",
+        "lastName": "do sax",
+        "login": "ehcf@discente.ifpe.edu.br",
+        "password": "123456",
+        "role": "user"
+    },
+    {
+        "id": "5",
+        "firstName": "eduardo",
+        "lastName": "fonseca",
+        "login": "fonseca.eduardo2007@gmail.com",
+        "password": "saxofone",
+        "role": "user"
+    },
+    {
+        "id": "6",
+        "firstName": "teteu",
+        "lastName": "teteuporra",
+        "login": "matheus.jbr12345@gmail.com",
+        "password": "teteu",
+        "role": "user"
     }
 ]
