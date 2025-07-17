@@ -72,6 +72,7 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
         self.selected_theme = None
         self.num_questions = 0
         self.random_order = True
+        self.selected_time_minutes = 0
 
         self.layout = QtWidgets.QVBoxLayout(self)
 
@@ -89,6 +90,15 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
         self.spinBox_NumQuestions.setMinimum(0)
         self.spinBox_NumQuestions.setMaximum(len(QUESTIONS))
         self.spinBox_NumQuestions.setValue(0)
+        
+        self.time_label = QtWidgets.QLabel("Tempo do Simulado (minutos):")
+        self.combo_Time = QtWidgets.QComboBox(self)
+        self.time_options = ["15", "30", "45", "60", "90", "180"]
+        self.combo_Time.addItems(self.time_options)
+        self.combo_Time.setCurrentText("60")
+
+        self.layout.addWidget(self.time_label)
+        self.layout.addWidget(self.combo_Time)
 
         self.layout.addWidget(self.num_questions_label)
         self.layout.addWidget(self.spinBox_NumQuestions)
@@ -96,6 +106,8 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
         if not self.is_simulado:
             self.num_questions_label.hide()
             self.spinBox_NumQuestions.hide()
+            self.time_label.hide() 
+            self.combo_Time.hide()
 
         self.layout.addStretch()
 
@@ -146,16 +158,23 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
         if self.is_simulado:
             self.num_questions = self.spinBox_NumQuestions.value()
             self.random_order = True
-        else:
+            try: 
+                self.selected_time_minutes = int(self.combo_Time.currentText())
+            except ValueError:
+                self.selected_time_minutes = 60 
+                QMessageBox.warning(self, "Erro de Tempo", "Tempo inválido selecionado. Usando 60 minutos como padrão.")
+        else: 
             self.num_questions = 0
-            self.random_order = True
+            self.random_order = True 
+            self.selected_time_minutes = 0
+
 
         self.accept()
 
     def get_filters(self):
-        return self.selected_discipline, self.selected_theme, self.num_questions, self.random_order
+        return self.selected_discipline, self.selected_theme, self.num_questions, self.random_order, self.selected_time_minutes
 class QuestionsWindow(QtWidgets.QMainWindow):
-    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, num_questions=0, random_order=False, parent=None):
+    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, num_questions=0, random_order=True, selected_time_minutes=0, parent=None):
         super().__init__(parent)
         self.ui = Ui_QuestionsWindow()
         self.ui.setupUi(self)
@@ -180,6 +199,8 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
             if match_discipline and match_theme:
                 filtered_questions_list.append(q)
+        
+        random.shuffle(filtered_questions_list)
 
         if num_questions > 0 and num_questions < len(filtered_questions_list):
             self.questions = filtered_questions_list[:num_questions]
@@ -196,8 +217,12 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_timer)
-        self.time_left_in_seconds = 60 * 10 # Ex; 10 minutos para o simulado (_600 segundos)
-        
+
+        if selected_time_minutes > 0:
+            self.time_left_in_seconds = selected_time_minutes * 60
+        else: 
+            self.time_left_in_seconds = 0
+                
         if not hasattr(self.ui, 'label_Timer'):
             self.ui.label_Timer = QtWidgets.QLabel(self.ui.centralwidget)
             self.ui.label_Timer.setGeometry(QtCore.QRect(30, 10, 200, 20))
@@ -210,10 +235,11 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
         self.update_timer_display()
         
-        if num_questions > 0 or random_order:
+        if selected_time_minutes > 0:
              self.timer.start(1000)
         else:
-            self.ui.label_Timer.hide()
+            if hasattr(self.ui, 'label_Timer'):
+                self.ui.label_Timer.hide()
             self.timer.stop()
 
 
@@ -616,7 +642,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         filter_dialog = FilterQuestionsDialog(is_simulado=is_simulado, parent=self)
 
         if filter_dialog.exec_() == QtWidgets.QDialog.Accepted:
-            discipline_filter, theme_filter, num_questions, random_order = filter_dialog.get_filters()
+            discipline_filter, theme_filter, num_questions, random_order, selected_time_minutes = filter_dialog.get_filters()
 
             self.questions_window = QuestionsWindow(
                 user_id=self.current_user_id,
@@ -624,6 +650,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
                 theme_filter=theme_filter,
                 num_questions=num_questions,
                 random_order=random_order, 
+                selected_time_minutes=selected_time_minutes,
                 parent=self
             )
             if self.questions_window.questions:
