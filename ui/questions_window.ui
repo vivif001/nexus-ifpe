@@ -60,7 +60,7 @@ background-color: rgb(192, 255, 164);
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>340</y>
+      <y>330</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -236,6 +236,12 @@ QPushButton:pressed {
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
 background-color: rgb(192, 255, 164);
@@ -245,14 +251,17 @@ background-color: rgb(192, 255, 164);
 background-color: rgb(192, 255, 164);</string>
     </property>
     <property name="text">
-     <string>próxima questão</string>
+     <string>PRÓXIMA QUESTÃO</string>
+    </property>
+    <property name="icon">
+     <iconset theme="NONE"/>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>330</y>
+      <y>320</y>
       <width>841</width>
       <height>41</height>
      </rect>
@@ -360,9 +369,9 @@ background-color: rgb(192, 255, 164);</string>
    <widget class="QCommandLinkButton" name="commandLinkButton_2">
     <property name="geometry">
      <rect>
-      <x>61</x>
+      <x>41</x>
       <y>260</y>
-      <width>141</width>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
@@ -376,7 +385,7 @@ background-color: rgb(192, 255, 164);
 </string>
     </property>
     <property name="text">
-     <string>questão anterior</string>
+     <string>QUESTÃO ANTERIOR</string>
     </property>
     <property name="icon">
      <iconset theme="none">
@@ -386,11 +395,17 @@ background-color: rgb(192, 255, 164);
    <widget class="QPushButton" name="button_ConfirmAnswer">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>267</y>
-      <width>171</width>
-      <height>31</height>
+      <x>460</x>
+      <y>260</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
@@ -402,7 +417,78 @@ background-color: rgb(192, 255, 164);
 </string>
     </property>
     <property name="text">
-     <string>confirmar alternativa</string>
+     <string>CONFIRMAR ALTERNATIVA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="questProgress">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>10</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>QUESTÃO XXX DE XXX</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="themeLabel">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>581</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TEMA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_FinishSim">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>260</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #99ff5a; /* Mesma borda dos LineEdits */
+background-color: rgb(192, 255, 164);
+                border-radius: 20px; /* Mesmo arredondamento */
+                padding: 5px; /* Mesmo padding */
+                background-color: lightyellow; /* Opcional: Para diferenciar um pouco, pode remover *
+background-color: rgb(192, 255, 164);
+</string>
+    </property>
+    <property name="text">
+     <string>FINALIZAR SIMULADO</string>
     </property>
    </widget>
    <zorder>Alternative_A</zorder>
@@ -421,6 +507,9 @@ background-color: rgb(192, 255, 164);
    <zorder>label_7</zorder>
    <zorder>commandLinkButton_2</zorder>
    <zorder>button_ConfirmAnswer</zorder>
+   <zorder>questProgress</zorder>
+   <zorder>themeLabel</zorder>
+   <zorder>button_FinishSim</zorder>
   </widget>
  </widget>
  <resources/>

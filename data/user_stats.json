@@ -1,9 +1,9 @@
 [
     {
         "user_id": 1,
-        "total_questions_answered": 59,
-        "total_correct_answers": 29,
-        "correct_percentage": 49.152542372881356,
+        "total_questions_answered": 78,
+        "total_correct_answers": 35,
+        "correct_percentage": 44.871794871794876,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -39,13 +39,90 @@
                 }
             },
             "GRAMÁTICA": {
-                "total_answered": 9,
-                "total_correct": 3,
+                "total_answered": 14,
+                "total_correct": 5,
                 "themes": {
                     "ORTOGRAFIA": {
                         "answered": 9,
                         "correct": 3,
                         "incorrect": 6
+                    },
+                    "ESTILÍSTICA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "TERMOS INTEGRANTES": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "TERMOS ESSENCIAIS": {
+                        "answered": 2,
+                        "correct": 2,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "LITERATURA": {
+                "total_answered": 10,
+                "total_correct": 4,
+                "themes": {
+                    "SIMBOLISMO": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "CONTEMPORANEIDADE": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "LITERATURA PORTUGUESA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    },
+                    "QUINHENTISMO": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    },
+                    "GÊNEROS NARRATIVOS": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "VANGUARDAS EUROPEIAS": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "PRÉ-MODERNISMO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "ROMANTISMO": {
+                        "answered": 2,
+                        "correct": 2,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "INTERPRETAÇÃO DE TEXTO": {
+                "total_answered": 4,
+                "total_correct": 0,
+                "themes": {
+                    "TEORIA DA COMUNICAÇÃO": {
+                        "answered": 3,
+                        "correct": 0,
+                        "incorrect": 3
+                    },
+                    "LÍNGUA E PATRIMÔNIO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
                     }
                 }
             }

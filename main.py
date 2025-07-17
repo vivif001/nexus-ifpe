@@ -2,6 +2,7 @@ import sys
 import json
 import os
 import random
+import time
 from utils.mail_sender import send_new_user_email
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtWidgets import QMessageBox
@@ -174,17 +175,18 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
     def get_filters(self):
         return self.selected_discipline, self.selected_theme, self.num_questions, self.random_order, self.selected_time_minutes
 class QuestionsWindow(QtWidgets.QMainWindow):
-    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, num_questions=0, random_order=True, selected_time_minutes=0, parent=None):
+    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, num_questions=0, random_order=True, selected_time_minutes=0, is_simulado_param=False, parent=None):
         super().__init__(parent)
         self.ui = Ui_QuestionsWindow()
         self.ui.setupUi(self)
-        self.setWindowTitle("Simulado de Questões" if num_questions > 0 or random_order else "Prática de Questões") 
+        self.setWindowTitle(f"Simulado de Questões ({selected_time_minutes} min)" if selected_time_minutes > 0 else "Prática de Questões")
 
         current_width = self.width()
         current_height = self.height()
         self.setFixedSize(current_width, current_height)
-
         self.current_user_id = user_id
+        self.is_simulado_mode = is_simulado_param
+        self.start_time = time.time() if self.is_simulado_mode else 0
 
         filtered_questions_list = []
         for q in QUESTIONS:
@@ -218,11 +220,11 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_timer)
 
-        if selected_time_minutes > 0:
+        if self.is_simulado_mode and selected_time_minutes > 0:
             self.time_left_in_seconds = selected_time_minutes * 60
-        else: 
+        else:
             self.time_left_in_seconds = 0
-                
+
         if not hasattr(self.ui, 'label_Timer'):
             self.ui.label_Timer = QtWidgets.QLabel(self.ui.centralwidget)
             self.ui.label_Timer.setGeometry(QtCore.QRect(30, 10, 200, 20))
@@ -235,18 +237,30 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
         self.update_timer_display()
         
-        if selected_time_minutes > 0:
-             self.timer.start(1000)
+        if self.is_simulado_mode and selected_time_minutes > 0: 
+            self.timer.start(1000)
         else:
             if hasattr(self.ui, 'label_Timer'):
                 self.ui.label_Timer.hide()
             self.timer.stop()
 
-
-        self.ui.button_ConfirmAnswer.clicked.connect(self.confirm_answer)
         self.ui.commandLinkButton.clicked.connect(self.go_to_next_question)
         self.ui.commandLinkButton_2.clicked.connect(self.previous_question)
         self.ui.button_Exit.clicked.connect(self.back_to_main_menu)
+        self.ui.button_ConfirmAnswer.clicked.connect(self.confirm_answer)
+        if hasattr(self.ui, 'button_FinishSim'): 
+            self.ui.button_FinishSim.clicked.connect(self.finalize_simulado) 
+
+            if not self.is_simulado_mode:
+                self.ui.button_FinishSim.hide()
+                self.ui.button_ConfirmAnswer.setGeometry(360, 260, 191, 41)
+            else:
+                self.ui.button_FinishSim.show()
+                self.ui.button_ConfirmAnswer.setGeometry(460, 260, 201, 41)
+                self.ui.button_FinishSim.setGeometry(230, 260, 201, 41)
+        else:
+            self.ui.button_ConfirmAnswer.setGeometry(360, 260, 191, 41)
+            print("AVISO: 'button_FinishSim' não encontrado na UI. Por favor, adicione-o no Qt Designer.")
 
         self.alternatives_group = QtWidgets.QButtonGroup(self)
         self.alternatives_group.addButton(self.ui.Alternative_A, 0)
@@ -320,6 +334,9 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
         question_data = self.questions[self.current_question_index]
         current_question_id = question_data["id"]
+        
+        if hasattr(self.ui, 'themeLabel'):
+            self.ui.themeLabel.setText(f"Tema: {question_data['theme']}")
 
         self.ui.label_2.setText(question_data["question_text"])
 
@@ -328,6 +345,11 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         self.ui.label_4.setText(f"C) {question_data['alternatives']['C']}")
         self.ui.label_6.setText(f"D) {question_data['alternatives']['D']}")
         self.ui.label_7.setText(f"E) {question_data['alternatives']['E']}")
+        
+        if hasattr(self.ui, 'questProgress'):
+            current_num = self.current_question_index + 1
+            total_num = len(self.questions)
+            self.ui.questProgress.setText(f"Questão {current_num} de {total_num}")
 
         if current_question_id in self.user_answers_history:
             answered_info = self.user_answers_history[current_question_id]
@@ -419,6 +441,49 @@ class QuestionsWindow(QtWidgets.QMainWindow):
             QMessageBox.information(self, "Simulado Concluído!", "Você concluiu todas as questões do simulado!")
             self.back_to_main_menu()
         return True
+    
+    def finalize_simulado(self):
+        self.timer.stop()
+
+        import time 
+        if self.is_simulado_mode and self.start_time > 0:
+            total_time_spent_seconds = int(time.time() - self.start_time)
+            minutes = total_time_spent_seconds // 60
+            seconds = total_time_spent_seconds % 60
+            time_spent_str = f"{minutes:02d}:{seconds:02d}"
+        else:
+            total_time_spent_seconds = 0
+            time_spent_str = "N/A" 
+
+        correct_answers_count = 0
+        total_answered_in_simulado = 0    
+        
+        for q_data in self.questions:
+            q_id = q_data["id"]
+            if q_id in self.user_answers_history:
+                user_answer_info = self.user_answers_history[q_id]
+                is_correct = user_answer_info['is_correct']
+                
+                self.update_user_statistics(
+                    self.current_user_id,
+                    q_data["discipline"],
+                    q_data["theme"],
+                    is_correct
+                )
+                
+                total_answered_in_simulado +=1
+                if is_correct:
+                    correct_answers_count +=1
+        
+        summary_message = (
+            f"Simulado Finalizado!\n\n"
+            f"Questões Respondidas: {total_answered_in_simulado}\n"
+            f"Questões Acertadas: {correct_answers_count}\n"
+            f"Tempo Gasto: {time_spent_str}"
+        )
+        
+        QMessageBox.information(self, "Relatório do Simulado", summary_message)
+        self.back_to_main_menu() 
 
 
     def go_to_next_question(self):
@@ -496,6 +561,7 @@ class QuestionsWindow(QtWidgets.QMainWindow):
             theme_stats["incorrect"] += 1
 
         save_json_data(USER_STATS, json_user_stats_path)     
+
 class AdminWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -651,6 +717,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
                 num_questions=num_questions,
                 random_order=random_order, 
                 selected_time_minutes=selected_time_minutes,
+                is_simulado_param=is_simulado,
                 parent=self
             )
             if self.questions_window.questions:
