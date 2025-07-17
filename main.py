@@ -1,10 +1,12 @@
 import sys
 import json
 import os
+import random
 from utils.mail_sender import send_new_user_email
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtGui import QTextOption
+from PyQt5.QtCore import QTimer, QTime
 from gui.login_window import Ui_LoginWindow
 from gui.main_menu_window import Ui_MainMenuWindow
 from gui.questions_window import Ui_MainWindow as Ui_QuestionsWindow
@@ -56,13 +58,20 @@ USER_STATS = load_json_data(json_user_stats_path)
 
 
 class FilterQuestionsDialog(QtWidgets.QDialog):
-    def __init__(self, parent=None):
+    def __init__(self, is_simulado=False, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("Filtrar Questões")
-        self.setFixedSize(350, 250)
+        self.is_simulado = is_simulado
+        if self.is_simulado:
+            self.setWindowTitle("Configurar Simulado")
+            self.setFixedSize(400, 350)
+        else:
+            self.setWindowTitle("Filtrar Questões para Prática")
+            self.setFixedSize(350, 250)
 
         self.selected_discipline = None
         self.selected_theme = None
+        self.num_questions = 0
+        self.random_order = True
 
         self.layout = QtWidgets.QVBoxLayout(self)
 
@@ -75,23 +84,36 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
         self.combo_Theme = QtWidgets.QComboBox(self)
         self.layout.addWidget(self.theme_label)
         self.layout.addWidget(self.combo_Theme)
-        
+        self.num_questions_label = QtWidgets.QLabel("Número de Questões (0 para todas):")
+        self.spinBox_NumQuestions = QtWidgets.QSpinBox(self)
+        self.spinBox_NumQuestions.setMinimum(0)
+        self.spinBox_NumQuestions.setMaximum(len(QUESTIONS))
+        self.spinBox_NumQuestions.setValue(0)
+
+        self.layout.addWidget(self.num_questions_label)
+        self.layout.addWidget(self.spinBox_NumQuestions)
+
+        if not self.is_simulado:
+            self.num_questions_label.hide()
+            self.spinBox_NumQuestions.hide()
+
         self.layout.addStretch()
 
         self.buttons_layout = QtWidgets.QHBoxLayout()
-        self.button_StartQuiz = QtWidgets.QPushButton("Iniciar Quiz", self)
+        self.button_StartQuiz = QtWidgets.QPushButton("Iniciar Simulado" if self.is_simulado else "Iniciar Prática", self)
         self.button_Cancel = QtWidgets.QPushButton("Cancelar", self)
         self.buttons_layout.addStretch()
         self.buttons_layout.addWidget(self.button_StartQuiz)
         self.buttons_layout.addWidget(self.button_Cancel)
         self.layout.addLayout(self.buttons_layout)
         self.button_StartQuiz.clicked.connect(self.on_start_quiz_clicked)
-        self.button_Cancel.clicked.connect(self.reject) 
+        self.button_Cancel.clicked.connect(self.reject)
 
         self.combo_Discipline.currentIndexChanged.connect(self.populate_themes)
 
         self.populate_disciplines()
         self.populate_themes()
+
 
     def populate_disciplines(self):
         self.combo_Discipline.clear()
@@ -102,7 +124,6 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
     def populate_themes(self):
         self.combo_Theme.clear()
         selected_discipline = self.combo_Discipline.currentText()
-        
         themes = set()
         if selected_discipline == "Todas as Disciplinas":
             for q in QUESTIONS:
@@ -111,7 +132,6 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
             for q in QUESTIONS:
                 if q["discipline"] == selected_discipline:
                     themes.add(q["theme"])
-        
         sorted_themes = sorted(list(themes))
         self.combo_Theme.addItem("Todos os Temas")
         self.combo_Theme.addItems(sorted_themes)
@@ -122,48 +142,80 @@ class FilterQuestionsDialog(QtWidgets.QDialog):
 
         self.selected_discipline = discipline_text if discipline_text != "Todas as Disciplinas" else None
         self.selected_theme = theme_text if theme_text != "Todos os Temas" else None
-        
+
+        if self.is_simulado:
+            self.num_questions = self.spinBox_NumQuestions.value()
+            self.random_order = True
+        else:
+            self.num_questions = 0
+            self.random_order = True
+
         self.accept()
 
     def get_filters(self):
-        return self.selected_discipline, self.selected_theme
-
+        return self.selected_discipline, self.selected_theme, self.num_questions, self.random_order
 class QuestionsWindow(QtWidgets.QMainWindow):
-    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, parent=None):
+    def __init__(self, user_id=None, discipline_filter=None, theme_filter=None, num_questions=0, random_order=False, parent=None):
         super().__init__(parent)
         self.ui = Ui_QuestionsWindow()
-        self.ui.setupUi(self) 
-        self.setWindowTitle("Questões")
+        self.ui.setupUi(self)
+        self.setWindowTitle("Simulado de Questões" if num_questions > 0 or random_order else "Prática de Questões") 
 
         current_width = self.width()
         current_height = self.height()
         self.setFixedSize(current_width, current_height)
 
         self.current_user_id = user_id
-        
+
         filtered_questions_list = []
         for q in QUESTIONS:
             match_discipline = True
             match_theme = True
-            
+
             if discipline_filter is not None:
                 match_discipline = (q["discipline"] == discipline_filter)
-            
+
             if theme_filter is not None:
                 match_theme = (q["theme"] == theme_filter)
-            
+
             if match_discipline and match_theme:
                 filtered_questions_list.append(q)
-        
-        self.questions = filtered_questions_list
+
+        if num_questions > 0 and num_questions < len(filtered_questions_list):
+            self.questions = filtered_questions_list[:num_questions]
+        else:
+            self.questions = filtered_questions_list
 
         if not self.questions:
             QMessageBox.warning(self, "Sem Questões", "Nenhuma questão encontrada para os filtros selecionados. Por favor, tente outros filtros.")
-            self.back_to_main_menu() 
+            self.back_to_main_menu()
             return
 
         self.current_question_index = 0
-        self.user_answers_history = {} 
+        self.user_answers_history = {}
+
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.update_timer)
+        self.time_left_in_seconds = 60 * 10 # Ex; 10 minutos para o simulado (_600 segundos)
+        
+        if not hasattr(self.ui, 'label_Timer'):
+            self.ui.label_Timer = QtWidgets.QLabel(self.ui.centralwidget)
+            self.ui.label_Timer.setGeometry(QtCore.QRect(30, 10, 200, 20))
+            font = QtGui.QFont()
+            font.setFamily("Arial Rounded MT Bold")
+            font.setPointSize(12)
+            self.ui.label_Timer.setFont(font)
+            self.ui.label_Timer.setStyleSheet("color: blue;")
+            self.ui.label_Timer.setText("Tempo: --:--")
+
+        self.update_timer_display()
+        
+        if num_questions > 0 or random_order:
+             self.timer.start(1000)
+        else:
+            self.ui.label_Timer.hide()
+            self.timer.stop()
+
 
         self.ui.button_ConfirmAnswer.clicked.connect(self.confirm_answer)
         self.ui.commandLinkButton.clicked.connect(self.go_to_next_question)
@@ -176,15 +228,15 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         self.alternatives_group.addButton(self.ui.Alternative_C, 2)
         self.alternatives_group.addButton(self.ui.Alternative_D, 3)
         self.alternatives_group.addButton(self.ui.Alternative_E, 4)
-        
+
         self.alternative_labels = {
             0: self.ui.label,
             1: self.ui.label_5,
             2: self.ui.label_4,
             3: self.ui.label_6,
-            4: self.ui.label_7 
+            4: self.ui.label_7
         }
-        
+
         self.alternative_labels_by_letter = {
             "A": self.ui.label,
             "B": self.ui.label_5,
@@ -195,19 +247,41 @@ class QuestionsWindow(QtWidgets.QMainWindow):
 
         self.display_question()
 
+    def update_timer(self):
+        self.time_left_in_seconds -= 1
+        self.update_timer_display()
+
+        if self.time_left_in_seconds <= 0:
+            self.timer.stop()
+            QMessageBox.information(self, "Tempo Esgotado!", "O tempo para o simulado acabou. Suas respostas foram salvas.")
+            self.back_to_main_menu()
+
+    def update_timer_display(self):
+        minutes = self.time_left_in_seconds // 60
+        seconds = self.time_left_in_seconds % 60
+        time_str = f"Tempo: {minutes:02d}:{seconds:02d}"
+        self.ui.label_Timer.setText(time_str)
+
+        if self.time_left_in_seconds <= 60:
+            self.ui.label_Timer.setStyleSheet("color: red; font-weight: bold;")
+        elif self.time_left_in_seconds <= 120: 
+            self.ui.label_Timer.setStyleSheet("color: orange; font-weight: bold;")
+        else:
+            self.ui.label_Timer.setStyleSheet("color: blue;")
+
     def display_question(self):
         for label in self.alternative_labels.values():
-            label.setStyleSheet("")
-        
+            label.setStyleSheet("") 
+
         self.alternatives_group.setExclusive(False)
         for radio_button in self.alternatives_group.buttons():
             radio_button.setChecked(False)
             radio_button.setEnabled(True)
-        self.alternatives_group.setExclusive(True)
-        self.ui.button_ConfirmAnswer.setEnabled(True) 
+        self.alternatives_group.setExclusive(True) 
+        self.ui.button_ConfirmAnswer.setEnabled(True)
 
         if not self.questions:
-            self.ui.label_2.setText("Nenhuma questão encontrada no banco de dados.")
+            self.ui.label_2.setText("Nenhuma questão encontrada no banco de dados para os filtros selecionados.")
             self.ui.label.setText("")
             self.ui.label_5.setText("")
             self.ui.label_4.setText("")
@@ -222,10 +296,10 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         current_question_id = question_data["id"]
 
         self.ui.label_2.setText(question_data["question_text"])
-        
+
         self.ui.label.setText(f"A) {question_data['alternatives']['A']}")
         self.ui.label_5.setText(f"B) {question_data['alternatives']['B']}")
-        self.ui.label_4.setText(f"C) {question_data['alternatives']['C']}") 
+        self.ui.label_4.setText(f"C) {question_data['alternatives']['C']}")
         self.ui.label_6.setText(f"D) {question_data['alternatives']['D']}")
         self.ui.label_7.setText(f"E) {question_data['alternatives']['E']}")
 
@@ -233,7 +307,7 @@ class QuestionsWindow(QtWidgets.QMainWindow):
             answered_info = self.user_answers_history[current_question_id]
             selected_alternative_letter = answered_info['selected_alternative']
             is_correct_answer = answered_info['is_correct']
-            
+
             for rb_id, rb in enumerate(self.alternatives_group.buttons()):
                 label = self.alternative_labels.get(rb_id)
                 if label:
@@ -243,11 +317,16 @@ class QuestionsWindow(QtWidgets.QMainWindow):
                             label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green;")
                         else:
                             label.setStyleSheet("background-color: #FFC8C8; border: 1px solid red;")
-                    
+
                     rb.setEnabled(False)
-            
+
+            if not is_correct_answer:
+                correct_answer_letter = question_data["correct_answer"]
+                correct_label = self.alternative_labels_by_letter.get(correct_answer_letter)
+                if correct_label:
+                    correct_label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green; font-weight: bold;")
+
             self.ui.button_ConfirmAnswer.setEnabled(False) 
-        
         self.ui.commandLinkButton_2.setEnabled(self.current_question_index > 0)
         self.ui.commandLinkButton.setEnabled(self.current_question_index < len(self.questions) - 1)
 
@@ -262,7 +341,6 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         return None
 
     def confirm_answer(self):
-        """Processa a resposta do usuário, aplica feedback visual, atualiza estatísticas e encerra se for a última questão."""
         if self.current_user_id is None:
             QMessageBox.critical(self, "Erro de Usuário", "ID do usuário não disponível. Por favor, relogue.")
             self.back_to_main_menu()
@@ -286,39 +364,40 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         }
 
         selected_label = self.alternative_labels.get(self.alternatives_group.id(self.alternatives_group.checkedButton()))
-        
-        is_last_question = (self.current_question_index == len(self.questions) - 1)
 
         if is_correct:
             if selected_label:
                 selected_label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green;")
-            QMessageBox.information(self, "Resposta Correta!", 
-                                    "Parabéns! Sua resposta está correta. Agora você pode avançar para a próxima questão." if not is_last_question else "Parabéns! Sua resposta está correta. Você concluiu todas as questões!")
+            QMessageBox.information(self, "Resposta Correta!",
+                                    "Parabéns! Sua resposta está correta. Agora você pode avançar para a próxima questão.")
         else:
             if selected_label:
                 selected_label.setStyleSheet("background-color: #FFC8C8; border: 1px solid red;")
-            
+
             correct_answer_letter = current_question["correct_answer"]
             correct_label = self.alternative_labels_by_letter.get(correct_answer_letter)
             if correct_label:
-                correct_label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green; font-weight: bold;") 
+                correct_label.setStyleSheet("background-color: #C8FFC8; border: 1px solid green; font-weight: bold;")
 
-            QMessageBox.warning(self, "Resposta Incorreta!", 
-                                f"A resposta correta era: {correct_answer_letter}. Agora você pode avançar para a próxima questão." if not is_last_question else f"Ops! A resposta correta era: {correct_answer_letter}. Você concluiu todas as questões!")
+            QMessageBox.warning(self, "Resposta Incorreta!",
+                                f"A resposta correta era: {correct_answer_letter}. Agora você pode avançar para a próxima questão.")
 
         for radio_button in self.alternatives_group.buttons():
             radio_button.setEnabled(False)
-
         self.ui.button_ConfirmAnswer.setEnabled(False)
 
         self.update_user_statistics(self.current_user_id, discipline, theme, is_correct)
 
+        is_last_question = (self.current_question_index == len(self.questions) - 1)
         if is_last_question:
+            QMessageBox.information(self, "Simulado Concluído!", "Você concluiu todas as questões do simulado!")
             self.back_to_main_menu()
+        return True
+
 
     def go_to_next_question(self):
         current_question_id = self.questions[self.current_question_index]["id"]
-        
+
         if current_question_id not in self.user_answers_history:
             QMessageBox.warning(self, "Atenção", "Por favor, confirme sua resposta antes de avançar para a próxima questão.")
             return
@@ -331,12 +410,12 @@ class QuestionsWindow(QtWidgets.QMainWindow):
             self.back_to_main_menu()
 
     def previous_question(self):
-        """Volta para a questão anterior."""
         if self.current_question_index > 0:
             self.current_question_index -= 1
             self.display_question()
 
     def back_to_main_menu(self):
+        self.timer.stop()
         self.hide()
         if self.parent():
             self.parent().show()
@@ -360,7 +439,7 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         user_stats_entry["total_questions_answered"] += 1
         if is_correct:
             user_stats_entry["total_correct_answers"] += 1
-        
+
         user_stats_entry["correct_percentage"] = (user_stats_entry["total_correct_answers"] / user_stats_entry["total_questions_answered"]) * 100 \
                                                 if user_stats_entry["total_questions_answered"] > 0 else 0.0
 
@@ -390,8 +469,7 @@ class QuestionsWindow(QtWidgets.QMainWindow):
         else:
             theme_stats["incorrect"] += 1
 
-        save_json_data(USER_STATS, json_user_stats_path)
-        
+        save_json_data(USER_STATS, json_user_stats_path)     
 class AdminWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -511,6 +589,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.setFixedSize(current_width, current_height)
 
         self.ui.button_Questions.clicked.connect(self.open_questions_window)
+        self.ui.pushButton_Simulated.clicked.connect(lambda: self.open_questions_window(is_simulado=True))
         self.ui.button_Exit.clicked.connect(self.quit_main_menu)
         
         if hasattr(self.ui, 'button_Admin'):
@@ -533,16 +612,18 @@ class MainMenuWindow(QtWidgets.QMainWindow):
             print("Erro: Não há janela de login pai para retornar. Saindo da aplicação.")
             QtWidgets.QApplication.quit()
 
-    def open_questions_window(self):
-        filter_dialog = FilterQuestionsDialog(self) 
-        
+    def open_questions_window(self, is_simulado):
+        filter_dialog = FilterQuestionsDialog(is_simulado=is_simulado, parent=self)
+
         if filter_dialog.exec_() == QtWidgets.QDialog.Accepted:
-            discipline_filter, theme_filter = filter_dialog.get_filters()
-            
+            discipline_filter, theme_filter, num_questions, random_order = filter_dialog.get_filters()
+
             self.questions_window = QuestionsWindow(
-                user_id=self.current_user_id, 
+                user_id=self.current_user_id,
                 discipline_filter=discipline_filter,
-                theme_filter=theme_filter,       
+                theme_filter=theme_filter,
+                num_questions=num_questions,
+                random_order=random_order, 
                 parent=self
             )
             if self.questions_window.questions:
