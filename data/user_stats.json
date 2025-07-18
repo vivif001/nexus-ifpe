@@ -1,9 +1,9 @@
 [
     {
         "user_id": 1,
-        "total_questions_answered": 78,
-        "total_correct_answers": 35,
-        "correct_percentage": 44.871794871794876,
+        "total_questions_answered": 101,
+        "total_correct_answers": 39,
+        "correct_percentage": 38.613861386138616,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -125,14 +125,77 @@
                         "incorrect": 1
                     }
                 }
+            },
+            "MATEMÁTICA": {
+                "total_answered": 15,
+                "total_correct": 1,
+                "themes": {
+                    "CONJUNTOS NUMÉRICOS": {
+                        "answered": 6,
+                        "correct": 0,
+                        "incorrect": 6
+                    },
+                    "PORCENTAGEM": {
+                        "answered": 3,
+                        "correct": 0,
+                        "incorrect": 3
+                    },
+                    "GRÁFICOS": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "UNIDADE DE ÁREA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "PROBABILIDADE": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "UNIDADE DE VOLUME": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "FÍSICA": {
+                "total_answered": 3,
+                "total_correct": 1,
+                "themes": {
+                    "FONTES DE ENERGIA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "TERMOLOGIA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "BIOLOGIA": {
+                "total_answered": 5,
+                "total_correct": 2,
+                "themes": {
+                    "EVOLUÇÃO": {
+                        "answered": 5,
+                        "correct": 2,
+                        "incorrect": 3
+                    }
+                }
             }
         }
     },
     {
         "user_id": 2,
-        "total_questions_answered": 13,
-        "total_correct_answers": 6,
-        "correct_percentage": 46.15384615384615,
+        "total_questions_answered": 22,
+        "total_correct_answers": 7,
+        "correct_percentage": 31.818181818181817,
         "disciplines": {
             "portugues": {
                 "total_answered": 4,
@@ -168,13 +231,67 @@
                 }
             },
             "GRAMÁTICA": {
-                "total_answered": 2,
+                "total_answered": 4,
                 "total_correct": 1,
                 "themes": {
                     "ORTOGRAFIA": {
                         "answered": 2,
                         "correct": 1,
                         "incorrect": 1
+                    },
+                    "REGÊNCIA E CRASE": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    }
+                }
+            },
+            "BIOLOGIA": {
+                "total_answered": 3,
+                "total_correct": 0,
+                "themes": {
+                    "EVOLUÇÃO": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "ECOLOGIA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "FILOSOFIA": {
+                "total_answered": 1,
+                "total_correct": 1,
+                "themes": {
+                    "FILOSOFIA CONTEMPORÂNEA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "SOCIOLOGIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "SOCIOLOGIA DO BRASIL": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "QUÍMICA": {
+                "total_answered": 2,
+                "total_correct": 0,
+                "themes": {
+                    "ÁGUA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
                     }
                 }
             }
