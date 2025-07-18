@@ -1,9 +1,9 @@
 [
     {
         "user_id": 1,
-        "total_questions_answered": 50,
-        "total_correct_answers": 26,
-        "correct_percentage": 52.0,
+        "total_questions_answered": 101,
+        "total_correct_answers": 39,
+        "correct_percentage": 38.613861386138616,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -37,14 +37,165 @@
                         "incorrect": 1
                     }
                 }
+            },
+            "GRAMÁTICA": {
+                "total_answered": 14,
+                "total_correct": 5,
+                "themes": {
+                    "ORTOGRAFIA": {
+                        "answered": 9,
+                        "correct": 3,
+                        "incorrect": 6
+                    },
+                    "ESTILÍSTICA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "TERMOS INTEGRANTES": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "TERMOS ESSENCIAIS": {
+                        "answered": 2,
+                        "correct": 2,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "LITERATURA": {
+                "total_answered": 10,
+                "total_correct": 4,
+                "themes": {
+                    "SIMBOLISMO": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "CONTEMPORANEIDADE": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "LITERATURA PORTUGUESA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    },
+                    "QUINHENTISMO": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    },
+                    "GÊNEROS NARRATIVOS": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "VANGUARDAS EUROPEIAS": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "PRÉ-MODERNISMO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "ROMANTISMO": {
+                        "answered": 2,
+                        "correct": 2,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "INTERPRETAÇÃO DE TEXTO": {
+                "total_answered": 4,
+                "total_correct": 0,
+                "themes": {
+                    "TEORIA DA COMUNICAÇÃO": {
+                        "answered": 3,
+                        "correct": 0,
+                        "incorrect": 3
+                    },
+                    "LÍNGUA E PATRIMÔNIO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "MATEMÁTICA": {
+                "total_answered": 15,
+                "total_correct": 1,
+                "themes": {
+                    "CONJUNTOS NUMÉRICOS": {
+                        "answered": 6,
+                        "correct": 0,
+                        "incorrect": 6
+                    },
+                    "PORCENTAGEM": {
+                        "answered": 3,
+                        "correct": 0,
+                        "incorrect": 3
+                    },
+                    "GRÁFICOS": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "UNIDADE DE ÁREA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "PROBABILIDADE": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "UNIDADE DE VOLUME": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "FÍSICA": {
+                "total_answered": 3,
+                "total_correct": 1,
+                "themes": {
+                    "FONTES DE ENERGIA": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "TERMOLOGIA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "BIOLOGIA": {
+                "total_answered": 5,
+                "total_correct": 2,
+                "themes": {
+                    "EVOLUÇÃO": {
+                        "answered": 5,
+                        "correct": 2,
+                        "incorrect": 3
+                    }
+                }
             }
         }
     },
     {
         "user_id": 2,
-        "total_questions_answered": 11,
-        "total_correct_answers": 5,
-        "correct_percentage": 45.45454545454545,
+        "total_questions_answered": 22,
+        "total_correct_answers": 7,
+        "correct_percentage": 31.818181818181817,
         "disciplines": {
             "portugues": {
                 "total_answered": 4,
@@ -73,6 +224,71 @@
                 "total_correct": 0,
                 "themes": {
                     "historia_do_brasil": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    }
+                }
+            },
+            "GRAMÁTICA": {
+                "total_answered": 4,
+                "total_correct": 1,
+                "themes": {
+                    "ORTOGRAFIA": {
+                        "answered": 2,
+                        "correct": 1,
+                        "incorrect": 1
+                    },
+                    "REGÊNCIA E CRASE": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    }
+                }
+            },
+            "BIOLOGIA": {
+                "total_answered": 3,
+                "total_correct": 0,
+                "themes": {
+                    "EVOLUÇÃO": {
+                        "answered": 2,
+                        "correct": 0,
+                        "incorrect": 2
+                    },
+                    "ECOLOGIA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "FILOSOFIA": {
+                "total_answered": 1,
+                "total_correct": 1,
+                "themes": {
+                    "FILOSOFIA CONTEMPORÂNEA": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "SOCIOLOGIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "SOCIOLOGIA DO BRASIL": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "QUÍMICA": {
+                "total_answered": 2,
+                "total_correct": 0,
+                "themes": {
+                    "ÁGUA": {
                         "answered": 2,
                         "correct": 0,
                         "incorrect": 2

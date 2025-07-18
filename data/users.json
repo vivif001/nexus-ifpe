@@ -24,5 +24,13 @@
         "login": "nctifpe@gmail.com",
         "password": "1234",
         "role": "user"
+    },
+    {
+        "id": "4",
+        "firstName": "dave",
+        "lastName": "dave",
+        "login": "dwfmo@discente.ifpe.edu.br",
+        "password": "123",
+        "role": "user"
     }
 ]

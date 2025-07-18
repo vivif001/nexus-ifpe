@@ -6,20 +6,32 @@ from PyQt5.QtWidgets import QMessageBox
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "victorpst04@gmail.com" 
+SENDER_EMAIL = "victorpst04@gmail.com"
 SENDER_PASSWORD = "kaak amll ocpj mads"
 
 def send_new_user_email(receiver_email, first_name, last_name, username, password):
-    subject = "credenciais"
+    subject = "Suas Credenciais de Acesso - Nexus-IFPE"
     body = f"""
-    msg boas vindas.
+    Olá, {first_name}!
+
+    Bem-vindo(a) ao Sistema de Questões Nexus-IFPE.
+
+    Suas credenciais de acesso são:
+
+    Usuário: {username}
+    Senha: {password}
+
+    Recomendamos que altere sua senha no primeiro acesso.
+
+    Atenciosamente,
+    Equipe Nexus-IFPE
     """
 
     msg = MIMEMultipart()
-    msg['From'] = SENDER_EMAIL
+    msg['From'] = f"Nexus-IFPE <{SENDER_EMAIL}>"
     msg['To'] = receiver_email
     msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain', 'utf-8'))
+    msg.attach(MIMEText(body, 'plain', 'utf-8')) # Voltei para 'plain' para simplicidade máxima
 
     try:
         context = ssl.create_default_context()
@@ -31,11 +43,11 @@ def send_new_user_email(receiver_email, first_name, last_name, username, passwor
         return True
     except smtplib.SMTPAuthenticationError as e:
         print(f"Erro de autenticação SMTP: {e}. Verifique suas credenciais.")
-        QMessageBox.critical(None, "Erro de E-mail", f"Erro de autenticação ao enviar e-mail: {e}. Verifique suas credenciais de SMTP.")
+        QMessageBox.critical(None, "Erro de E-mail", f"Erro de autenticação ao enviar e-mail: {e}.")
         return False
     except smtplib.SMTPConnectError as e:
         print(f"Erro de conexão SMTP: {e}. Verifique o servidor e a porta.")
-        QMessageBox.critical(None, "Erro de E-mail", f"Erro de conexão ao servidor de e-mail: {e}. Verifique as configurações de rede ou SMTP.")
+        QMessageBox.critical(None, "Erro de E-mail", f"Erro de conexão ao servidor de e-mail: {e}.")
         return False
     except Exception as e:
         print(f"Erro inesperado ao enviar e-mail: {e}")
