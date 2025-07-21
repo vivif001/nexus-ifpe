@@ -12,6 +12,7 @@ from gui.login_window import Ui_LoginWindow
 from gui.main_menu_window import Ui_MainMenuWindow
 from gui.questions_window import Ui_MainWindow as Ui_QuestionsWindow
 from gui.admin_window import Ui_AdminWindow
+from gui.ranking_window import Ui_RankingWindow
 
 USERS = []
 QUESTIONS = []
@@ -578,11 +579,6 @@ class AdminWindow(QtWidgets.QMainWindow):
         email = self.ui.login_Field_8.text().strip()
         password = self.ui.login_Field_7.text().strip() 
 
-        print(f"DEBUG - Nome: '{first_name}'")
-        print(f"DEBUG - Sobrenome: '{last_name}'")
-        print(f"DEBUG - E-mail: '{email}'")
-        print(f"DEBUG - Senha: '{password}'")
-
         if not all([first_name, last_name, email, password]):
             QMessageBox.warning(self, "Campos Vazios", "Por favor, preencha todos os campos: Nome, Sobrenome, E-mail e Senha.")
             return
@@ -614,6 +610,76 @@ class AdminWindow(QtWidgets.QMainWindow):
         self.ui.login_Field_5.clear()
         self.ui.login_Field_8.clear() 
         self.ui.login_Field_7.clear() 
+
+    def back_to_main_menu(self):
+        self.hide()
+        if self.parent():
+            self.parent().show()
+        else:
+            login_window = LoginWindow()
+            login_window.show()
+            
+            
+class RankingWindow(QtWidgets.QMainWindow):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.ui = Ui_RankingWindow()
+        self.ui.setupUi(self)
+        self.setWindowTitle("Ranking de Usuários")
+
+        current_width = self.width()
+        current_height = self.height()
+        self.setFixedSize(current_width, current_height)
+
+        self.ui.button_Exit.clicked.connect(self.back_to_main_menu)
+        self.load_ranking_data()
+
+    def load_ranking_data(self):
+        ranked_users = []
+        for user_stat in USER_STATS:
+            user_id = str(user_stat["user_id"])
+            user_info = next((u for u in USERS if str(u["id"]) == user_id), None)
+            
+            if user_info:
+                full_name = f"{user_info.get('firstName', '')} {user_info.get('lastName', '')}"
+                correct_percentage = user_stat.get("correct_percentage", 0.0)
+                total_answered = user_stat.get("total_questions_answered", 0)
+                
+                if total_answered > 0:
+                    ranked_users.append({
+                        "full_name": full_name,
+                        "correct_percentage": correct_percentage,
+                        "total_answered": total_answered
+                    })
+        ranked_users.sort(key=lambda x: (x["correct_percentage"], x["total_answered"]), reverse=True)
+        ranking_labels = [
+            self.ui.labelName_position1,
+            self.ui.labelName_position2,
+            self.ui.labelName_position3,
+            self.ui.labelName_Position4,
+            self.ui.labelName_Position5,
+            self.ui.labelName_Position6,
+            self.ui.labelName_Position7,
+            self.ui.labelName_Position8
+        ]
+
+        for i, user in enumerate(ranked_users):
+            if i < len(ranking_labels):
+                label = ranking_labels[i]
+                label.setText(f"{user['full_name']} - {user['correct_percentage']:.2f}%")
+                label.setAlignment(QtCore.Qt.AlignCenter)
+            else:
+                break
+
+        for i in range(len(ranked_users), len(ranking_labels)):
+            ranking_labels[i].clear()
+        self.ui.label_gold.show()
+        self.ui.label_silver.show()
+        self.ui.label_bronze.show()
+        self.ui.gold_medal.show()
+        self.ui.silver_medal.show()
+        self.ui.bronze_medal.show()
+
 
     def back_to_main_menu(self):
         self.hide()
@@ -672,6 +738,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         
         self.questions_window = None
         self.admin_window = None
+        self.ranking_window = None
         self.current_user_id = user_id
         self.parent_login_window = parent_login_window
 
@@ -682,6 +749,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
 
         self.ui.button_Questions.clicked.connect(self.open_questions_window)
         self.ui.pushButton_Simulated.clicked.connect(lambda: self.open_questions_window(is_simulado=True))
+        self.ui.button_Ranking.clicked.connect(self.open_ranking_window)
         self.ui.button_Exit.clicked.connect(self.quit_main_menu)
         
         if hasattr(self.ui, 'button_Admin'):
@@ -701,9 +769,13 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         if self.parent_login_window:
             self.parent_login_window.show()
         else:
-            print("Erro: Não há janela de login pai para retornar. Saindo da aplicação.")
             QtWidgets.QApplication.quit()
 
+    def open_ranking_window(self):
+        self.ranking_window = RankingWindow(parent=self)
+        self.hide()
+        self.ranking_window.show()
+    
     def open_questions_window(self, is_simulado):
         filter_dialog = FilterQuestionsDialog(is_simulado=is_simulado, parent=self)
 
