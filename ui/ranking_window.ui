@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>RankingWindow</class>
+ <widget class="QMainWindow" name="RankingWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Ranking</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(192, 255, 164);</string>
@@ -36,7 +36,7 @@
    <widget class="QLabel" name="label_bronze">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>80</x>
       <y>120</y>
       <width>61</width>
       <height>111</height>
@@ -52,7 +52,7 @@
    <widget class="QLabel" name="label_silver">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>460</x>
       <y>90</y>
       <width>71</width>
       <height>141</height>
@@ -144,7 +144,7 @@
    <widget class="QLabel" name="silver_medal">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>470</x>
       <y>80</y>
       <width>61</width>
       <height>71</height>
@@ -172,7 +172,7 @@
    <widget class="QLabel" name="bronze_medal">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>90</x>
       <y>120</y>
       <width>41</width>
       <height>51</height>
@@ -228,10 +228,10 @@
    <widget class="QLabel" name="labelName_position1">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>110</x>
       <y>10</y>
-      <width>101</width>
-      <height>31</height>
+      <width>411</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -264,7 +264,7 @@
      <string>primeiro lugar</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -273,9 +273,9 @@
    <widget class="QLabel" name="labelName_position2">
     <property name="geometry">
      <rect>
-      <x>366</x>
-      <y>40</y>
-      <width>61</width>
+      <x>340</x>
+      <y>50</y>
+      <width>351</width>
       <height>41</height>
      </rect>
     </property>
@@ -303,7 +303,7 @@
      <string>segundo lugar</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -312,9 +312,9 @@
    <widget class="QLabel" name="labelName_position3">
     <property name="geometry">
      <rect>
-      <x>196</x>
+      <x>0</x>
       <y>80</y>
-      <width>61</width>
+      <width>251</width>
       <height>41</height>
      </rect>
     </property>
@@ -346,19 +346,6 @@
     </property>
     <property name="wordWrap">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_exit">
@@ -564,20 +551,14 @@ QPushButton:pressed {
      <string/>
     </property>
    </widget>
-   <zorder>label_gold</zorder>
    <zorder>labelName_Position4</zorder>
-   <zorder>label_bronze</zorder>
-   <zorder>label_silver</zorder>
    <zorder>labelName_Position5</zorder>
    <zorder>labelName_Position6</zorder>
    <zorder>labelName_Position7</zorder>
    <zorder>labelName_Position8</zorder>
-   <zorder>silver_medal</zorder>
-   <zorder>bronze_medal</zorder>
    <zorder>labelName_position1</zorder>
    <zorder>labelName_position2</zorder>
    <zorder>labelName_position3</zorder>
-   <zorder>dateEdit</zorder>
    <zorder>label_exit</zorder>
    <zorder>button_Exit</zorder>
    <zorder>label_position4</zorder>
@@ -585,6 +566,11 @@ QPushButton:pressed {
    <zorder>label_position7_2</zorder>
    <zorder>label_position7</zorder>
    <zorder>label_position8</zorder>
+   <zorder>label_gold</zorder>
+   <zorder>label_silver</zorder>
+   <zorder>label_bronze</zorder>
+   <zorder>silver_medal</zorder>
+   <zorder>bronze_medal</zorder>
    <zorder>gold_medal</zorder>
   </widget>
  </widget>

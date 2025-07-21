@@ -1,9 +1,9 @@
 [
     {
-        "user_id": 1,
+        "user_id": "1",
         "total_questions_answered": 101,
         "total_correct_answers": 39,
-        "correct_percentage": 38.613861386138616,
+        "correct_percentage": 38.61,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -192,10 +192,10 @@
         }
     },
     {
-        "user_id": 2,
+        "user_id": "2",
         "total_questions_answered": 22,
         "total_correct_answers": 7,
-        "correct_percentage": 31.818181818181817,
+        "correct_percentage": 31.82,
         "disciplines": {
             "portugues": {
                 "total_answered": 4,
@@ -296,5 +296,54 @@
                 }
             }
         }
+    },
+    {
+        "user_id": "3",
+        "total_questions_answered": 50,
+        "total_correct_answers": 45,
+        "correct_percentage": 90.00,
+        "disciplines": {}
+    },
+    {
+        "user_id": "4",
+        "total_questions_answered": 120,
+        "total_correct_answers": 80,
+        "correct_percentage": 66.67,
+        "disciplines": {}
+    },
+    {
+        "user_id": "5",
+        "total_questions_answered": 75,
+        "total_correct_answers": 60,
+        "correct_percentage": 80.00,
+        "disciplines": {}
+    },
+    {
+        "user_id": "6",
+        "total_questions_answered": 150,
+        "total_correct_answers": 75,
+        "correct_percentage": 50.00,
+        "disciplines": {}
+    },
+    {
+        "user_id": "7",
+        "total_questions_answered": 40,
+        "total_correct_answers": 38,
+        "correct_percentage": 95.00,
+        "disciplines": {}
+    },
+    {
+        "user_id": "8",
+        "total_questions_answered": 90,
+        "total_correct_answers": 30,
+        "correct_percentage": 33.33,
+        "disciplines": {}
+    },
+    {
+        "user_id": "9",
+        "total_questions_answered": 110,
+        "total_correct_answers": 99,
+        "correct_percentage": 90.00,
+        "disciplines": {}
     }
 ]

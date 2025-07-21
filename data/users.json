@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "login": "victor",
         "password": "123",
         "firstName": "Victor",
@@ -9,7 +9,7 @@
         "role": "user"
     },
     {
-        "id": 2,
+        "id": "2",
         "login": "ingrid",
         "password": "123",
         "firstName": "Ingrid",
@@ -31,6 +31,46 @@
         "lastName": "dave",
         "login": "dwfmo@discente.ifpe.edu.br",
         "password": "123",
+        "role": "user"
+    },
+    {
+        "id": "5",
+        "firstName": "Ana",
+        "lastName": "Silva",
+        "login": "ana.silva@email.com",
+        "password": "senha123",
+        "role": "user"
+    },
+    {
+        "id": "6",
+        "firstName": "Bruno",
+        "lastName": "Oliveira",
+        "login": "bruno.oli@email.com",
+        "password": "teste456",
+        "role": "user"
+    },
+    {
+        "id": "7",
+        "firstName": "Carla",
+        "lastName": "Pereira",
+        "login": "carla.p@email.com",
+        "password": "segura",
+        "role": "user"
+    },
+    {
+        "id": "8",
+        "firstName": "Daniel",
+        "lastName": "Santos",
+        "login": "daniel.s@email.com",
+        "password": "topsecret",
+        "role": "user"
+    },
+    {
+        "id": "9",
+        "firstName": "Mariana",
+        "lastName": "Costa",
+        "login": "mariana.c@email.com",
+        "password": "passuser",
         "role": "user"
     }
 ]
