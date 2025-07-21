@@ -11142,5 +11142,650 @@
       "E": "5."
     },
     "correct_answer": "E"
+  },
+  {
+    "id": 828,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Média",
+    "level": "MÉDIO",
+    "question_text": "Hoje em dia, nas grandes cidades, enterrar os mortos é uma prática quase intima, que diz respeito apenas à família. A menos, é claro, que se trate de uma personalidade conhecida. Entretanto, isso nem sempre foi assim. Para um historiador, os sepultamentos são uma fonte de informações importantes para que se compreenda, por exemplo, a vida política das sociedades. No que se refere às práticas sociais ligadas aos sepultamentos,",
+    "alternatives": {
+      "A": "na Grécia Antiga, as cerimônias fúnebres eram desvalorizadas, porque o mais importante era a democracia experimentada pelos vivos.",
+      "B": "na Idade Média, a Igreja tinha pouca influência sobre os rituais fúnebres, preocupando-se mais com a salvação da alma.",
+      "C": "no Brasil colônia, o sepultamento dos mortos nas igrejas era regido pela observância da hierarquia social.",
+      "D": "na época da Reforma, o catolicismo condenou os excessos de gastos que a burguesia fazia para sepultar seus mortos.",
+      "E": "no período posterior à Revolução Francesa, devido as grandes perturbações sociais, abandona-se a prática do luto."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 829,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Média",
+    "level": "MÉDIO",
+    "question_text": "A Idade Média é um extenso período da História do Ocidente cuja memória é construída e reconstruída segundo as circunstâncias das épocas posteriores. Assim, desde o Renascimento, esse período vem sendo alvo de diversas interpretações que dizem mais sobre o contexto histórico em que são produzidas do que propriamente sobre o Medievo. Um exemplo acerca do que está exposto no texto acima é",
+    "alternatives": {
+      "A": "a associação que Hitler estabeleceu entre o III Reich e o Sacro Império Romano Germânico.",
+      "B": "o retorno dos valores cristãos medievais, presentes nos documentos do Concílio Vaticano II.",
+      "C": "a luta dos negros sul-africanos contra o apartheid inspirada por valores dos primeiros cristãos.",
+      "D": "o fortalecimento político de Napoleão Bonaparte, que se justificava na amplitude de poderes que tivera Carlos Magno.",
+      "E": "a tradição heroica da cavalaria medieval, que foi afetada negativamente pelas produções cinematográficas de Hollywood."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 830,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Contemporânea",
+    "level": "MÉDIO",
+    "question_text": "A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana. Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão",
+    "alternatives": {
+      "A": "a crise do colonialismo, a ascensão do nacionalismo e do totalitarismo.",
+      "B": "o enfraquecimento do império britânico, a Grande Depressão e a corrida nuclear.",
+      "C": "o declínio britânico, o fracasso da Liga das Nações e a Revolução Cubana.",
+      "D": "a corrida armamentista, o terceiro-mundismo e o expansionismo soviético.",
+      "E": "a Revolução Bolchevique, o imperialismo e a unificação da Alemanha."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 831,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Contemporânea",
+    "level": "MÉDIO",
+    "question_text": "Os regimes totalitários da primeira metade do século XX apoiaram-se fortemente na mobilização da juventude em torno da defesa de ideias grandiosas para o futuro da nação. Nesses projetos, os jovens deveriam entender que só havia uma pessoa digna de ser amada e obedecida, que era o líder. Tais movimentos sociais juvenis contribuíram para a implantação e a sustentação do nazismo, na Alemanha, e do fascismo, na Itália, Espanha e Portugal. A atuação desses movimentos juvenis caracterizava-se",
+    "alternatives": {
+      "A": "pelo sectarismo e pela forma violenta e radical com que enfrentavam os opositores ao regime.",
+      "B": "pelas propostas de conscientização da população acerca dos seus direitos como cidadãos.",
+      "C": "pela promoção de um modo de vida saudável, que mostrava os jovens como exemplos a seguir.",
+      "D": "pelo diálogo, ao organizar debates que opunham jovens idealistas e velhas lideranças conservadoras.",
+      "E": "pelos métodos políticos populistas e pela organização de comícios multitudinários."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 832,
+    "discipline": "GEOPOLÍTICA",
+    "theme": "Geopolítica",
+    "level": "MÉDIO",
+    "question_text": "Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista. Essa divisão europeia ficou conhecida como",
+    "alternatives": {
+      "A": "Cortina de Ferro.",
+      "B": "Muro de Berlim.",
+      "C": "União Europeia.",
+      "D": "Convenção de Ramsar.",
+      "E": "Conferência de Estocolmo."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 833,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Contemporânea",
+    "level": "MÉDIO",
+    "question_text": "O ano de 1968 ficou conhecido pela efervescência social, tal como se pode comprovar pelo seguinte trecho, retirado de texto sobre propostas preliminares para uma revolução cultural: 'É preciso discutir em todos os lugares e com todos. O dever de ser responsável e pensar politicamente diz respeito a todos, não é privilégio de uma minoria de iniciados. Não devemos nos surpreender com o caos das ideias, pois essa é a condição para a emergência de novas ideias. Os pais do regime devem compreender que autonomia não é uma palavra vã; ela supõe a partilha do poder, ou seja, a mudança de sua natureza. Que ninguém tente rotular o movimento atual; ele não tem etiquetas e não precisa delas'. Os movimentos sociais, que marcaram o ano de 1968,",
+    "alternatives": {
+      "A": "foram manifestações desprovidas de conotação política, que tinham o objetivo de questionar a rigidez dos padrões de comportamento social fundados em valores tradicionais da moral religiosa.",
+      "B": "restringiram-se às sociedades de países desenvolvidos, onde a industrialização avançada, a penetração dos meios de comunicação de massa e a alienação cultural que deles resultava eram mais evidentes.",
+      "C": "resultaram no fortalecimento do conservadorismo político, social e religioso que prevaleceu nos países ocidentais durante as décadas de 70 e 80.",
+      "D": "tiveram baixa repercussão no plano político, apesar de seus fortes desdobramentos nos planos social e cultural, expressos na mudança de costumes e na contracultura.",
+      "E": "inspiraram futuras mobilizações, como o pacifismo, o ambientalismo, a promoção da equidade de gêneros e a defesa dos direitos das minorias."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 834,
+    "discipline": "GEOGRAFIA",
+    "theme": "Meio Ambiente",
+    "level": "MÉDIO",
+    "question_text": "Os Yanomami constituem uma sociedade indígena do norte da Amazônia e formam um amplo conjunto linguístico e cultural. Para os Yanomami, urihi, a 'terra-floresta', não é um mero cenário inerte, objeto de exploração econômica, e sim uma entidade viva, animada por uma dinâmica de trocas entre os diversos seres que a povoam. A floresta possui um sopro vital, wixia, que é muito longo. Se não a desmatarmos, ela não morrerá. Ela não se decompõe, isto é, não se desfaz. É graças ao seu sopro úmido que as plantas crescem. A floresta não está morta pois, se fosse assim, as florestas não teriam folhas. Tampouco se veria água. Segundo os Yanomami, se os brancos os fizerem desaparecer para desmatá-la e morar no seu lugar, ficarão pobres e acabarão tendo fome e sede. De acordo com o texto, os Yanomami acreditam que",
+    "alternatives": {
+      "A": "a floresta não possui organismos decompositores.",
+      "B": "o potencial econômico da floresta deve ser explorado.",
+      "C": "o homem branco convive harmonicamente com urihi.",
+      "D": "as folhas e a água são menos importantes para a floresta que seu sopro vital.",
+      "E": "Wixia é a capacidade que tem a floresta de se sustentar por meio de processos vitais."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 835,
+    "discipline": "GEOPOLÍTICA",
+    "theme": "Geopolítica",
+    "level": "MÉDIO",
+    "question_text": "O fim da Guerra Fria e da bipolaridade, entre as décadas de 1980 e 1990, gerou expectativas de que seria instaurada uma ordem internacional marcada pela redução de conflitos e pela multipolaridade. O panorama estratégico do mundo pós-Guerra Fria apresenta",
+    "alternatives": {
+      "A": "o aumento de conflitos internos associados ao nacionalismo, às disputas étnicas, ao extremismo religioso e ao fortalecimento de ameaças como o terrorismo, o tráfico de drogas e o crime organizado.",
+      "B": "o fim da corrida armamentista e a redução dos gastos militares das grandes potências, o que se traduziu em maior estabilidade nos continentes europeu e asiático, que tinham sido palco da Guerra Fria.",
+      "C": "o desengajamento das grandes potências, pois as intervenções militares em regiões assoladas por conflitos passaram a ser realizadas pela Organização das Nações Unidas (ONU), com maior envolvimento de países emergentes.",
+      "D": "a plena vigência do Tratado de Não Proliferação, que afastou a possibilidade de um conflito nuclear como ameaça global, devido à crescente consciência política internacional acerca desse perigo.",
+      "E": "a condição dos EUA como única superpotência, mas que se submetem às decisões da ONU no que concerne às ações militares."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 836,
+    "discipline": "SOCIOLOGIA",
+    "theme": "Poder, Estado e Cidadania",
+    "level": "MÉDIO",
+    "question_text": "Na democracia estado-unidense, os cidadãos são incluídos na sociedade pelo exercício pleno dos direitos políticos e também pela ideia geral de direito de propriedade. Compete ao governo garantir que esse direito não seja violado. Como consequência, mesmo aqueles que possuem uma pequena propriedade sentem-se cidadãos de pleno direito. Na tradição política dos EUA, uma forma de incluir socialmente os cidadãos é",
+    "alternatives": {
+      "A": "submeter o indivíduo à proteção do governo.",
+      "B": "hierarquizar os indivíduos segundo suas posses.",
+      "C": "estimular a formação de propriedades comunais.",
+      "D": "vincular democracia e possibilidades econômicas individuais.",
+      "E": "defender a obrigação de que todos os indivíduos tenham propriedades."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 837,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Contemporânea",
+    "level": "MÉDIO",
+    "question_text": "Na década de 30 do século XIX, Tocqueville escreveu as seguintes linhas a respeito da moralidade nos EUA: 'A opinião pública norte-americana é particularmente dura com a falta de moral, pois esta desvia a atenção frente à busca do bem-estar e prejudica a harmonia doméstica, que é tão essencial ao sucesso dos negócios. Nesse sentido, pode-se dizer que ser casto é uma questão de honra'. Do trecho, infere-se que, para Tocqueville, os norte-americanos do seu tempo",
+    "alternatives": {
+      "A": "buscavam o êxito, descurando as virtudes cívicas.",
+      "B": "tinham na vida moral uma garantia de enriquecimento rápido.",
+      "C": "valorizavam um conceito de honra dissociado do comportamento ético.",
+      "D": "relacionavam a conduta moral dos indivíduos com o progresso econômico.",
+      "E": "acreditavam que o comportamento casto perturbava a harmonia doméstica."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 838,
+    "discipline": "FILOSOFIA",
+    "theme": "Filosofia Antiga",
+    "level": "DIFÍCIL",
+    "question_text": "Segundo Aristóteles, 'na cidade com o melhor conjunto de normas e naquela dotada de homens absolutamente justos, os cidadãos não devem viver uma vida de trabalho trivial ou de negócios esses tipos de vida são desprezíveis e incompatíveis com as qualidades morais, tampouco devem ser agricultores os aspirantes à cidadania, pois o lazer é indispensável ao desenvolvimento das qualidades morais e à prática das atividades políticas'. O trecho, retirado da obra Política, de Aristóteles, permite compreender que a cidadania",
+    "alternatives": {
+      "A": "possui uma dimensão histórica que deve ser criticada, pois é condenável que os políticos de qualquer época fiquem entregues à ociosidade, enquanto o resto dos cidadãos tem de trabalhar.",
+      "B": "era entendida como uma dignidade própria dos grupos sociais superiores, fruto de uma concepção política profundamente hierarquizada da sociedade.",
+      "C": "estava vinculada, na Grécia Antiga, a uma percepção política democrática, que levava todos os habitantes da pólis a participarem da vida cívica.",
+      "D": "tinha profundas conexões com a justiça, razão pela qual o tempo livre dos cidadãos deveria ser dedicado às atividades vinculadas aos tribunais.",
+      "E": "vivida pelos atenienses era, de fato, restrita àqueles que se dedicavam à política e que tinham tempo para resolver os problemas da cidade."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 839,
+    "discipline": "SOCIOLOGIA",
+    "theme": "Sociologia do Brasil",
+    "level": "MÉDIO",
+    "question_text": "Para Caio Prado Jr., a formação brasileira se completaria no momento em que fosse superada a nossa herança de inorganicidade social o oposto da interligação com objetivos internos trazida da colônia. Este momento alto estaria, ou esteve, no futuro. Se passarmos a Sérgio Buarque de Holanda, encontraremos algo análogo. O país será moderno e estará formado quando superar a sua herança portuguesa, rural e autoritária, quando então teríamos um país democrático. Também aqui o ponto de chegada está mais adiante, na dependência das decisões do presente. Celso Furtado, por seu turno, dirá que a nação não se completa enquanto as alavancas do comando, principalmente do econômico, não passarem para dentro do país. Como para os outros dois, a conclusão do processo encontra-se no futuro, que agora parece remoto. Acerca das expectativas quanto à formação do Brasil, a sentença que sintetiza os pontos de vista apresentados no texto é:",
+    "alternatives": {
+      "A": "Brasil, um país que vai pra frente.",
+      "B": "Brasil, a eterna esperança.",
+      "C": "Brasil, glória no passado, grandeza no presente.",
+      "D": "Brasil, terra bela, pátria grande.",
+      "E": "Brasil, gigante pela própria natureza."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 840,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil República",
+    "level": "MÉDIO",
+    "question_text": "A definição de eleitor foi tema de artigos nas Constituições brasileiras de 1891 e de 1934. Diz a Constituição da República dos Estados Unidos do Brasil de 1891: Art. 70. São eleitores os cidadãos maiores de 21 anos que se alistarem na forma da lei. A Constituição da República dos Estados Unidos do Brasil de 1934, por sua vez, estabelece que: Art. 180. São eleitores os brasileiros de um e de outro sexo, maiores de 18 anos, que se alistarem na forma da lei. Ao se comparar os dois artigos, no que diz respeito ao gênero dos eleitores, depreende-se que",
+    "alternatives": {
+      "A": "a Constituição de 1934 avançou ao reduzir a idade mínima para votar.",
+      "B": "a Constituição de 1891, ao se referir a cidadãos, referia-se também às mulheres.",
+      "C": "os textos de ambas as Cartas permitiam que qualquer cidadão fosse eleitor.",
+      "D": "o texto da carta de 1891 já permitia o voto feminino.",
+      "E": "a Constituição de 1891 considerava eleitores apenas indivíduos do sexo masculino."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 841,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil República",
+    "level": "MÉDIO",
+    "question_text": "O autor da constituição de 1937, Francisco Campos, afirma no seu livro, O Estado Nacional, que o eleitor seria apático; a democracia de partidos conduziria à desordem; a independência do Poder Judiciário acabaria em injustiça e ineficiência; e que apenas o Poder Executivo, centralizado em Getúlio Vargas, seria capaz de dar racionalidade imparcial ao Estado, pois Vargas teria providencial intuição do bem e da verdade, além de ser um gênio político. Segundo as ideias de Francisco Campos,",
+    "alternatives": {
+      "A": "os eleitores, políticos e juízes seriam mal-intencionados.",
+      "B": "o governo Vargas seria um mal necessário, mas transitório.",
+      "C": "Vargas seria o homem adequado para implantar a democracia de partidos.",
+      "D": "a Constituição de 1937 seria a preparação para uma futura democracia liberal.",
+      "E": "Vargas seria o homem capaz de exercer o poder de modo inteligente e correto."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 842,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil República",
+    "level": "MÉDIO",
+    "question_text": "A partir de 1942 e estendendo-se até o final do Estado Novo, o Ministro do Trabalho, Indústria e Comércio de Getúlio Vargas falou aos ouvintes da Rádio Nacional semanalmente, por dez minutos, no programa 'Hora do Brasil'. O objetivo declarado do governo era esclarecer os trabalhadores acerca das inovações na legislação de proteção ao trabalho. Os programas 'Hora do Brasil' contribuíram para",
+    "alternatives": {
+      "A": "conscientizar os trabalhadores de que os direitos sociais foram conquistados por seu esforço, após anos de lutas sindicais.",
+      "B": "promover a autonomia dos grupos sociais, por meio de uma linguagem simples e de fácil entendimento.",
+      "C": "estimular os movimentos grevistas, que reivindicavam um aprofundamento dos direitos trabalhistas.",
+      "D": "consolidar a imagem de Vargas como um governante protetor das massas.",
+      "E": "aumentar os grupos de discussão política dos trabalhadores, estimulados pelas palavras do ministro."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 843,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil Colônia",
+    "level": "MÉDIO",
+    "question_text": "No final do século XVI, na Bahia, Guiomar de Oliveira denunciou Antônia Nóbrega à Inquisição. Segundo o depoimento, esta lhe dava 'uns pós não sabe de quê, e outros pós de osso de finado, os quais pós ela confessante deu a beber em vinho ao dito seu marido para ser seu amigo e serem bem-casados, e que todas estas coisas fez tendo-lhe dito a dita Antônia e ensinado que eram coisas diabólicas e que os diabos lha ensinaram'. Do ponto de vista da Inquisição,",
+    "alternatives": {
+      "A": "o problema dos métodos citados no trecho residia na dissimulação, que acabava por enganar o enfeitiçado.",
+      "B": "o diabo era um concorrente poderoso da autoridade da Igreja e somente a justiça do fogo poderia eliminá-lo.",
+      "C": "os ingredientes em decomposição das poções mágicas eram condenados porque afetavam a saúde da população.",
+      "D": "as feiticeiras representavam séria ameaça à sociedade, pois eram perceptíveis suas tendências feministas.",
+      "E": "Os cristãos deviam preservar a instituição do casamento recorrendo exclusivamente aos ensinamentos da Igreja."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 844,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Moderna",
+    "level": "DIFÍCIL",
+    "question_text": "A formação dos Estados foi certamente distinta na Europa, na América Latina, na África e na Ásia. Os Estados atuais, em especial na América Latina onde as instituições das populações locais existentes à época da conquista ou foram eliminadas, como no caso do México e do Peru, ou eram frágeis, como no caso do Brasil, são o resultado, em geral, da evolução do transplante de instituições europeias feito pelas metrópoles para suas colônias. Na África, as colônias tiveram fronteiras arbitrariamente traçadas, separando etnias, idiomas e tradições, que, mais tarde, sobreviveram ao processo de descolonização, dando razão para conflitos que, muitas vezes, têm sua verdadeira origem em disputas pela exploração de recursos naturais. Na Ásia, a colonização europeia se fez de forma mais indireta e encontrou sistemas políticos e administrativos mais sofisticados, aos quais se superpôs. Hoje, aquelas formas anteriores de organização, ou pelo menos seu espírito, sobrevivem nas organizações políticas do Estado asiático. Relacionando as informações ao contexto histórico e geográfico por elas evocado, assinale a opção correta acerca do processo de formação socioeconômica dos continentes mencionados no texto.",
+    "alternatives": {
+      "A": "Devido à falta de recursos naturais a serem explorados no Brasil, conflitos étnicos e culturais como os ocorridos na África estiveram ausentes no período da independência e formação do Estado brasileiro.",
+      "B": "A maior distinção entre os processos histórico-formativos dos continentes citados é a que se estabelece entre colonizador e colonizado, ou seja, entre a Europa e os demais.",
+      "C": "À época das conquistas, a América Latina, a África e a Ásia tinham sistemas políticos e administrativos muito mais sofisticados que aqueles que lhes foram impostos pelo colonizador.",
+      "D": "Comparadas ao México e ao Peru, as instituições brasileiras, por terem sido eliminadas à época da conquista, sofreram mais influência dos modelos institucionais europeus.",
+      "E": "O modelo histórico da formação do Estado asiático equipara-se ao brasileiro, pois em ambos se manteve o espírito das formas de organização anteriores à conquista."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 845,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil Império",
+    "level": "MÉDIO",
+    "question_text": "No tempo da independência do Brasil, circulavam nas classes populares do Recife trovas que faziam alusão à revolta escrava do Haiti: Marinheiros e caiados Todos devem se acabar, Porque só pardos e pretos O país hão de habitar. O período da independência do Brasil registra conflitos raciais, como se depreende",
+    "alternatives": {
+      "A": "dos rumores acerca da revolta escrava do Haiti, que circulavam entre a população escrava e entre os mestiços pobres, alimentando seu desejo por mudanças.",
+      "B": "da rejeição aos portugueses, brancos, que significava a rejeição à opressão da Metrópole, como ocorreu na Noite das Garrafadas.",
+      "C": "do apoio que escravos e negros forros deram à monarquia, com a perspectiva de receber sua proteção contra as injustiças do sistema escravista.",
+      "D": "do repúdio que os escravos trabalhadores dos portos demonstravam contra os marinheiros, porque estes representavam a elite branca opressora.",
+      "E": "da expulsão de vários líderes negros independentistas, que defendiam a implantação de uma república negra, a exemplo do Haiti."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 846,
+    "discipline": "GEOPOLÍTICA",
+    "theme": "Geopolítica",
+    "level": "MÉDIO",
+    "question_text": "Colhe o Brasil, após esforço contínuo dilatado no tempo, o que plantou no esforço da construção de sua inserção internacional. Há dois séculos formularam-se os pilares da política externa. Teve o país inteligência de longo prazo e cálculo de oportunidade no mundo difuso da transição da hegemonia britânica para o século americano. Engendrou concepções, conceitos e teoria própria no século XIX, de José Bonifácio ao Visconde do Rio Branco. Buscou autonomia decisória no século XX. As elites se interessaram, por meio de calorosos debates, pelo destino do Brasil. O país emergiu, de Vargas aos militares, como ator responsável e previsível nas ações externas do Estado. A mudança de regime político para a democracia não alterou o pragmatismo externo, mas o aperfeiçoou. Sob o ponto de vista da política externa brasileira no século XX, conclui-se que",
+    "alternatives": {
+      "A": "o Brasil é um país periférico na ordem mundial, devido às diferentes conjunturas de inserção internacional.",
+      "B": "as possibilidades de fazer prevalecer ideias e conceitos próprios, no que tange aos temas do comércio internacional e dos países em desenvolvimento, são mínimas.",
+      "C": "as brechas do sistema internacional não foram bem aproveitadas para avançar posições voltadas para a criação de uma área de cooperação e associação integrada a seu entorno geográfico.",
+      "D": "os grandes debates nacionais acerca da inserção internacional do Brasil foram embasados pelas elites do Império e da República por meio de consultas aos diversos setores da população.",
+      "E": "a atuação do Brasil em termos de política externa evidencia que o país tem capacidade decisória própria, mesmo diante dos constrangimentos internacionais."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 847,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Contemporânea",
+    "level": "MÉDIO",
+    "question_text": "A prosperidade induzida pela emergência das máquinas de tear escondia uma acentuada perda de prestígio. Foi nessa idade de ouro que os artesãos, ou os tecelões temporários, passaram a ser denominados, de modo genérico, tecelões de teares manuais. Exceto em alguns ramos especializados, os velhos artesãos foram colocados lado a lado com novos imigrantes, enquanto pequenos fazendeiros-tecelões abandonaram suas pequenas propriedades para se concentrar na atividade de tecer. Reduzidos à completa dependência dos teares mecanizados ou dos fornecedores de matéria-prima, os tecelões ficaram expostos a sucessivas reduções dos rendimentos. Com a mudança tecnológica ocorrida durante a Revolução Industrial, a forma de trabalhar alterou-se porque",
+    "alternatives": {
+      "A": "a invenção do tear propiciou o surgimento de novas relações sociais.",
+      "B": "os tecelões mais hábeis prevaleceram sobre os inexperientes.",
+      "C": "os novos teares exigiam treinamento especializado para serem operados.",
+      "D": "os artesãos, no período anterior, combinavam a tecelagem com o cultivo de subsistência.",
+      "E": "os trabalhadores não especializados se apropriaram dos lugares dos antigos artesãos nas fábricas."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 848,
+    "discipline": "GEOGRAFIA",
+    "theme": "Indústria",
+    "level": "MÉDIO",
+    "question_text": "Até o século XVII, as paisagens rurais eram marcadas por atividades rudimentares e de baixa produtividade. A partir da Revolução Industrial, porém, sobretudo com o advento da revolução tecnológica, houve um desenvolvimento contínuo do setor agropecuário. São, portanto, observadas consequências econômicas, sociais e ambientais inter-relacionadas no período posterior à Revolução Industrial, as quais incluem",
+    "alternatives": {
+      "A": "a erradicação da fome no mundo.",
+      "B": "o aumento das áreas rurais e a diminuição das áreas urbanas.",
+      "C": "a maior demanda por recursos naturais, entre os quais os recursos energéticos.",
+      "D": "a menor necessidade de utilização de adubos e corretivos na agricultura.",
+      "E": "o contínuo aumento da oferta de emprego no setor primário da economia, em face da mecanização."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 849,
+    "discipline": "LITERATURA",
+    "theme": "Prosa Contemporânea",
+    "level": "DIFÍCIL",
+    "question_text": "Como se assistisse à demonstração de um espetáculo mágico, ia revendo aquele ambiente tão característico de família, com seus pesados móveis de vinhático ou de jacarandá, de qualidade antiga, e que denunciavam um passado ilustre, gerações de Meneses talvez mais singelos e mais calmos; agora, uma espécie de desordem, de relaxamento, abastardava aquelas qualidades primaciais. Mesmo assim era fácil perceber o que haviam sido, esses nobres da roça, com seus cristais que brilhavam mansamente na sombra, suas pratas semi-empoeiradas que atestavam o esplendor esvanecido, seus marfins e suas opalinasah, respirava-se ali conforto, não havia dúvida, mas era apenas uma sobrevivência de coisas idas. Dir-se-ia, ante esse mundo que se ia desagregando, que um mal oculto o roía, como um tumor latente em suas entranhas. O mundo narrado nesse trecho do romance de Lúcio Cardoso, acerca da vida dos Meneses, família da aristocracia rural de Minas Gerais, apresenta não apenas a história da decadência dessa família, mas é, ainda, a representação literária de uma fase de desagregação política, social e econômica do país. O recurso expressivo que formula literariamente essa desagregação histórica é o de descrever a casa dos Meneses como",
+    "alternatives": {
+      "A": "ambiente de pobreza e privação, que carece de conforto mínimo para a sobrevivência da família.",
+      "B": "mundo mágico, capaz de recuperar o encantamento perdido durante o período de decadência da aristocracia rural mineira.",
+      "C": "cena familiar, na qual o calor humano dos habitantes da casa ocupa o primeiro plano, compensando a frieza e austeridade dos objetos antigos.",
+      "D": "símbolo de um passado ilustre que, apesar de superado, ainda resiste à sua total dissolução graças ao cuidado e asseio que a família dispensa à conservação da casa.",
+      "E": "espaço arruinado, onde os objetos perderam seu esplendor e sobre os quais a vida repousa como lembrança de um passado que está em vias de desaparecer completamente."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 850,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil Império",
+    "level": "MÉDIO",
+    "question_text": "O suíço Thomas Davatz chegou a São Paulo em 1855 para trabalhar como colono na fazenda de café Ibicaba, em Campinas. A perspectiva de prosperidade que o atraiu para o Brasil deu lugar a insatisfação e revolta, que ele registrou em livro. Sobre o percurso entre o porto de Santos e o planalto paulista, escreveu Davatz: 'As estradas do Brasil, salvo em alguns trechos, são péssimas. Em quase toda parte, falta qualquer espécie de calçamento ou mesmo de saibro. Constam apenas de terra simples, sem nenhum benefício. É fácil prever que nessas estradas não se encontram estalagens e hospedarias como as da Europa. Nas cidades maiores, o viajante pode naturalmente encontrar aposento sofrível; nunca, porém, qualquer coisa de comparável à comodidade que proporciona na Europa qualquer estalagem rural. Tais cidades são, porém, muito poucas na distância que vai de Santos a Ibicaba e que se percorre em cinquenta horas no mínimo'. Em 1867 foi inaugurada a ferrovia ligando Santos a Jundiaí, o que abreviou o tempo de viagem entre o litoral e o planalto para menos de um dia. Nos anos seguintes, foram construídos outros ramais ferroviários que articularam o interior cafeeiro ao porto de exportação, Santos. O impacto das ferrovias na promoção de projetos de colonização com base em imigrantes europeus foi importante, porque",
+    "alternatives": {
+      "A": "o percurso dos imigrantes até o interior, antes das ferrovias, era feito a pé ou em muares; no entanto, o tempo de viagem era aceitável, uma vez que o café era plantado nas proximidades da capital, São Paulo.",
+      "B": "a expansão da malha ferroviária pelo interior de São Paulo permitiu que mão-de-obra estrangeira fosse contratada para trabalhar em cafezais de regiões cada vez mais distantes do porto de Santos.",
+      "C": "o escoamento da produção de café se viu beneficiado pelos aportes de capital, principalmente de colonos italianos, que desejavam melhorar sua situação econômica.",
+      "D": "os fazendeiros puderam prescindir da mão-de-obra europeia e contrataram trabalhadores brasileiros provenientes de outras regiões para trabalhar em suas plantações.",
+      "E": "as notícias de terras acessíveis atraíram para São Paulo grande quantidade de imigrantes, que adquiriram vastas propriedades produtivas."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 851,
+    "discipline": "GEOGRAFIA",
+    "theme": "Urbanização",
+    "level": "MÉDIO",
+    "question_text": "Além dos inúmeros eletrodomésticos e bens eletrônicos, o automóvel produzido pela indústria fordista promoveu, a partir dos anos 50, mudanças significativas no modo de vida dos consumidores e também na habitação e nas cidades. Com a massificação do consumo dos bens modernos, dos eletroeletrônicos e também do automóvel, mudaram radicalmente o modo de vida, os valores, a cultura e o conjunto do ambiente construído. Da ocupação do solo urbano até o interior da moradia, a transformação foi profunda. Uma das consequências das inovações tecnológicas das últimas décadas, que determinaram diferentes formas de uso e ocupação do espaço geográfico, é a instituição das chamadas cidades globais, que se caracterizam por",
+    "alternatives": {
+      "A": "possuírem o mesmo nível de influência no cenário mundial.",
+      "B": "fortalecerem os laços de cidadania e solidariedade entre os membros das diversas comunidades.",
+      "C": "constituírem um passo importante para a diminuição das desigualdades sociais causadas pela polarização social e pela segregação urbana.",
+      "D": "terem sido diretamente impactadas pelo processo de internacionalização da economia, desencadeado a partir do final dos anos 1970.",
+      "E": "terem sua origem diretamente relacionadas ao processo de colonização ocidental do século XIX."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 852,
+    "discipline": "SOCIOLOGIA",
+    "theme": "Teoria da Sociologia",
+    "level": "DIFÍCIL",
+    "question_text": "Populações inteiras, nas cidades e na zona rural, dispõem da parafernália digital global como fonte de educação e de formação cultural. Essa simultaneidade de cultura e informação eletrônica com as formas tradicionais e orais é um desafio que necessita ser discutido. A exposição, via mídia eletrônica, com estilos e valores culturais de outras sociedades, pode inspirar apreço, mas também distorções e ressentimentos. Tanto quanto há necessidade de uma cultura tradicional de posse da educação letrada, também é necessário criar estratégias de alfabetização eletrônica, que passam a ser o grande canal de informação das culturas segmentadas no interior dos grandes centros urbanos e das zonas rurais. Um novo modelo de educação. Com base no texto e considerando os impactos culturais da difusão das tecnologias de informação no marco da globalização, depreende-se que",
+    "alternatives": {
+      "A": "a ampla difusão das tecnologias de informação nos centros urbanos e no meio rural suscita o contato entre diferentes culturas e, ao mesmo tempo, traz a necessidade de reformular as concepções tradicionais de educação.",
+      "B": "a apropriação, por parte de um grupo social, de valores e ideias de outras culturas para benefício próprio é fonte de conflitos e ressentimentos.",
+      "C": "as mudanças sociais e culturais que acompanham o processo de globalização, ao mesmo tempo em que refletem a preponderância da cultura urbana, tornam obsoletas as formas de educação tradicionais próprias do meio rural.",
+      "D": "as populações nos grandes centros urbanos e no meio rural recorrem aos instrumentos e tecnologias de informação basicamente como meio de comunicação mútua, e não os veem como fontes de educação e cultura.",
+      "E": "a intensificação do fluxo de comunicação por meios eletrônicos, característica do processo de globalização, está dissociada do desenvolvimento social e cultural que ocorre no meio rural."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 853,
+    "discipline": "GEOGRAFIA",
+    "theme": "Regionalização do Brasil",
+    "level": "MÉDIO",
+    "question_text": "A partir do mapa apresentado, é possível inferir que nas últimas décadas do século XX, registraram-se processos que resultaram em transformações na distribuição das atividades econômicas e da população sobre o território brasileiro, com reflexos no PIB por habitante. Assim,",
+    "alternatives": {
+      "A": "as desigualdades econômicas existentes entre regiões brasileiras desapareceram, tendo em vista a modernização tecnológica e o crescimento vivido pelo país.",
+      "B": "os novos fluxos migratórios instaurados em direção ao Norte e ao Centro-Oeste do país prejudicaram o desenvolvimento socioeconômico dessas regiões, incapazes de atender ao crescimento da demanda por postos de trabalho.",
+      "C": "o Sudeste brasileiro deixou de ser a região com o maior PIB industrial a partir do processo de desconcentração espacial do setor, em direção a outras regiões do país.",
+      "D": "o avanço da fronteira econômica sobre os estados da região Norte e do Centro-Oeste resultou no novas desenvolvimento e na introdução de atividades econômicas, tanto nos setores primário e secundário, como no terciário.",
+      "E": "o Nordeste tem vivido, ao contrário do restante do país, um período de retração econômica, como consequência da falta de investimentos no setor industrial com base na moderna tecnologia."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 854,
+    "discipline": "HISTÓRIA",
+    "theme": "Idade Antiga",
+    "level": "MÉDIO",
+    "question_text": "No período 750-338 a. C., a Grécia antiga era composta por cidades-Estado, como por exemplo Atenas, Esparta, Tebas, que eram independentes umas das outras, mas partilhavam algumas características culturais, como a língua grega. No centro da Grécia, Delfos era um lugar de culto religioso frequentado por habitantes de todas as cidades-Estado. No período 1200-1600 d. C., na parte da Amazônia brasileira onde hoje está o Parque Nacional do Xingu, há vestígios de quinze cidades que eram cercadas por muros de madeira e que tinham até dois mil e quinhentos habitantes cada uma. Essas cidades eram ligadas por estradas a centros cerimoniais com grandes praças. Em torno delas havia roças, pomares e tanques para a criação de tartarugas. Aparentemente, epidemias dizimaram grande parte da população que lá vivia. Apesar das diferenças históricas e geográficas existentes entre as duas civilizações elas são semelhantes pois",
+    "alternatives": {
+      "A": "as ruínas das cidades mencionadas atestam que grandes epidemias dizimaram suas populações.",
+      "B": "as cidades do Xingu desenvolveram a democracia, tal como foi concebida em Tebas.",
+      "C": "as duas civilizações tinham cidades autônomas e independentes entre si.",
+      "D": "os povos do Xingu falavam uma mesma língua, tal como nas cidades-Estado da Grécia.",
+      "E": "as cidades do Xingu dedicavam-se à arte e à filosofia tal como na Grécia."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 855,
+    "discipline": "GEOGRAFIA",
+    "theme": "Demografia",
+    "level": "FÁCIL",
+    "question_text": "O movimento migratório no Brasil é significativo, principalmente em função do volume de pessoas que saem de uma região com destino a outras regiões. Um desses movimentos ficou famoso nos anos 80, quando muitos nordestinos deixaram a região Nordeste em direção ao Sudeste do Brasil. Segundo os dados do IBGE de 2000, este processo continuou crescente no período seguinte, os anos 90, com um acréscimo de 7,6% nas migrações deste mesmo fluxo. A Pesquisa de Padrão de Vida, feita pelo IBGE, em 1996, aponta que, entre os nordestinos que chegam ao Sudeste, 48,6% exercem trabalhos manuais não qualificados, 18,5% são trabalhadores manuais qualificados, enquanto 13,5%, embora não sejam trabalhadores manuais, se encontram em áreas que não exigem formação profissional. O mesmo estudo indica também que esses migrantes possuem, em média, condição de vida e nível educacional acima dos de seus conterrâneos e abaixo dos de cidadãos estáveis do Sudeste. Com base nas informações contidas no texto, depreende-se que",
+    "alternatives": {
+      "A": "o processo migratório foi desencadeado por ações de governo para viabilizar a produção industrial no Sudeste.",
+      "B": "os governos estaduais do Sudeste priorizaram a qualificação da mão-de-obra migrante.",
+      "C": "o processo de migração para o Sudeste contribui para o fenômeno conhecido como inchaço urbano.",
+      "D": "as migrações para o sudeste desencadearam a valorização do trabalho manual, sobretudo na década de 80.",
+      "E": "a falta de especialização dos migrantes é positiva para os empregadores, pois significa maior versatilidade profissional."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 856,
+    "discipline": "GEOGRAFIA",
+    "theme": "Geografia Agrária",
+    "level": "MÉDIO",
+    "question_text": "Apesar do aumento da produção no campo e da integração entre a indústria e a agricultura, parte da população da América do Sul ainda sofre com a subalimentação, o que gera conflitos pela posse de terra que podem ser verificados em várias áreas e que frequentemente chegam a provocar mortes. Um dos fatores que explica a subalimentação na América do Sul é",
+    "alternatives": {
+      "A": "a baixa inserção de sua agricultura no comércio mundial.",
+      "B": "a quantidade insuficiente de mão-de-obra para o trabalho agrícola.",
+      "C": "a presença de estruturas agrárias arcaicas formadas por latifúndios improdutivos.",
+      "D": "a situação conflituosa vivida no campo, que impede o crescimento da produção agrícola.",
+      "E": "os sistemas de cultivo mecanizado voltados para o abastecimento do mercado interno."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 857,
+    "discipline": "GEOGRAFIA",
+    "theme": "Geografia Agrária",
+    "level": "MÉDIO",
+    "question_text": "A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-se a perseverança dos movimentos do campesinato e, entre os aspectos negativos, a violência que manchou de sangue essa história. Os movimentos pela reforma agrária articularam-se por todo o território nacional, principalmente entre 1985 e 1996, e conseguiram de maneira expressiva a inserção desse tema nas discussões pelo acesso à terra. Com base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região",
+    "alternatives": {
+      "A": "conhecida historicamente como das Missões Jesuíticas é a de maior violência.",
+      "B": "do Bico do Papagaio apresenta os números mais expressivos.",
+      "C": "conhecida como oeste baiano tem o maior número de mortes.",
+      "D": "do norte do Mato Grosso, área de expansão da agricultura mecanizada, é a mais violenta do país.",
+      "E": "da Zona da Mata mineira teve o maior registro de mortes."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 858,
+    "discipline": "GEOGRAFIA",
+    "theme": "Geografia Agrária",
+    "level": "MÉDIO",
+    "question_text": "O gráfico mostra o percentual de áreas ocupadas, segundo o tipo de propriedade rural no Brasil, no ano de 2006. De acordo com o gráfico e com referência à distribuição das áreas rurais no Brasil, conclui-se que",
+    "alternatives": {
+      "A": "imóveis improdutivos são predominantes em relação às demais formas de ocupação da terra no âmbito nacional e na maioria das regiões.",
+      "B": "o índice de 63,8% de imóveis improdutivos demonstra que grande parte do solo brasileiro é de baixa fertilidade, impróprio para a atividade agrícola.",
+      "C": "o percentual de imóveis improdutivos iguala-se ao de imóveis produtivos somados aos minifúndios, o que justifica a existência de conflitos por terra.",
+      "D": "a região Norte apresenta o segundo menor percentual de imóveis produtivos, possivelmente em razão da presença de densa cobertura florestal, protegida por legislação ambiental.",
+      "E": "a região Centro-Oeste apresenta o menor percentual de área ocupada por minifúndios, o que inviabiliza políticas de reforma agrária nesta região."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 859,
+    "discipline": "SOCIOLOGIA",
+    "theme": "Poder, Estado e Cidadania",
+    "level": "MÉDIO",
+    "question_text": "Entre 2004 e 2008, pelo menos 8 mil brasileiros foram libertados de fazendas onde trabalhavam como se fossem escravos. O governo criou uma lista em que ficaram expostos os nomes dos fazendeiros flagrados pela fiscalização. No Norte, Nordeste e Centro-Oeste, regiões que mais sofrem com a fraqueza do poder público, o bloqueio dos canais de financiamento agrícola para tais fazendeiros tem sido a principal arma de combate a esse problema, mas os governos ainda sofrem com a falta de informações, provocada pelas distâncias e pelo poder intimidador dos proprietários. Organizações não governamentais e grupos como a Pastoral da Terra têm agido corajosamente, acionando as autoridades públicas e ministrando aulas sobre direitos sociais e trabalhistas. Nos lugares mencionados no texto, o papel dos grupos de defesa dos direitos humanos tem sido fundamental, porque eles",
+    "alternatives": {
+      "A": "negociam com os fazendeiros o reajuste dos honorários e a redução da carga horária de trabalho.",
+      "B": "defendem os direitos dos consumidores junto aos armazéns e mercados das fazendas e carvoarias.",
+      "C": "substituem as autoridades policiais e jurídicas na resolução dos conflitos entre patrões e empregados.",
+      "D": "encaminham denúncias ao Ministério Público e promovem ações de conscientização dos trabalhadores.",
+      "E": "fortalecem a administração pública ao ministrarem aulas aos seus servidores."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 860,
+    "discipline": "GEOGRAFIA",
+    "theme": "Meio Ambiente",
+    "level": "MÉDIO",
+    "question_text": "O homem construiu sua história por meio do constante processo de ocupação e transformação do espaço natural. Na verdade, o que variou, nos diversos momentos da experiência humana, foi a intensidade dessa exploração. Uma das consequências que pode ser atribuída à crescente intensificação da exploração de recursos naturais, facilitada pelo desenvolvimento tecnológico ao longo da história, é",
+    "alternatives": {
+      "A": "a diminuição do comércio entre países e regiões, que se tornaram autossuficientes na produção de bens e serviços.",
+      "B": "a ocorrência de desastres ambientais de grandes proporções, como no caso de derramamento de óleo por navios petroleiros.",
+      "C": "a melhora generalizada das condições de vida da população mundial, a partir da eliminação das desigualdades econômicas na atualidade.",
+      "D": "o desmatamento, que eliminou grandes extensões de diversos biomas improdutivos, cujas áreas passaram a ser ocupadas por centros industriais modernos.",
+      "E": "o aumento demográfico mundial, sobretudo nos países mais desenvolvidos, que apresentam altas taxas de crescimento vegetativo."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 861,
+    "discipline": "GEOGRAFIA",
+    "theme": "Meio Ambiente",
+    "level": "MÉDIO",
+    "question_text": "No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, sendo constante, nos fóruns internacionais e nas instâncias nacionais, a referência à sustentabilidade como princípio orientador de ações e propostas que deles emanam. A sustentabilidade explica-se pela",
+    "alternatives": {
+      "A": "incapacidade de se manter uma atividade econômica ao longo do tempo sem causar danos ao meio ambiente.",
+      "B": "incompatibilidade entre crescimento econômico acelerado e preservação de recursos naturais e de fontes não renováveis de energia.",
+      "C": "interação de todas as dimensões do bem-estar humano com o crescimento econômico, sem a preocupação com a conservação dos recursos naturais que estivera presente desde a Antiguidade.",
+      "D": "proteção da biodiversidade em face das ameaças de destruição que sofrem as florestas tropicais devido ao avanço de atividades como a mineração, a monocultura, o tráfico de madeira e de espécies selvagens.",
+      "E": "necessidade de se satisfazer as demandas atuais colocadas pelo desenvolvimento sem comprometer a capacidade de as gerações futuras atenderem suas próprias necessidades nos campos econômico, social e ambiental."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 862,
+    "discipline": "GEOGRAFIA",
+    "theme": "Geopolítica",
+    "level": "MÉDIO",
+    "question_text": "Com a perspectiva do desaparecimento das geleiras no Polo Norte, grandes reservas de petróleo e minérios, hoje inacessíveis, poderão ser exploradas. E já atiçam a cobiça das potências. No cenário de que trata o texto, a exploração de jazidas de petróleo, bem como de minérios diamante, ouro, prata, cobre, chumbo, zinco torna-se atraente não só em função de seu formidável potencial, mas também por",
+    "alternatives": {
+      "A": "situar-se em uma zona geopolítica mais estável que o Oriente Médio.",
+      "B": "possibilitar o povoamento de uma região pouco habitada, além de promover seu desenvolvimento econômico.",
+      "C": "garantir, aos países em desenvolvimento, acesso a matérias-primas e energia, necessárias ao crescimento econômico.",
+      "D": "contribuir para a redução da poluição em áreas ambientalmente já degradadas devido ao grande volume da produção industrial, como ocorreu na Europa.",
+      "E": "promover a participação dos combustíveis fósseis na matriz energética mundial, dominada, majoritariamente, pelas fontes renováveis, de maior custo."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": 863,
+    "discipline": "GEOGRAFIA",
+    "theme": "Fontes de Energia",
+    "level": "MÉDIO",
+    "question_text": "No mundo contemporâneo, as reservas energéticas tornam-se estratégicas para muitos países no cenário internacional. As reservas venezuelanas figuram em ambas as classificações porque",
+    "alternatives": {
+      "A": "a Venezuela já está integrada ao MERCOSUL.",
+      "B": "são reservas comprovadas, mas ainda inexploradas.",
+      "C": "podem ser exploradas sem causarem alterações ambientais.",
+      "D": "já estão comprometidas com o setor industrial interno daquele país.",
+      "E": "a Venezuela é uma grande potência energética mundial."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 864,
+    "discipline": "HISTÓRIA",
+    "theme": "Brasil Colônia",
+    "level": "MÉDIO",
+    "question_text": "As terras brasileiras foram divididas por meio de tratados entre Portugal e Espanha. De acordo com esses tratados, identificados no mapa, conclui-se que",
+    "alternatives": {
+      "A": "Portugal, pelo Tratado de Tordesilhas, detinha o controle da foz do rio Amazonas.",
+      "B": "o Tratado de Tordesilhas utilizava os rios como limite físico da América portuguesa.",
+      "C": "o Tratado de Madri reconheceu a expansão portuguesa além da linha de Tordesilhas.",
+      "D": "Portugal, pelo Tratado de San Ildefonso, perdia territórios na América em relação ao de Tordesilhas.",
+      "E": "o Tratado de Madri criou a divisão administrativa da América Portuguesa em Vice-Reinos Oriental e Ocidental."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": 865,
+    "discipline": "GEOGRAFIA",
+    "theme": "Atmosfera",
+    "level": "FÁCIL",
+    "question_text": "O clima é um dos elementos fundamentais não só na caracterização das paisagens naturais, mas também no histórico de ocupação do espaço geográfico. Tendo em vista determinada restrição climática, a figura que representa o uso de tecnologia voltada para a produção é:",
+    "alternatives": {
+      "A": "Exploração vinícola no Chile",
+      "B": "Pequena agricultura praticada em região andina",
+      "C": "Parque de engorda de bovinos nos EUA",
+      "D": "Zonas irrigadas por aspersão na Arábia Saudita",
+      "E": "Parque eólico na Califórnia"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 866,
+    "discipline": "GEOGRAFIA",
+    "theme": "Meio Ambiente",
+    "level": "MÉDIO",
+    "question_text": "Reunindo-se as informações contidas nas duas charges, infere-se que",
+    "alternatives": {
+      "A": "os regimes climáticos da Terra são desprovidos de padrões que os caracterizem.",
+      "B": "as intervenções humanas nas regiões polares são mais intensas que em outras partes do globo.",
+      "C": "o processo de aquecimento global será detido com a eliminação das queimadas.",
+      "D": "a destruição das florestas tropicais é uma das causas do aumento da temperatura em locais distantes como os polos.",
+      "E": "os parâmetros climáticos modificados pelo homem afetam todo o planeta, mas os processos naturais têm alcance regional."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": 867,
+    "discipline": "GEOGRAFIA",
+    "theme": "Hidrosfera",
+    "level": "MÉDIO",
+    "question_text": "Na figura, observa-se uma classificação de regiões da América do Sul segundo o grau de aridez verificado. Em relação às regiões marcadas na figura, observa-se que",
+    "alternatives": {
+      "A": "a existência de áreas superáridas, áridas e semiáridas é resultado do processo de desertificação, de intensidade variável, causado pela ação humana.",
+      "B": "o emprego de modernas técnicas de irrigação possibilitou a expansão da agricultura em determinadas áreas do semiárido, integrando-as ao comércio internacional.",
+      "C": "o semiárido, por apresentar déficit de precipitação, passou a ser habitado a partir da Idade Moderna, graças ao avanço científico e tecnológico.",
+      "D": "as áreas com escassez hídrica na América do Sul se restringem às regiões tropicais, onde as médias de temperatura anual são mais altas, justificando a falta de desenvolvimento e os piores indicadores sociais.",
+      "E": "o mesmo tipo de cobertura vegetal é encontrado nas áreas superáridas, áridas e semiáridas, mas essa cobertura, embora adaptada às condições climáticas, é desprovida de valor econômico."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": 868,
+    "discipline": "GEOGRAFIA",
+    "theme": "Hidrosfera",
+    "level": "MÉDIO",
+    "question_text": "À medida que a demanda por água aumenta, as reservas desse recurso vão se tornando imprevisíveis. Modelos matemáticos que analisam os efeitos das mudanças climáticas sobre a disponibilidade de água no futuro indicam que haverá escassez em muitas regiões do planeta. São esperadas mudanças nos padrões de precipitação, pois",
+    "alternatives": {
+      "A": "o maior aquecimento implica menor formação de nuvens e, consequentemente, a eliminação de áreas úmidas e subúmidas do globo.",
+      "B": "as chuvas frontais ficarão restritas ao tempo de permanência da frente em uma determinada localidade, o que limitará a produtividade das atividades agrícolas.",
+      "C": "as modificações decorrentes do aumento da temperatura do ar diminuirão a umidade e, portanto, aumentarão a aridez em todo o planeta.",
+      "D": "a elevação do nível dos mares pelo derretimento das geleiras acarretará redução na ocorrência de chuvas nos continentes, o que implicará a escassez de água para abastecimento.",
+      "E": "a origem da chuva está diretamente relacionada com a temperatura do ar, sendo que atividades antropogênicas são capazes de provocar interferências em escala local e global."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 869,
+    "discipline": "GEOGRAFIA",
+    "theme": "Urbanização",
+    "level": "DIFÍCIL",
+    "question_text": "A mais profunda objeção que se faz à ideia da criação de uma cidade, como Brasília, é que o seu desenvolvimento não poderá jamais ser natural. É uma objeção muito séria, pois provém de uma concepção de vida fundamental: a de que a atividade social e cultural não pode ser uma construção. Esquecem-se, porém, aqueles que fazem tal crítica, que o Brasil, como praticamente toda a América, é criação do homem ocidental. As ideias apontadas no texto estão em oposição, porque",
+    "alternatives": {
+      "A": "a cultura dos povos é reduzida a exemplos esquemáticos que não encontram respaldo na história do Brasil ou da América.",
+      "B": "as cidades, na primeira afirmação, têm um papel mais fraco na vida social, enquanto a América é mostrada como um exemplo a ser evitado.",
+      "C": "a objeção inicial, de que as cidades não podem ser inventadas, é negada logo em seguida pelo exemplo utópico da colonização da América.",
+      "D": "a concepção fundamental da primeira afirmação defende a construção de cidades e a segunda mostra, historicamente, que essa estratégia acarretou sérios problemas.",
+      "E": "a primeira entende que as cidades devem ser organismos vivos, que nascem de forma espontânea, e a segunda mostra que há exemplos históricos que demonstram o contrário."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "id": 870,
+    "discipline": "GEOGRAFIA",
+    "theme": "Meio Ambiente",
+    "level": "MÉDIO",
+    "question_text": "As áreas do planalto do cerrado como a chapada dos Guimarães, a serra de Tapirapuã e a serra dos Parecis, no Mato Grosso, com altitudes que variam de 400 m a 800 m são importantes para a planície pantaneira mato-grossense (com altitude média inferior a 200 m), no que se refere à manutenção do nível de água, sobretudo durante a estiagem. Nas cheias, a inundação ocorre em função da alta pluviosidade nas cabeceiras dos rios, do afloramento de lençóis freáticos e da baixa declividade do relevo, entre outros fatores. Durante a estiagem, a grande biodiversidade é assegurada pelas águas da calha dos principais rios, cujo volume tem diminuído, principalmente nas cabeceiras. A medida mais eficaz a ser tomada, visando à conservação da planície pantaneira e à preservação de sua grande biodiversidade, é a conscientização da sociedade e a organização de movimentos sociais que exijam",
+    "alternatives": {
+      "A": "a criação de parques ecológicos na área do pantanal mato-grossense.",
+      "B": "a proibição da pesca e da caça, que tanto ameaçam a biodiversidade.",
+      "C": "o aumento das pastagens na área da planície, para que a cobertura vegetal, composta de gramíneas, evite a erosão do solo.",
+      "D": "o controle do desmatamento e da erosão, principalmente nas nascentes dos rios responsáveis pelo nível das águas durante o período de cheias.",
+      "E": "a construção de barragens, para que o nível das águas dos rios seja mantido, sobretudo na estiagem, sem prejudicar os ecossistemas."
+    },
+    "correct_answer": "D"
   }
 ]
