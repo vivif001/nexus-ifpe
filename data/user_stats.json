@@ -1,9 +1,9 @@
 [
     {
         "user_id": "1",
-        "total_questions_answered": 101,
+        "total_questions_answered": 102,
         "total_correct_answers": 39,
-        "correct_percentage": 38.61,
+        "correct_percentage": 38.23529411764706,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -111,7 +111,7 @@
                 }
             },
             "INTERPRETAÇÃO DE TEXTO": {
-                "total_answered": 4,
+                "total_answered": 5,
                 "total_correct": 0,
                 "themes": {
                     "TEORIA DA COMUNICAÇÃO": {
@@ -120,6 +120,11 @@
                         "incorrect": 3
                     },
                     "LÍNGUA E PATRIMÔNIO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "Coesão E Coerência Textuais": {
                         "answered": 1,
                         "correct": 0,
                         "incorrect": 1
@@ -301,7 +306,7 @@
         "user_id": "3",
         "total_questions_answered": 50,
         "total_correct_answers": 45,
-        "correct_percentage": 90.00,
+        "correct_percentage": 90.0,
         "disciplines": {}
     },
     {
@@ -315,21 +320,21 @@
         "user_id": "5",
         "total_questions_answered": 75,
         "total_correct_answers": 60,
-        "correct_percentage": 80.00,
+        "correct_percentage": 80.0,
         "disciplines": {}
     },
     {
         "user_id": "6",
         "total_questions_answered": 150,
         "total_correct_answers": 75,
-        "correct_percentage": 50.00,
+        "correct_percentage": 50.0,
         "disciplines": {}
     },
     {
         "user_id": "7",
         "total_questions_answered": 40,
         "total_correct_answers": 38,
-        "correct_percentage": 95.00,
+        "correct_percentage": 95.0,
         "disciplines": {}
     },
     {
@@ -343,7 +348,7 @@
         "user_id": "9",
         "total_questions_answered": 110,
         "total_correct_answers": 99,
-        "correct_percentage": 90.00,
+        "correct_percentage": 90.0,
         "disciplines": {}
     }
 ]
