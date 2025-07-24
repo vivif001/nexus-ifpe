@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QMessageBox
 from utils.json_manager import USERS, save_json_data, json_users_path
 from utils.mail_sender import send_new_user_email
 from gui.ui_forms.Ui_AdminWindow import Ui_AdminWindow
+from gui.statistics_window import StatisticsWindow 
 
 class AdminWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
@@ -11,8 +12,11 @@ class AdminWindow(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
         self.setWindowTitle("Painel de Administração")
         
+        self.statistics_window = None 
+        
         self.ui.button_Exit.clicked.connect(self.back_to_main_menu)
         self.ui.register_button.clicked.connect(self.create_new_user_and_send_email)
+        self.ui.button_statistic.clicked.connect(self.show_statistics) 
         
     def create_new_user_and_send_email(self):
         first_name = self.ui.login_Field_6.text().strip() 
@@ -56,6 +60,15 @@ class AdminWindow(QtWidgets.QMainWindow):
         self.ui.login_Field_8.clear() 
         self.ui.login_Field_7.clear() 
 
+    def show_statistics(self):
+        selected_user_id = "1"
+        
+        if self.statistics_window is None:
+            self.statistics_window = StatisticsWindow(user_id=selected_user_id, parent=self)
+        
+        self.statistics_window.show()
+        self.hide() 
+    
     def back_to_main_menu(self):
         self.hide()
         if self.parent():
