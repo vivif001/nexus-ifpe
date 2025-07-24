@@ -1,5 +1,3 @@
-# gui/main_menu_window.py
-
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QMessageBox
 from gui.questions_window import QuestionsWindow
@@ -7,6 +5,10 @@ from gui.admin_window import AdminWindow
 from gui.ranking_window import RankingWindow
 from gui.filter_questions_dialog import FilterQuestionsDialog
 from gui.ui_forms.Ui_MainMenuWindow import Ui_MainMenuWindow 
+from gui.battle_window import BattleWindow
+from gui.login_dialog import LoginDialog
+from gui.battle_config_dialog import BattleConfigDialog
+
 
 class MainMenuWindow(QtWidgets.QMainWindow):
     def __init__(self, user_role="user", user_id=None, parent_login_window=None):
@@ -18,6 +20,7 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.questions_window = None
         self.admin_window = None
         self.ranking_window = None
+        self.battle_window = None
         
         self.current_user_id = user_id
         self.parent_login_window = parent_login_window
@@ -29,6 +32,11 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.ui.button_Ranking.clicked.connect(self.open_ranking_window)
         self.ui.button_Exit.clicked.connect(self.quit_main_menu)
         
+        if hasattr(self.ui, 'button_battle'): 
+            self.ui.button_battle.clicked.connect(self.open_battle_window)
+        else:
+            print("Atenção: 'pushButton_Battle' não encontrado na UI do MainMenuWindow. Certifique-se de adicioná-lo no Qt Designer.")
+
         if hasattr(self.ui, 'button_Admin'):
             if user_role != "admin":
                 self.ui.button_Admin.hide()
@@ -80,3 +88,35 @@ class MainMenuWindow(QtWidgets.QMainWindow):
         self.admin_window = AdminWindow(parent=self)
         self.hide()
         self.admin_window.show()
+        
+    def open_battle_window(self):
+        login_dialog_player2 = LoginDialog(title="Login do Jogador 2", parent=self)
+        
+        login_dialog_player2 = LoginDialog(title="Login do Jogador 2", parent=self)
+        
+        if login_dialog_player2.exec_() == QtWidgets.QDialog.Accepted:
+            player2_id, player2_role = login_dialog_player2.get_credentials()
+            
+            if player2_id is not None:
+                if player2_id == self.current_user_id:
+                    QMessageBox.warning(self, "Erro na Batalha", "O Jogador 2 não pode ser o mesmo que o Jogador 1. Por favor, use outra conta.")
+                    return
+
+                config_dialog = BattleConfigDialog(parent=self)
+                if config_dialog.exec_() == QtWidgets.QDialog.Accepted:
+                    battle_settings = config_dialog.get_battle_config()
+                    
+                    self.battle_window = BattleWindow(
+                        player1_id=self.current_user_id,
+                        player2_id=player2_id,
+                        battle_settings=battle_settings,
+                        parent=self
+                    )
+                    self.hide()
+                    self.battle_window.show()
+                else:
+                    QMessageBox.information(self, "Batalha Cancelada", "Configuração da batalha cancelada. Retornando ao menu principal.")
+            else:
+                QMessageBox.warning(self, "Login Necessário", "O Jogador 2 precisa fazer login para iniciar a batalha.")
+        else:
+            QMessageBox.information(self, "Batalha Cancelada", "Login do Jogador 2 cancelado. Retornando ao menu principal.")
