@@ -1,0 +1,181 @@
+[
+    {
+        "id": "mind_clear",
+        "name": "Mente Clara",
+        "description": "Pula a questão atual sem penalidade, passando para a próxima. Não gasta seu turno.",
+        "effect_type": "instant",
+        "target": "self",
+        "action": "skip_question"
+    },
+    {
+        "id": "increased_focus",
+        "name": "Foco Aumentado",
+        "description": "Elimina duas opções incorretas de uma questão de múltipla escolha.",
+        "effect_type": "buff",
+        "target": "self",
+        "action": "eliminate_options",
+        "value": 2,
+        "duration": "current_question"
+    },
+    {
+        "id": "hit_bonus",
+        "name": "Bônus do Acerto",
+        "description": "Dobra os pontos que você ganharia se acertar a próxima questão.",
+        "effect_type": "buff",
+        "target": "self",
+        "action": "double_points",
+        "duration": "next_question"
+    },
+    {
+        "id": "sudden_inspiration",
+        "name": "Inspiração Súbita",
+        "description": "Revela a disciplina da próxima questão para você.",
+        "effect_type": "instant",
+        "target": "self",
+        "action": "reveal_discipline"
+    },
+    {
+        "id": "extra_time",
+        "name": "Tempo Extra",
+        "description": "Adiciona 30 segundos ao seu tempo restante na questão atual (se houver limite de tempo).",
+        "effect_type": "instant",
+        "target": "self",
+        "action": "add_time",
+        "value": 30
+    },
+    {
+        "id": "second_chance",
+        "name": "Segunda Chance",
+        "description": "Permite que você tente responder a questão atual novamente, caso tenha errado.",
+        "effect_type": "buff",
+        "target": "self",
+        "action": "retry_question",
+        "duration": "current_question"
+    },
+    {
+        "id": "saved_by_the_bell",
+        "name": "Salvo pelo Gongo",
+        "description": "Se você estourar o tempo limite da questão atual, ela não será considerada um erro.",
+        "effect_type": "buff",
+        "target": "self",
+        "action": "no_timeout_penalty",
+        "duration": "current_question"
+    },
+    {
+        "id": "discipline_snatcher",
+        "name": "Apanhador de Disciplina",
+        "description": "Escolhe a disciplina da próxima questão do seu adversário.",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "choose_discipline",
+        "duration": "next_question"
+    },
+    {
+        "id": "confusing_question",
+        "name": "Questão Confusa",
+        "description": "A próxima questão do adversário tem suas opções de resposta com um atraso para serem exibidas.",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "delayed_options",
+        "value": 3,
+        "duration": "next_question"
+    },
+    {
+        "id": "hardcore_level",
+        "name": "Nível Hardcore",
+        "description": "Força o adversário a receber uma questão de dificuldade 'Difícil' na próxima rodada.",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "force_difficulty",
+        "value": "Difícil",
+        "duration": "next_question"
+    },
+    {
+        "id": "all_or_nothing",
+        "name": "Tudo ou Nada",
+        "description": "Dobra a perda de pontos para o adversário se ele errar a próxima questão (dobra o ganho se acertar).",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "double_loss_gain",
+        "duration": "next_question"
+    },
+    {
+        "id": "blind_sight",
+        "name": "Visão Cega",
+        "description": "Impede que o adversário veja seu próprio placar e as opções de resposta por uma rodada.",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "hide_ui_elements",
+        "duration": "current_question"
+    },
+    {
+        "id": "time_drain",
+        "name": "Dreno de Tempo",
+        "description": "O adversário perde 20 segundos do tempo total da batalha (se houver um tempo total).",
+        "effect_type": "instant",
+        "target": "opponent",
+        "action": "reduce_total_time",
+        "value": 20
+    },
+    {
+        "id": "random_swap",
+        "name": "Troca Aleatória",
+        "description": "A questão atual do adversário é substituída por outra, mas de uma disciplina aleatória.",
+        "effect_type": "instant",
+        "target": "opponent",
+        "action": "random_question_swap"
+    },
+    {
+        "id": "game_turn",
+        "name": "Virada de Jogo",
+        "description": "Troca a pontuação atual dos dois jogadores.",
+        "effect_type": "instant",
+        "target": "all",
+        "action": "swap_scores"
+    },
+    {
+        "id": "lightning_round",
+        "name": "Rodada Relâmpago",
+        "description": "As próximas 2 questões para ambos os jogadores terão um tempo limite muito reduzido (5s).",
+        "effect_type": "game_modifier",
+        "target": "all",
+        "action": "reduced_time_limit",
+        "value": 5,
+        "duration": 2
+    },
+    {
+        "id": "peace_of_mind",
+        "name": "Paz de Espírito",
+        "description": "Desativa o uso de qualquer carta especial (sua e do adversário) pelas próximas 2 questões.",
+        "effect_type": "game_modifier",
+        "target": "all",
+        "action": "disable_cards",
+        "duration": 2
+    },
+    {
+        "id": "rebalance",
+        "name": "Reequilíbrio",
+        "description": "Reduz a pontuação de ambos os jogadores pela metade.",
+        "effect_type": "instant",
+        "target": "all",
+        "action": "half_scores"
+    },
+    {
+        "id": "extra_card_play",
+        "name": "Jogada Extra de Carta",
+        "description": "Permite que o jogador use uma carta extra nesta rodada, mesmo que já tenha usado uma.",
+        "effect_type": "instant",
+        "target": "self",
+        "action": "allow_extra_card_play"
+    },
+    {
+        "id": "card_block",
+        "name": "Bloqueio de Carta",
+        "description": "Impede que o adversário use uma carta específica que ele possua na próxima rodada (você escolhe qual).",
+        "effect_type": "debuff",
+        "target": "opponent",
+        "action": "block_specific_card",
+        "duration": "next_question",
+        "requires_selection": true
+    }
+]

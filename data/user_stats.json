@@ -1,9 +1,9 @@
 [
     {
         "user_id": "1",
-        "total_questions_answered": 102,
-        "total_correct_answers": 39,
-        "correct_percentage": 38.23529411764706,
+        "total_questions_answered": 110,
+        "total_correct_answers": 40,
+        "correct_percentage": 36.36363636363637,
         "disciplines": {
             "portugues": {
                 "total_answered": 28,
@@ -39,7 +39,7 @@
                 }
             },
             "GRAMÁTICA": {
-                "total_answered": 14,
+                "total_answered": 15,
                 "total_correct": 5,
                 "themes": {
                     "ORTOGRAFIA": {
@@ -61,6 +61,11 @@
                         "answered": 2,
                         "correct": 2,
                         "incorrect": 0
+                    },
+                    "PERÍODO COMPOSTO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
                     }
                 }
             },
@@ -132,8 +137,8 @@
                 }
             },
             "MATEMÁTICA": {
-                "total_answered": 15,
-                "total_correct": 1,
+                "total_answered": 17,
+                "total_correct": 2,
                 "themes": {
                     "CONJUNTOS NUMÉRICOS": {
                         "answered": 6,
@@ -156,13 +161,13 @@
                         "incorrect": 2
                     },
                     "PROBABILIDADE": {
-                        "answered": 1,
+                        "answered": 2,
                         "correct": 0,
-                        "incorrect": 1
+                        "incorrect": 2
                     },
                     "UNIDADE DE VOLUME": {
-                        "answered": 1,
-                        "correct": 1,
+                        "answered": 2,
+                        "correct": 2,
                         "incorrect": 0
                     }
                 }
@@ -184,13 +189,56 @@
                 }
             },
             "BIOLOGIA": {
-                "total_answered": 5,
+                "total_answered": 7,
                 "total_correct": 2,
                 "themes": {
                     "EVOLUÇÃO": {
                         "answered": 5,
                         "correct": 2,
                         "incorrect": 3
+                    },
+                    "FISIOLOGIA ANIMAL": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "BIOQUÍMICA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "LÍNGUA PORTUGUESA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "VARIAÇÃO LINGUÍSTICA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "HISTÓRIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "IDADE ANTIGA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "GEOGRAFIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "GEOPOLÍTICA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
                     }
                 }
             }
@@ -198,9 +246,9 @@
     },
     {
         "user_id": "2",
-        "total_questions_answered": 22,
-        "total_correct_answers": 7,
-        "correct_percentage": 31.82,
+        "total_questions_answered": 29,
+        "total_correct_answers": 8,
+        "correct_percentage": 27.586206896551722,
         "disciplines": {
             "portugues": {
                 "total_answered": 4,
@@ -279,13 +327,13 @@
                 }
             },
             "SOCIOLOGIA": {
-                "total_answered": 1,
+                "total_answered": 2,
                 "total_correct": 0,
                 "themes": {
                     "SOCIOLOGIA DO BRASIL": {
-                        "answered": 1,
+                        "answered": 2,
                         "correct": 0,
-                        "incorrect": 1
+                        "incorrect": 2
                     }
                 }
             },
@@ -297,6 +345,66 @@
                         "answered": 2,
                         "correct": 0,
                         "incorrect": 2
+                    }
+                }
+            },
+            "INTERPRETAÇÃO DE TEXTO": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "TEORIA DA COMUNICAÇÃO": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "LITERATURA": {
+                "total_answered": 1,
+                "total_correct": 1,
+                "themes": {
+                    "REALISMO": {
+                        "answered": 1,
+                        "correct": 1,
+                        "incorrect": 0
+                    }
+                }
+            },
+            "FÍSICA": {
+                "total_answered": 2,
+                "total_correct": 0,
+                "themes": {
+                    "FONTES DE ENERGIA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    },
+                    "HIDROSTÁTICA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "GEOGRAFIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "GEOGRAFIA AGRÁRIA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
+                    }
+                }
+            },
+            "HISTÓRIA": {
+                "total_answered": 1,
+                "total_correct": 0,
+                "themes": {
+                    "BRASIL COLÔNIA": {
+                        "answered": 1,
+                        "correct": 0,
+                        "incorrect": 1
                     }
                 }
             }
