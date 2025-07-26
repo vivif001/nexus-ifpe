@@ -3,13 +3,25 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import ssl
 from PyQt5.QtWidgets import QMessageBox
+import os
+from dotenv import load_dotenv
 
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-SENDER_EMAIL = "victorpst04@gmail.com"
-SENDER_PASSWORD = "kaak amll ocpj mads"
+load_dotenv()
+
+SMTP_SERVER = os.getenv("SMTP_SERVER")
+SMTP_PORT = int(os.getenv("SMTP_PORT")) if os.getenv("SMTP_PORT") else 587 #
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
+
+if not SENDER_EMAIL or not SENDER_PASSWORD or not SMTP_SERVER:
+    QMessageBox.critical(None, "Erro de Configuração",
+                         "As credenciais de e-mail (SENDER_EMAIL, SENDER_PASSWORD, SMTP_SERVER) não foram definidas no arquivo .env ou nas variáveis de ambiente.")
 
 def send_new_user_email(receiver_email, first_name, last_name, username, password):
+    if not SENDER_EMAIL or not SENDER_PASSWORD or not SMTP_SERVER:
+        print("Não foi possível enviar o e-mail: credenciais ou servidor ausentes.")
+        return False
+
     subject = "Suas Credenciais de Acesso - Nexus-IFPE"
     body = f"""
     Olá, {first_name}!
@@ -31,7 +43,7 @@ def send_new_user_email(receiver_email, first_name, last_name, username, passwor
     msg['From'] = f"Nexus-IFPE <{SENDER_EMAIL}>"
     msg['To'] = receiver_email
     msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain', 'utf-8')) # Voltei para 'plain' para simplicidade máxima
+    msg.attach(MIMEText(body, 'plain', 'utf-8'))
 
     try:
         context = ssl.create_default_context()
