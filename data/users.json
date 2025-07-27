@@ -19,8 +19,8 @@
     },
     {
         "id": "3",
-        "firstName": "teste",
-        "lastName": "spbreteste",
+        "firstName": "Dimitri",
+        "lastName": "",
         "login": "nctifpe@gmail.com",
         "password": "1234",
         "role": "user"
